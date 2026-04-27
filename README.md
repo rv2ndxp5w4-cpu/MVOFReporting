@@ -40,3 +40,9 @@ Open: `http://127.0.0.1:8787`
 ## Notes
 - Historical ingest links local files to tracked assets by alias/name matching.
 - For `.pptx`/`.pdf`/binary documents, ingest stores source and summary metadata.
+
+
+## Vercel Deploy
+- Set environment variable `MVOF_DASHBOARD_PASSWORD` in Vercel Project Settings.
+- Optional: set `MVOF_COOKIE_SECRET` for stronger session signing.
+- Deploy from GitHub and use the production URL (project kept private by Vercel access settings).
