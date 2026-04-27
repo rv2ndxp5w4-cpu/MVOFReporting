@@ -1,0 +1,913 @@
+{
+  "assets": {
+    "teachmint-technologies-private-limited": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Teachmint 01102024.docx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Teachmint 01102024.docx",
+          "summary": "Memo: Teachmint Financials \u2013 01.10.2024 Trimmed costs (from 26m USD to 18m USD) resulting in net burn of 10m USD for 2023/24 . Has to be mentioned that the interest gained on attracted funding nets the business ca. 4m USD. Teachmint gets 2/3 of its revenues fr"
+        },
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Teachmint 01102024.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Teachmint 01102024.pdf",
+          "summary": "Imported source Memo Teachmint 01102024.pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: 4th AGM Notice_Teachmint.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/4th AGM Notice_Teachmint.pdf",
+          "summary": "Imported source 4th AGM Notice_Teachmint.pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: Boards Report_Teachmint_30.09.2024.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Boards Report_Teachmint_30.09.2024.pdf",
+          "summary": "Imported source Boards Report_Teachmint_30.09.2024.pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: Consolidated_Teachmint IndAS Financials _March 2024.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Consolidated_Teachmint IndAS Financials _March 2024.pdf",
+          "summary": "Imported source Consolidated_Teachmint IndAS Financials _March 2024.pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: Standalone_Teachmint IndAS Financials_March 2024 .pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Standalone_Teachmint IndAS Financials_March 2024 .pdf",
+          "summary": "Imported source Standalone_Teachmint IndAS Financials_March 2024 .pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: Teachmint _ Standalone Audit report _ FY 23-24.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Teachmint _ Standalone Audit report _ FY 23-24.pdf",
+          "summary": "Imported source Teachmint _ Standalone Audit report _ FY 23-24.pdf"
+        },
+        {
+          "date": "2024-09-30",
+          "label": "Imported source: Teachmint_Consolidated Audit report_FY 23-24.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Teachmint_Consolidated Audit report_FY 23-24.pdf",
+          "summary": "Imported source Teachmint_Consolidated Audit report_FY 23-24.pdf"
+        },
+        {
+          "date": "2024-05-14",
+          "label": "Imported source: Teachmint 14052024.docx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Teachmint 14052024.docx",
+          "summary": "Teachmint During 2024 year we will Burn 8 million USD (40,5 remaning ) Sell hardware with installed / integrated software to classrooms: devices pretty much at cost. Are they something that Teachmint started to sell recently? What is the underlying logic of de"
+        },
+        {
+          "date": "2024-05-14",
+          "label": "Imported source: Teachmint 14052024.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Teachmint 14052024.pdf",
+          "summary": "Imported source Teachmint 14052024.pdf"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Quarterly Meeting_July 14th '23 (1) - Teachmint.pdf",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Quarterly Meeting_July 14th '23 (1) - Teachmint.pdf",
+          "summary": "Imported source Quarterly Meeting_July 14th '23 (1) - Teachmint.pdf"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Teachmint Business Plan FY24 (1).xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Teachmint Business Plan FY24 (1).xlsx",
+          "summary": "Sheet:AOP_FY24 | Business Plan FY24 | Actuals | USD to INR Fx rate assumptions>> 81.7 82.6773 82.04 82.2169 82.2169 82.2169 82.2169 82.2169 82.2169 82.2169 82.2169 82.2169 82.2169 | Particulars 2023-04-01 00:00:00 2023-05-01 00:00:00 2023-06-01 00:00:00 2023-0"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Teachmint- Dynamic MIS (1).xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Teachmint- Dynamic MIS (1).xlsx",
+          "summary": "Sheet:Summary KPIs | Fx rate (USD to INR)>> 76.02 76.02 77.97 79.38 79.42 80.03 82.29 81.597 82.79 81.74 82.6816 82.2169 81.7 82.6773 82.0428 82.2481 | Total from Sep'21-Mar'22 Apr '22 May '22 June'22 Jul'22 Aug'22 Sep'22 Oct'22 Nov'22 Dec'22 Jan'23 Feb'23 Mar"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 32 MV Opportunities India Ltd - Val Summary - March 23 - Signed.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/32 MV Opportunities India Ltd - Val Summary - March 23 - Signed.pdf",
+          "summary": "Imported source 32 MV Opportunities India Ltd - Val Summary - March 23 - Signed.pdf"
+        }
+      ]
+    },
+    "1984-ventures-ii-l-p": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: 1984 NAV June 30, 2023.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/1984 NAV June 30, 2023.pdf",
+          "summary": "Imported source 1984 NAV June 30, 2023.pdf"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: 1984 Ventures II, LP - Q2 2023 Quarterly Report.pdf",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/1984 Ventures II, LP - Q2 2023 Quarterly Report.pdf",
+          "summary": "Imported source 1984 Ventures II, LP - Q2 2023 Quarterly Report.pdf"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: 1984 Ventures II, L.P. - Capital Account Statement - MVOF L.P..pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/1984 Ventures II, L.P. - Capital Account Statement - MVOF L.P..pdf",
+          "summary": "Imported source 1984 Ventures II, L.P. - Capital Account Statement - MVOF L.P..pdf"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: 1984 Ventures II, LP - Q1 2023 Quarterly Report.pdf",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/1984 Ventures II, LP - Q1 2023 Quarterly Report.pdf",
+          "summary": "Imported source 1984 Ventures II, LP - Q1 2023 Quarterly Report.pdf"
+        }
+      ]
+    },
+    "onevc-fund-ii-lp": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-30",
+          "label": "Imported source: 2Q23 Unaudited Financials OneVC.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/2Q23 Unaudited Financials OneVC.pdf",
+          "summary": "Imported source 2Q23 Unaudited Financials OneVC.pdf"
+        }
+      ]
+    },
+    "calii-inc-series-seed-1-preferred-stock": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Calii _ P&Ls, Metrics and Projections.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Calii _ P&Ls, Metrics and Projections.xlsx",
+          "summary": "Sheet:Historical P&Ls | Jan22 Feb22 Mar22 Apr22 May22 Jun22 Jul22 Aug22 Sep22 Oct22 2023-11-22 00:00:00 2023-12-22 00:00:00 2023-01-23 00:00:00 2023-02-23 00:00:00 2023-03-23 00:00:00 2023-04-23 00:00:00 2023-05-23 00:00:00 2023-06-23 00:00:00 2023-07-23 00:00"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: calii_pre_series_b_deck_2023.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/calii_pre_series_b_deck_2023.pdf",
+          "summary": "Imported source calii_pre_series_b_deck_2023.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 19 Calii Share cert.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/19 Calii Share cert.pdf",
+          "summary": "Imported source 19 Calii Share cert.pdf"
+        }
+      ]
+    },
+    "creoate-limited-advance-subscription": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: Creoate Deck Apr 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Creoate Deck Apr 23.pdf",
+          "summary": "Imported source Creoate Deck Apr 23.pdf"
+        },
+        {
+          "date": "2023-05-01",
+          "label": "Imported source: Creoate Introduction - May 2023.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Creoate Introduction - May 2023.pdf",
+          "summary": "Imported source Creoate Introduction - May 2023.pdf"
+        },
+        {
+          "date": "2023-03-01",
+          "label": "Imported source: P&L Output (Mar 2023) - Creoate.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/P&L Output (Mar 2023) - Creoate.xlsx",
+          "summary": "Sheet:P&L and Cash Flow - Monthly | 2020 2021 2022 2023 | 2020-01-31 00:00:00 2020-02-29 00:00:00 2020-03-31 00:00:00 2020-04-30 00:00:00 2020-05-31 00:00:00 2020-06-30 00:00:00 2020-07-31 00:00:00 2020-08-31 00:00:00 2020-09-30 00:00:00 2020-10-31 00:00:00 20"
+        }
+      ]
+    },
+    "mighty-buildings-inc-common-stock": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Mighty Buildings 01102024.docx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Mighty Buildings 01102024.docx",
+          "summary": "Memo regarding Mighty Buildings materials: Assumed licensing of technology to existing developers \u2013 gleaned through usage of \u201cJV manufacturing sites, eg. , with DAMAC) Walmart indeed is a) expanding its footprint, having announced expansion to 150 new sites in"
+        },
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Mighty Buildings 01102024.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Mighty Buildings 01102024.pdf",
+          "summary": "Imported source Memo Mighty Buildings 01102024.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty -- Series BB Term Sheet (P2P).doc.pdf",
+          "event_type": "transaction",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty -- Series BB Term Sheet (P2P).doc.pdf",
+          "summary": "Imported source Mighty -- Series BB Term Sheet (P2P).doc.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf",
+          "summary": "Imported source Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf",
+          "summary": "Imported source Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf"
+        },
+        {
+          "date": "2023-11-30",
+          "label": "Imported source: MVOF Mighty Buildings 30112023 3Q Financials.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 30112023 3Q Financials.pdf",
+          "summary": "Imported source MVOF Mighty Buildings 30112023 3Q Financials.pdf"
+        },
+        {
+          "date": "2023-11-30",
+          "label": "Imported source: MVOF Mighty Buildings 30112023 3Q Financials.pptx",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 30112023 3Q Financials.pptx",
+          "summary": "MVOF: Mighty Buildings 3Q 2023 Financials analysis November 2023 Confidential Source: MVOF materials, Audit team analysis Q3 Interim financial reporting: the Company loaded on inventory in Q2 (and burns on outside assistance to deliver houses) 2 Sales revenue "
+        },
+        {
+          "date": "2023-11-28",
+          "label": "Imported source: Mighty Buildings Inc_Q1-Q3 2023 Preliminary_20231128.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings Inc_Q1-Q3 2023 Preliminary_20231128.xlsx",
+          "summary": "Sheet:Q1-Q3 2023 Income Statement | Mighty Buildings, Inc. | Income Statement (Preliminary) | Q1 to Q3 2023 | Sheet:Sheet1 | Q1 2023 Q2 2023 Q3 2023 Comments"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Q2 2023 Financial Statements Notes - Mighty Build.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Q2 2023 Financial Statements Notes - Mighty Build.pdf",
+          "summary": "Imported source Q2 2023 Financial Statements Notes - Mighty Build.pdf"
+        },
+        {
+          "date": "2023-08-22",
+          "label": "Imported source: MVOF Mighty Buildings 22082023 1H Financials.pdf",
+          "event_type": "valuation",
+          "reporting_style": "half-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 22082023 1H Financials.pdf",
+          "summary": "Imported source MVOF Mighty Buildings 22082023 1H Financials.pdf"
+        },
+        {
+          "date": "2023-08-22",
+          "label": "Imported source: MVOF Mighty Buildings 22082023 1H Financials.pptx",
+          "event_type": "valuation",
+          "reporting_style": "half-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 22082023 1H Financials.pptx",
+          "summary": "MVOF: Mighty Buildings 1H 2023 Financials analysis August 2023 Confidential Source: MVOF materials, Audit team analysis MB is afloat via ext. capital: its GM is negative, question as to how announced bigger revenue would not create even more losses in the futu"
+        },
+        {
+          "date": "2023-08-15",
+          "label": "Imported source: Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "summary": "Sheet:MB Inc Income Statement | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Income Statement | Sheet:MB Inc Balance Sheet | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Balance "
+        },
+        {
+          "date": "2023-08-15",
+          "label": "Imported source: Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "summary": "Sheet:MB Inc Income Statement | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Income Statement | Sheet:MB Inc Balance Sheet | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Balance "
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings SAFE Conversion.pdf",
+          "event_type": "transaction",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings SAFE Conversion.pdf",
+          "summary": "Imported source 31 Mighty Buildings SAFE Conversion.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings valuation.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings valuation.pdf",
+          "summary": "Imported source 31 Mighty Buildings valuation.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings.pdf",
+          "summary": "Imported source 31 Mighty Buildings.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: Mighty Buildings _ Teaser.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings _ Teaser.pdf",
+          "summary": "Imported source Mighty Buildings _ Teaser.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf",
+          "summary": "Imported source Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf"
+        }
+      ]
+    },
+    "mighty-angel-vehicle-pte-ltd": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Mighty Buildings 01102024.docx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Mighty Buildings 01102024.docx",
+          "summary": "Memo regarding Mighty Buildings materials: Assumed licensing of technology to existing developers \u2013 gleaned through usage of \u201cJV manufacturing sites, eg. , with DAMAC) Walmart indeed is a) expanding its footprint, having announced expansion to 150 new sites in"
+        },
+        {
+          "date": "2024-10-01",
+          "label": "Imported source: Memo Mighty Buildings 01102024.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo Mighty Buildings 01102024.pdf",
+          "summary": "Imported source Memo Mighty Buildings 01102024.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty -- Series BB Term Sheet (P2P).doc.pdf",
+          "event_type": "transaction",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty -- Series BB Term Sheet (P2P).doc.pdf",
+          "summary": "Imported source Mighty -- Series BB Term Sheet (P2P).doc.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf",
+          "summary": "Imported source Mighty_Buildings_AR_Certificate_of_Incorporation_2024_15M_financing.pdf"
+        },
+        {
+          "date": "2024-01-30",
+          "label": "Imported source: Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf",
+          "summary": "Imported source Mighty_Buildings_Board_Consent_Series_BB_Changes_Pay_to_Play_Forward.pdf"
+        },
+        {
+          "date": "2023-11-30",
+          "label": "Imported source: MVOF Mighty Buildings 30112023 3Q Financials.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 30112023 3Q Financials.pdf",
+          "summary": "Imported source MVOF Mighty Buildings 30112023 3Q Financials.pdf"
+        },
+        {
+          "date": "2023-11-30",
+          "label": "Imported source: MVOF Mighty Buildings 30112023 3Q Financials.pptx",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 30112023 3Q Financials.pptx",
+          "summary": "MVOF: Mighty Buildings 3Q 2023 Financials analysis November 2023 Confidential Source: MVOF materials, Audit team analysis Q3 Interim financial reporting: the Company loaded on inventory in Q2 (and burns on outside assistance to deliver houses) 2 Sales revenue "
+        },
+        {
+          "date": "2023-11-28",
+          "label": "Imported source: Mighty Buildings Inc_Q1-Q3 2023 Preliminary_20231128.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings Inc_Q1-Q3 2023 Preliminary_20231128.xlsx",
+          "summary": "Sheet:Q1-Q3 2023 Income Statement | Mighty Buildings, Inc. | Income Statement (Preliminary) | Q1 to Q3 2023 | Sheet:Sheet1 | Q1 2023 Q2 2023 Q3 2023 Comments"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Q2 2023 Financial Statements Notes - Mighty Build.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Q2 2023 Financial Statements Notes - Mighty Build.pdf",
+          "summary": "Imported source Q2 2023 Financial Statements Notes - Mighty Build.pdf"
+        },
+        {
+          "date": "2023-08-22",
+          "label": "Imported source: MVOF Mighty Buildings 22082023 1H Financials.pdf",
+          "event_type": "valuation",
+          "reporting_style": "half-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 22082023 1H Financials.pdf",
+          "summary": "Imported source MVOF Mighty Buildings 22082023 1H Financials.pdf"
+        },
+        {
+          "date": "2023-08-22",
+          "label": "Imported source: MVOF Mighty Buildings 22082023 1H Financials.pptx",
+          "event_type": "valuation",
+          "reporting_style": "half-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Mighty Buildings 22082023 1H Financials.pptx",
+          "summary": "MVOF: Mighty Buildings 1H 2023 Financials analysis August 2023 Confidential Source: MVOF materials, Audit team analysis MB is afloat via ext. capital: its GM is negative, question as to how announced bigger revenue would not create even more losses in the futu"
+        },
+        {
+          "date": "2023-08-15",
+          "label": "Imported source: Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "summary": "Sheet:MB Inc Income Statement | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Income Statement | Sheet:MB Inc Balance Sheet | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Balance "
+        },
+        {
+          "date": "2023-08-15",
+          "label": "Imported source: Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/Mighty Buildings_Prel FS Q1 and Q2 2023_SW20230815.xlsx",
+          "summary": "Sheet:MB Inc Income Statement | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Income Statement | Sheet:MB Inc Balance Sheet | Mighty Buildings, Inc. (standalone) | Preliminary Financial Statements Q1 & Q2 2023 | Balance "
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: FYE202202-UFS-MIGHTY ANGEL VEHICLE PTE. LTD..pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/FYE202202-UFS-MIGHTY ANGEL VEHICLE PTE. LTD..pdf",
+          "summary": "Imported source FYE202202-UFS-MIGHTY ANGEL VEHICLE PTE. LTD..pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings SAFE Conversion.pdf",
+          "event_type": "transaction",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings SAFE Conversion.pdf",
+          "summary": "Imported source 31 Mighty Buildings SAFE Conversion.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings valuation.pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings valuation.pdf",
+          "summary": "Imported source 31 Mighty Buildings valuation.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 31 Mighty Buildings.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/31 Mighty Buildings.pdf",
+          "summary": "Imported source 31 Mighty Buildings.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: Mighty Buildings _ Teaser.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings _ Teaser.pdf",
+          "summary": "Imported source Mighty Buildings _ Teaser.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf",
+          "summary": "Imported source Mighty Buildings_Fundraising Update and Bridge Proposal_RGSG2023414.pdf"
+        }
+      ]
+    },
+    "coda-project-inc": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-01-19",
+          "label": "Imported source: Term Sheet (Plato) (2024-01-18) 2.pdf",
+          "event_type": "transaction",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Term Sheet (Plato) (2024-01-18) 2.pdf",
+          "summary": "Imported source Term Sheet (Plato) (2024-01-18) 2.pdf"
+        },
+        {
+          "date": "2024-01-01",
+          "label": "Imported source: Birdly acquisition offer Jan 2024.docx",
+          "event_type": "acquisition",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Birdly acquisition offer Jan 2024.docx",
+          "summary": "some update on Plato: Plato (aka Birdly) received a TS from Coda  ($20m in Revenue in 2023 and $40m+ projected in 2024) - large player in SaaS. It\u2019s going to be a conversion into equity (i will send a short summary on what we will get)  , the deal looks very p"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: birdly-inc-dba-plato_2022-11-09_valuation_issued_2022-12-05_watermarked (1).pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/birdly-inc-dba-plato_2022-11-09_valuation_issued_2022-12-05_watermarked (1).pdf",
+          "summary": "Imported source birdly-inc-dba-plato_2022-11-09_valuation_issued_2022-12-05_watermarked (1).pdf"
+        },
+        {
+          "date": "2023-07-01",
+          "label": "Imported source: plato july 2023.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/plato july 2023.pdf",
+          "summary": "Imported source plato july 2023.pdf"
+        }
+      ]
+    },
+    "tt1-products-inc-dba-supersapiens-converted-from-tt1-note": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: $500,000 to TT1 Products, Inc - convertible note agreement.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/$500,000 to TT1 Products, Inc - convertible note agreement.pdf",
+          "summary": "Imported source $500,000 to TT1 Products, Inc - convertible note agreement.pdf"
+        },
+        {
+          "date": "2023-08-01",
+          "label": "Imported source: supersapiens (aug 2023).pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/supersapiens (aug 2023).pdf",
+          "summary": "Imported source supersapiens (aug 2023).pdf"
+        }
+      ]
+    },
+    "atom-finance-inc-series-a-preferred-stock": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 16 Atom Finance MV $589,970 re Deliotte Valiation 2021.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/16 Atom Finance MV $589,970 re Deliotte Valiation 2021.pdf",
+          "summary": "Imported source 16 Atom Finance MV $589,970 re Deliotte Valiation 2021.pdf"
+        }
+      ]
+    },
+    "backend-capital-ii-lp": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: 17 Backend Capital II Lp FS 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/17 Backend Capital II Lp FS 2022.pdf",
+          "summary": "Imported source 17 Backend Capital II Lp FS 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 17 Backend Capital II Lp Cap Statement Q4 22.pdf",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/17 Backend Capital II Lp Cap Statement Q4 22.pdf",
+          "summary": "Imported source 17 Backend Capital II Lp Cap Statement Q4 22.pdf"
+        }
+      ]
+    },
+    "codesignal-inc": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: 21 HH3 - CodeSignal Inc Investment Confirmation(signed).pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/21 HH3 - CodeSignal Inc Investment Confirmation(signed).pdf",
+          "summary": "Imported source 21 HH3 - CodeSignal Inc Investment Confirmation(signed).pdf"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: CodeSignal 2022 P&L and Cash Balance (1).xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/CodeSignal 2022 P&L and Cash Balance (1).xlsx",
+          "summary": "Sheet:P&L and Cash | CodeSignal FY2022 Plan | USD in 000s 2022-01-31 00:00:00 2022-02-28 00:00:00 2022-03-31 00:00:00 2022-04-30 00:00:00 2022-05-31 00:00:00 2022-06-30 00:00:00 2022-07-31 00:00:00 2022-08-31 00:00:00 2022-09-30 00:00:00 2022-10-31 00:00:00 20"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: CodeSignal, Inc. 2021 Balance Sheet-Monthly (Unaudited) (1).pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/CodeSignal, Inc. 2021 Balance Sheet-Monthly (Unaudited) (1).pdf",
+          "summary": "Imported source CodeSignal, Inc. 2021 Balance Sheet-Monthly (Unaudited) (1).pdf"
+        },
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: CodeSignal, Inc. 2021 Income Statement-Monthly (Unaudited) (1).pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/CodeSignal, Inc. 2021 Income Statement-Monthly (Unaudited) (1).pdf",
+          "summary": "Imported source CodeSignal, Inc. 2021 Income Statement-Monthly (Unaudited) (1).pdf"
+        }
+      ]
+    },
+    "iseed-fund-ii-a-series-of-utsav-somani-investments-lp": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 23 iSeed - Fund II Valuation Q1 23..pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/23 iSeed - Fund II Valuation Q1 23..pdf",
+          "summary": "Imported source 23 iSeed - Fund II Valuation Q1 23..pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 23 iSeed - Fund II Valuation Q1 23.pdf",
+          "event_type": "valuation",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/23 iSeed - Fund II Valuation Q1 23.pdf",
+          "summary": "Imported source 23 iSeed - Fund II Valuation Q1 23.pdf"
+        }
+      ]
+    },
+    "houm-group-inc-converted-safe": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 25 Houm Group.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/25 Houm Group.pdf",
+          "summary": "Imported source 25 Houm Group.pdf"
+        }
+      ]
+    },
+    "krisp-technologies-inc-series-a-preferred-stock": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: krisp-technologies-inc_2023-03-31_summary_cap_intermediate_cap_detailed_cap.xlsx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/krisp-technologies-inc_2023-03-31_summary_cap_intermediate_cap_detailed_cap.xlsx",
+          "summary": "Sheet:Intermediate cap | KRISP TECHNOLOGIES, INC Intermediate Capitalization Table | As of 03/31/2023 \u2022 Generated by Vahe Sardaryan (vsardaryan@krisp.ai) at 04/27/2023 03:45:43  | Stakeholder ID Name Common (CS) Series A Preferred (2) (PSA2) Series A Preferred"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 26-28 Krisp.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/26-28 Krisp.pdf",
+          "summary": "Imported source 26-28 Krisp.pdf"
+        }
+      ]
+    },
+    "3-0-fund-lp": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-07",
+          "label": "Imported source: 3.0 Fund, L.P. - Financial - MVOF L.P..pdf",
+          "event_type": "valuation",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/3.0 Fund, L.P. - Financial - MVOF L.P..pdf",
+          "summary": "Imported source 3.0 Fund, L.P. - Financial - MVOF L.P..pdf"
+        }
+      ]
+    },
+    "helbiz-wheels-labs-inc-series-a-1-1-5-pref": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-05-01",
+          "label": "Imported source: 42 & 43 Wheels Lab - Merged with Helbiz re MB 05 May 2023 - helbiz stock - Google Search.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/42 & 43 Wheels Lab - Merged with Helbiz re MB 05 May 2023 - helbiz stock - Google Search.pdf",
+          "summary": "Imported source 42 & 43 Wheels Lab - Merged with Helbiz re MB 05 May 2023 - helbiz stock - Google Search.pdf"
+        }
+      ]
+    },
+    "shrug-fund-ii-l-p": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2023-08-09",
+          "label": "Imported source: Shrug II, LP - MVOF L.P. - 12.31.22.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/Shrug II, LP - MVOF L.P. - 12.31.22.pdf",
+          "summary": "Imported source Shrug II, LP - MVOF L.P. - 12.31.22.pdf"
+        }
+      ]
+    },
+    "rain-technologies-inc": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-01-26",
+          "label": "Imported source: Rain Q4 2023 Investor Update.pdf",
+          "event_type": "analysis",
+          "reporting_style": "quarter",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Rain Q4 2023 Investor Update.pdf",
+          "summary": "Imported source Rain Q4 2023 Investor Update.pdf"
+        }
+      ]
+    },
+    "fuse-venture-capital-partners-no-2-scsp": {
+      "aliases": [
+        "Market Kurly"
+      ],
+      "timeline": [],
+      "canonical_name": "Fuse Venture Capital Partners No.2 SCSp",
+      "underlying_asset": "Market Kurly"
+    },
+    "productify-inc-series-a1-preferred-stock": {
+      "aliases": [],
+      "timeline": [
+        {
+          "date": "2024-04-01",
+          "label": "Imported source: Memo re Productfy April 2024.docx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Memo re Productfy April 2024.docx",
+          "summary": "Memo re Productfy : Original valuation reports highlighted concerns w.r. to ability to provide appealing fintech services, that looked like a repackaging of Marqeta they relied on. July \u2013 August 2023 the below update has been provided and this view maintained:"
+        },
+        {
+          "date": "2023-08-29",
+          "label": "Imported source: Palmares Productfy Process Update 081623.pptx",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Additions August 2023/Palmares Productfy Process Update 081623.pptx",
+          "summary": "PALMARES ADVISORS | PROCESS UPDATE \u2013 15.Aug.23 Summary Overall Outreach Stats (Engaged May 27, Outreach Started June 2) 99 companies contacted to date 68 responded to date (69% total or 85% of full process ones) 20 Palmares calls 8 Mgmt meetings 6 NDAs signed "
+        },
+        {
+          "date": "2023-08-08",
+          "label": "Imported source: 34 Productfy. Inc Confirmation of Share holding %.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc Confirmation of Share holding %.pdf",
+          "summary": "Imported source 34 Productfy. Inc Confirmation of Share holding %.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc - share holding confirmation.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc - share holding confirmation.pdf",
+          "summary": "Imported source 34 Productfy. Inc - share holding confirmation.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Balance Sheet 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc Balance Sheet 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc Balance Sheet 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Balance Sheet Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc Balance Sheet Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc Balance Sheet Mar 23.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Cash Flow 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc Cash Flow 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc Cash Flow 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Cash Flow Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc Cash Flow Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc Cash Flow Mar 23.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc P&L 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc P&L 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc P&L 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc P&L Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Investments archive/34 Productfy. Inc P&L Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc P&L Mar 23.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Balance Sheet 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc Balance Sheet 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc Balance Sheet 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Balance Sheet Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc Balance Sheet Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc Balance Sheet Mar 23.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Cash Flow 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc Cash Flow 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc Cash Flow 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc Cash Flow Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc Cash Flow Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc Cash Flow Mar 23.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc P&L 2022.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc P&L 2022.pdf",
+          "summary": "Imported source 34 Productfy. Inc P&L 2022.pdf"
+        },
+        {
+          "date": "2023-06-15",
+          "label": "Imported source: 34 Productfy. Inc P&L Mar 23.pdf",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/Productfy March 2023 financials/34 Productfy. Inc P&L Mar 23.pdf",
+          "summary": "Imported source 34 Productfy. Inc P&L Mar 23.pdf"
+        }
+      ]
+    }
+  },
+  "aliases": {}
+}

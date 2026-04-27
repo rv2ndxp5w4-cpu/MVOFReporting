@@ -1,0 +1,2315 @@
+{
+  "generated_at": "2026-04-27T13:51:46.921405+00:00",
+  "sources": {
+    "xlsx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Master with Dec2025 valuations.xlsx",
+    "pptx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF 2026 Update.pptx"
+  },
+  "password_hint": "Use scripts/set_password.py to configure hashed auth in data/auth.json",
+  "assets": [
+    {
+      "id": "3-0-fund-lp",
+      "name": "3.0 Fund LP",
+      "canonical_name": "3.0 Fund LP",
+      "underlying_asset": "3.0 Fund LP",
+      "aliases": [
+        "3.0 Fund LP"
+      ],
+      "section": "funds",
+      "geography": "CAN",
+      "description": "Mid stage technology companies investor Investment structure: 1 tranches (fund).",
+      "previous_name": "",
+      "original_investment_usd": 1000000.0,
+      "book_cost_usd": 1000000.0,
+      "market_value_usd": 2266262.1,
+      "pnl_usd": 1266262.1,
+      "diff_2025_vs_2023_usd": 275495.1000000001,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": true,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 2266262.1,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 2266262.1,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1990767.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "500k$ moved in-kind from VK"
+      ],
+      "investments": [
+        {
+          "security_name": "3.0 Fund LP",
+          "instrument_type": "fund",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 1000000.0,
+          "book_cost_usd": 1000000.0,
+          "market_value_usd": 2266262.1,
+          "pnl_usd": 1266262.1
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 1000000.0,
+        "portfolio_tranche_book_sum_usd": 1000000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "shrug-fund-ii-l-p",
+      "name": "Shrug 1 1 Fund",
+      "canonical_name": "Shrug 1 1 Fund",
+      "underlying_asset": "Shrug 1 1 Fund",
+      "aliases": [
+        "Shrug 1 1 Fund",
+        "Shrug Fund II, L.P."
+      ],
+      "section": "funds",
+      "geography": "US",
+      "description": "Consumer focused VC fund Investment structure: 1 tranches (fund).",
+      "previous_name": "",
+      "original_investment_usd": 1000000.0,
+      "book_cost_usd": 1000000.0,
+      "market_value_usd": 1557890.0,
+      "pnl_usd": 557890.0,
+      "diff_2025_vs_2023_usd": -346425.0,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1557890.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1557890.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1904315.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "750k $ moved in-kind from VK"
+      ],
+      "investments": [
+        {
+          "security_name": "Shrug Fund II, L.P.",
+          "instrument_type": "fund",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 1000000.0,
+          "book_cost_usd": 1000000.0,
+          "market_value_usd": 1557890.0,
+          "pnl_usd": 557890.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 1000000.0,
+        "portfolio_tranche_book_sum_usd": 1000000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "1984-ventures-ii-l-p",
+      "name": "1984 Ventures 2",
+      "canonical_name": "1984 Ventures 2",
+      "underlying_asset": "1984 Ventures 2",
+      "aliases": [
+        "1984 Ventures 2",
+        "1984 Ventures II, L.P."
+      ],
+      "section": "funds",
+      "geography": "US",
+      "description": "Software focused early stage VC Investment structure: 1 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 435000.0,
+      "book_cost_usd": 875000.0,
+      "market_value_usd": 1272026.42,
+      "pnl_usd": 837026.4199999999,
+      "diff_2025_vs_2023_usd": 781273.4199999999,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": true,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1272026.42,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1272026.42,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 490753.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "1984 Ventures II, L.P.",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 835000.0,
+          "book_cost_usd": 875000.0,
+          "market_value_usd": 1272026.42,
+          "pnl_usd": 397026.4199999999
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 435000.0,
+        "portfolio_tranche_book_sum_usd": 875000.0,
+        "difference_usd": -440000.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "iseed-fund-ii-a-series-of-utsav-somani-investments-lp",
+      "name": "Utsav iSeed Fund 2",
+      "canonical_name": "Utsav iSeed Fund 2",
+      "underlying_asset": "Utsav iSeed Fund 2",
+      "aliases": [
+        "Utsav iSeed Fund 2",
+        "iSeed - Fund II, a series of Utsav Somani Investments, LP"
+      ],
+      "section": "funds",
+      "geography": "IN",
+      "description": "Early stage India focused VC Investment structure: 1 tranches (fund).",
+      "previous_name": "",
+      "original_investment_usd": 488296.0,
+      "book_cost_usd": 488295.74,
+      "market_value_usd": 625129.0,
+      "pnl_usd": 136833.0,
+      "diff_2025_vs_2023_usd": 49989.0,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 625129.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 625129.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 575140.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "iSeed - Fund II, a series of Utsav Somani Investments, LP",
+          "instrument_type": "fund",
+          "series": "Seed -",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 488295.74,
+          "book_cost_usd": 488295.74,
+          "market_value_usd": 625129.0,
+          "pnl_usd": 136833.26
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 488296.0,
+        "portfolio_tranche_book_sum_usd": 488295.74,
+        "difference_usd": 0.2600000000093132
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "backend-capital-ii-lp",
+      "name": "Backend Capital",
+      "canonical_name": "Backend Capital",
+      "underlying_asset": "Backend Capital",
+      "aliases": [
+        "Backend Capital",
+        "Backend Capital II, LP"
+      ],
+      "section": "funds",
+      "geography": "US",
+      "description": "Engineers focused VC Investment structure: 1 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 225000.0,
+      "book_cost_usd": 294348.61,
+      "market_value_usd": 503831.0,
+      "pnl_usd": 278831.0,
+      "diff_2025_vs_2023_usd": 268230.0,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": true,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 503831.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 503831.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 235601.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Backend Capital II, LP",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 294348.61,
+          "book_cost_usd": 294348.61,
+          "market_value_usd": 503831.0,
+          "pnl_usd": 209482.39
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 225000.0,
+        "portfolio_tranche_book_sum_usd": 294348.61,
+        "difference_usd": -69348.60999999999
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "onevc-fund-ii-lp",
+      "name": "OneVC Fund II",
+      "canonical_name": "OneVC Fund II",
+      "underlying_asset": "OneVC Fund II",
+      "aliases": [
+        "ONEVC Fund II, LP",
+        "OneVC Fund II"
+      ],
+      "section": "funds",
+      "geography": "BR",
+      "description": "Early stage Latam focused VC Investment structure: 1 tranches (fund).",
+      "previous_name": "",
+      "original_investment_usd": 225000.0,
+      "book_cost_usd": 335000.0,
+      "market_value_usd": 386483.0,
+      "pnl_usd": 161483.0,
+      "diff_2025_vs_2023_usd": 130361.0,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": true,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 386483.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 386483.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 256122.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "ONEVC Fund II, LP",
+          "instrument_type": "fund",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 225000.0,
+          "book_cost_usd": 335000.0,
+          "market_value_usd": 386483.0,
+          "pnl_usd": 51483.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 225000.0,
+        "portfolio_tranche_book_sum_usd": 335000.0,
+        "difference_usd": -110000.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "mighty-angel-vehicle-pte-ltd",
+      "name": "Mighty Angel Vehicle",
+      "canonical_name": "Mighty Angel Vehicle",
+      "underlying_asset": "Mighty Angel Vehicle",
+      "aliases": [
+        "Mighty Angel Vehicle",
+        "Mighty Angel Vehicle Pte. Ltd -",
+        "Mighty Angel Vehicle Pte. Ltd - Class A Pref.",
+        "Mighty Angel Vehicle Pte. Ltd - Class B Pref"
+      ],
+      "section": "funds",
+      "geography": "US",
+      "description": "SPV with Mighty Buildings for YC investments Investment structure: 2 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 160715.0,
+      "book_cost_usd": 160715.0,
+      "market_value_usd": 258522.52775451262,
+      "pnl_usd": 97807.52775451262,
+      "diff_2025_vs_2023_usd": 97807.52775451262,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 258522.52775451262,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 258522.52775451262,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 160715.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Mighty Angel Vehicle Pte. Ltd - Class A Pref.",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "Class A",
+          "nominal_holding": 857150,
+          "average_cost": 0.1,
+          "book_cost_usd": 85715.0,
+          "market_value_usd": 210135.43098031904,
+          "pnl_usd": 124420.43098031904
+        },
+        {
+          "security_name": "Mighty Angel Vehicle Pte. Ltd - Class B Pref",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "Class B",
+          "nominal_holding": 750000,
+          "average_cost": 0.1,
+          "book_cost_usd": 75000.0,
+          "market_value_usd": 48387.09677419356,
+          "pnl_usd": -26612.90322580644
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 160715.0,
+        "portfolio_tranche_book_sum_usd": 160715.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "teachmint-technologies-private-limited",
+      "name": "Teachmint",
+      "canonical_name": "Teachmint",
+      "underlying_asset": "Teachmint",
+      "aliases": [
+        "MV Opportunities India Limited",
+        "Teachmint",
+        "Teachmint Technologies Private Limited",
+        "Teachmint Technologies Private Limited (Pre-Series B)",
+        "Teachmint Technologies Private Limited (Series A)",
+        "Teachmint Technologies Private Limited (Series B)"
+      ],
+      "section": "companies",
+      "geography": "IN",
+      "description": "Teachmint Investment structure: 3 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 17310001.0,
+      "book_cost_usd": 15188119.32672,
+      "market_value_usd": 6706208.5888,
+      "pnl_usd": -10603792.4112,
+      "diff_2025_vs_2023_usd": -3155589.4112,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 6706208.5888,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 6706208.5888,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 9861798.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Teachmint Technologies Private Limited (Pre-Series B)",
+          "instrument_type": "equity",
+          "series": "Pre-Series B",
+          "share_class": "",
+          "nominal_holding": 12150,
+          "average_cost": 642.60363,
+          "book_cost_usd": 7807634.104499999,
+          "market_value_usd": 3637519.3908,
+          "pnl_usd": -4170114.7136999993
+        },
+        {
+          "security_name": "Teachmint Technologies Private Limited (Series B)",
+          "instrument_type": "equity",
+          "series": "Series B",
+          "share_class": "",
+          "nominal_holding": 3282,
+          "average_cost": 1686.82791,
+          "book_cost_usd": 5536169.20062,
+          "market_value_usd": 982579.311984,
+          "pnl_usd": -4553589.888636
+        },
+        {
+          "security_name": "Teachmint Technologies Private Limited (Series A)",
+          "instrument_type": "equity",
+          "series": "Series A",
+          "share_class": "",
+          "nominal_holding": 6968,
+          "average_cost": 264.6837,
+          "book_cost_usd": 1844316.0215999999,
+          "market_value_usd": 2086109.886016,
+          "pnl_usd": 241793.8644160002
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 17310001.0,
+        "portfolio_tranche_book_sum_usd": 15188119.32672,
+        "difference_usd": 2121881.6732800007
+      },
+      "source_mentions": {
+        "pptx_mentions": 5,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "speechify-inc-safe",
+      "name": "Speechify",
+      "canonical_name": "Speechify",
+      "underlying_asset": "Speechify",
+      "aliases": [
+        "Speechify",
+        "Speechify Inc. - SAFE"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Text to voice app Investment structure: 1 tranches (safe).",
+      "previous_name": "",
+      "original_investment_usd": 3750000.0,
+      "book_cost_usd": 3750000.0,
+      "market_value_usd": 4687421.774,
+      "pnl_usd": 937421.7740000002,
+      "diff_2025_vs_2023_usd": -0.22599999979138374,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "no change 2 years",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 4687421.774,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 4687421.774,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 4687422.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "no change 2 years"
+      ],
+      "investments": [
+        {
+          "security_name": "Speechify Inc. - SAFE",
+          "instrument_type": "safe",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": 49507,
+          "average_cost": 75.74686407982709,
+          "book_cost_usd": 3750000.0,
+          "market_value_usd": 4687421.774,
+          "pnl_usd": 937421.7740000002
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 3750000.0,
+        "portfolio_tranche_book_sum_usd": 3750000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 5,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "snark-ai-inc-series-a-3-preferred",
+      "name": "Snark (Activeloop)",
+      "canonical_name": "Snark (Activeloop)",
+      "underlying_asset": "Snark (Activeloop)",
+      "aliases": [
+        "Snark (Activeloop)",
+        "Snark AI Inc. - Series A-3 Preferred"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).",
+      "previous_name": "",
+      "original_investment_usd": 2000000.0,
+      "book_cost_usd": 2000000.0,
+      "market_value_usd": 3377874.6898,
+      "pnl_usd": 1377874.6897999998,
+      "diff_2025_vs_2023_usd": 1152988.6897999998,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": true,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 3377874.6898,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 3377874.6898,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 2224886.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Snark AI Inc. - Series A-3 Preferred",
+          "instrument_type": "preferred",
+          "series": "Series A-3",
+          "share_class": "",
+          "nominal_holding": 1046462,
+          "average_cost": 1.9112,
+          "book_cost_usd": 2000000.0,
+          "market_value_usd": 3377874.6898,
+          "pnl_usd": 1377874.6897999998
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 2000000.0,
+        "portfolio_tranche_book_sum_usd": 2000000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "rain-technologies-inc",
+      "name": "Rain",
+      "canonical_name": "Rain",
+      "underlying_asset": "Rain",
+      "aliases": [
+        "Rain",
+        "Rain SPV, Seed 2 Preferred Series of Penna Investments",
+        "Rain Technologies Inc",
+        "Rain Technologies Inc - Series A-2 Preferred Stock",
+        "Rain Technologies Inc - Series Seed 2 Preferred Stock"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Early wage access for employees Investment structure: 3 tranches (preferred).",
+      "previous_name": "",
+      "original_investment_usd": 1115376.0,
+      "book_cost_usd": 1115376.16,
+      "market_value_usd": 3291129.2600000002,
+      "pnl_usd": 2175753.2600000002,
+      "diff_2025_vs_2023_usd": -309339.73999999976,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 3291129.2600000002,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 3291129.2600000002,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 3600469.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Rain SPV, Seed 2 Preferred Series of Penna Investments",
+          "instrument_type": "preferred",
+          "series": "Seed 2",
+          "share_class": "",
+          "nominal_holding": 233644,
+          "average_cost": 2.152325760558799,
+          "book_cost_usd": 502878.0,
+          "market_value_usd": 1749993.56,
+          "pnl_usd": 1247115.56
+        },
+        {
+          "security_name": "Rain Technologies Inc - Series Seed 2 Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series Seed",
+          "share_class": "",
+          "nominal_holding": 233644,
+          "average_cost": 2.1399999999999997,
+          "book_cost_usd": 499998.16,
+          "market_value_usd": 1397191.12,
+          "pnl_usd": 897192.9600000002
+        },
+        {
+          "security_name": "Rain Technologies Inc - Series A-2 Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series A-2",
+          "share_class": "",
+          "nominal_holding": 24071,
+          "average_cost": 112500.0,
+          "book_cost_usd": 112500.0,
+          "market_value_usd": 143944.58000000002,
+          "pnl_usd": 31444.580000000016
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 1115376.0,
+        "portfolio_tranche_book_sum_usd": 1115376.16,
+        "difference_usd": -0.15999999991618097
+      },
+      "source_mentions": {
+        "pptx_mentions": 6,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "krisp-technologies-inc-series-a-preferred-stock",
+      "name": "Krisp",
+      "canonical_name": "Krisp",
+      "underlying_asset": "Krisp",
+      "aliases": [
+        "Krisp",
+        "Krisp Technologies Inc Common Stock",
+        "Krisp Technologies Inc Series A Preferred Stock",
+        "Krisp Technologies Inc Series A-2 Preferred Stock"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Mutes background noise for any app Investment structure: 3 tranches (common, preferred).",
+      "previous_name": "",
+      "original_investment_usd": 2127258.0,
+      "book_cost_usd": 2127258.2,
+      "market_value_usd": 3112503.0,
+      "pnl_usd": 985245.0,
+      "diff_2025_vs_2023_usd": 0.0,
+      "trend": "stable",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "no change 2 years",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 3112503.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 3112503.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 3112503.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "no change 2 years"
+      ],
+      "investments": [
+        {
+          "security_name": "Krisp Technologies Inc Common Stock",
+          "instrument_type": "common",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": 300000,
+          "average_cost": 5.0,
+          "book_cost_usd": 1500000.0,
+          "market_value_usd": 2164180.0,
+          "pnl_usd": 664180.0
+        },
+        {
+          "security_name": "Krisp Technologies Inc Series A Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series A",
+          "share_class": "",
+          "nominal_holding": 100000,
+          "average_cost": 5.78,
+          "book_cost_usd": 578000.0,
+          "market_value_usd": 873861.0,
+          "pnl_usd": 295861.0
+        },
+        {
+          "security_name": "Krisp Technologies Inc Series A-2 Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series A-2",
+          "share_class": "",
+          "nominal_holding": 8521,
+          "average_cost": 5.780800375542777,
+          "book_cost_usd": 49258.2,
+          "market_value_usd": 74462.0,
+          "pnl_usd": 25203.800000000003
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 2127258.0,
+        "portfolio_tranche_book_sum_usd": 2127258.2,
+        "difference_usd": -0.20000000018626451
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "gyankaar-technologies-private-limited-dba-pagarbook-series-a3",
+      "name": "Gyankaar Technologies d/b/a Pagarbook",
+      "canonical_name": "Gyankaar Technologies d/b/a Pagarbook",
+      "underlying_asset": "Gyankaar Technologies d/b/a Pagarbook",
+      "aliases": [
+        "Gyankaar Technologies d/b/a Pagarbook"
+      ],
+      "section": "companies",
+      "geography": "",
+      "description": "Employee management platform - Investment via MV Opportunities SPV",
+      "previous_name": "",
+      "original_investment_usd": 1993525.0,
+      "book_cost_usd": 1993525.0,
+      "market_value_usd": 2041800.6465999999,
+      "pnl_usd": 48275.64659999986,
+      "diff_2025_vs_2023_usd": 76775.64659999986,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 2041800.6465999999,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 2041800.6465999999,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1965025.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 1993525.0,
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "coda-project-inc",
+      "name": "Coda (Birdly/Plato)",
+      "canonical_name": "Superhuman Platform (via Coda)",
+      "underlying_asset": "Coda / Superhuman Platform",
+      "aliases": [
+        "Birdly",
+        "Birdly (Plato)",
+        "Coda",
+        "Coda (Birdly/Plato)",
+        "Coda Project Inc",
+        "Coda Projects Inc.",
+        "Grammarly",
+        "Plato",
+        "Superhuman"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).",
+      "previous_name": "Birdly; Coda Projects Inc.; Grammarly; Plato; Superhuman",
+      "original_investment_usd": 9000000.0,
+      "book_cost_usd": 8695065.0,
+      "market_value_usd": 1534842.72634718,
+      "pnl_usd": -7465157.27365282,
+      "diff_2025_vs_2023_usd": -5215157.27365282,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Material valuation contraction versus 1Q 2023; needs source-backed root-cause writeup.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1534842.72634718,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1534842.72634718,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2025-10-01",
+          "label": "Grammarly rebranded to Superhuman Platform",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "canonical_overrides.json"
+        },
+        {
+          "date": "2025-01-01",
+          "label": "Coda acquired by Grammarly",
+          "event_type": "acquisition",
+          "reporting_style": "full-year",
+          "source": "canonical_overrides.json"
+        },
+        {
+          "date": "2024-01-05",
+          "label": "Name lineage includes: Superhuman",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-04",
+          "label": "Name lineage includes: Plato",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-03",
+          "label": "Name lineage includes: Grammarly",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-02",
+          "label": "Name lineage includes: Coda Projects Inc.",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-01",
+          "label": "Name lineage includes: Birdly",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 6750000.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Coda Project Inc",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": null,
+          "average_cost": null,
+          "book_cost_usd": 8695065.0,
+          "market_value_usd": 1534842.72634718,
+          "pnl_usd": -7160222.27365282
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 9000000.0,
+        "portfolio_tranche_book_sum_usd": 8695065.0,
+        "difference_usd": 304935.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "codesignal-inc",
+      "name": "CodeSignal",
+      "canonical_name": "CodeSignal",
+      "underlying_asset": "CodeSignal",
+      "aliases": [
+        "CodeSignal",
+        "CodeSignal Inc",
+        "CodeSignal Inc - Common Stock",
+        "CodeSignal Inc - Series B-1"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "Assessments for technical hiring Investment structure: 2 tranches (common, equity).",
+      "previous_name": "",
+      "original_investment_usd": 1499992.0,
+      "book_cost_usd": 1499992.38,
+      "market_value_usd": 1369253.67,
+      "pnl_usd": -130738.33000000007,
+      "diff_2025_vs_2023_usd": -4890110.33,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1369253.67,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1369253.67,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 6259364.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "CodeSignal Inc - Common Stock",
+          "instrument_type": "common",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": 237562,
+          "average_cost": 4.209400072402151,
+          "book_cost_usd": 999993.5,
+          "market_value_usd": 869476.92,
+          "pnl_usd": -130516.57999999996
+        },
+        {
+          "security_name": "CodeSignal Inc - Series B-1",
+          "instrument_type": "equity",
+          "series": "Series B-1",
+          "share_class": "",
+          "nominal_holding": 100965,
+          "average_cost": 4.9522000693309565,
+          "book_cost_usd": 499998.88,
+          "market_value_usd": 499776.75,
+          "pnl_usd": -222.13000000000466
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 1499992.0,
+        "portfolio_tranche_book_sum_usd": 1499992.38,
+        "difference_usd": -0.3799999998882413
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "creoate-limited-advance-subscription",
+      "name": "Creoate",
+      "canonical_name": "Creoate",
+      "underlying_asset": "Creoate",
+      "aliases": [
+        "Creoate"
+      ],
+      "section": "companies",
+      "geography": "",
+      "description": "B2B wholesale marketplace for unique authentic products",
+      "previous_name": "",
+      "original_investment_usd": 753201.0,
+      "book_cost_usd": 753201.0,
+      "market_value_usd": 1325796.9856008613,
+      "pnl_usd": 572595.9856008613,
+      "diff_2025_vs_2023_usd": -649164.0143991387,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1325796.9856008613,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1325796.9856008613,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1974961.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 753201.0,
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
+      },
+      "source_mentions": {
+        "pptx_mentions": 5,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "atom-finance-inc-series-a-preferred-stock",
+      "name": "Atom Finance",
+      "canonical_name": "Reflexivity (ex-Atom Finance)",
+      "underlying_asset": "Reflexivity",
+      "aliases": [
+        "Atom",
+        "Atom Finance",
+        "Atom Finance Inc Series A Preferred Stock",
+        "Reflexivity",
+        "Toggle AI"
+      ],
+      "section": "companies",
+      "geography": "US",
+      "description": "transition their operations Modern investment research tool Investment structure: 1 tranches (preferred).",
+      "previous_name": "Atom; Reflexivity; Toggle AI",
+      "original_investment_usd": 425000.0,
+      "book_cost_usd": 425000.0,
+      "market_value_usd": 1289805.3,
+      "pnl_usd": 864805.3,
+      "diff_2025_vs_2023_usd": 0.30000000004656613,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "no change 2 years",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 1289805.3,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 1289805.3,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2024-10-01",
+          "label": "Entity renamed to Reflexivity",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "canonical_overrides.json"
+        },
+        {
+          "date": "2024-05-01",
+          "label": "Acquired by Toggle AI",
+          "event_type": "acquisition",
+          "reporting_style": "full-year",
+          "source": "canonical_overrides.json"
+        },
+        {
+          "date": "2024-01-03",
+          "label": "Name lineage includes: Toggle AI",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-02",
+          "label": "Name lineage includes: Reflexivity",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2024-01-01",
+          "label": "Name lineage includes: Atom",
+          "event_type": "rename",
+          "reporting_style": "full-year",
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Previous name"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1289805.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "no change 2 years",
+        "Moved in-kind from VK"
+      ],
+      "investments": [
+        {
+          "security_name": "Atom Finance Inc Series A Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series A",
+          "share_class": "",
+          "nominal_holding": 108387,
+          "average_cost": 3.921134453393857,
+          "book_cost_usd": 425000.0,
+          "market_value_usd": 1289805.3,
+          "pnl_usd": 864805.3
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 425000.0,
+        "portfolio_tranche_book_sum_usd": 425000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "fuse-venture-capital-partners-no-2-scsp",
+      "name": "Fuse Venture Capital Partners",
+      "canonical_name": "Fuse Venture Capital Partners",
+      "underlying_asset": "Fuse Venture Capital Partners",
+      "aliases": [
+        "Fuse Venture Capital Partners",
+        "Fuse Venture Capital Partners No.2 SCSp"
+      ],
+      "section": "companies",
+      "geography": "LU",
+      "description": "SPV for market Kurley Investment structure: 1 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 945137.0,
+      "book_cost_usd": 998559.0799999998,
+      "market_value_usd": 689700.3204431892,
+      "pnl_usd": -255436.67955681076,
+      "diff_2025_vs_2023_usd": -527314.6795568108,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 689700.3204431892,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 689700.3204431892,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1217015.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Fuse Venture Capital Partners No.2 SCSp",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": 15358,
+          "average_cost": 930000.0,
+          "book_cost_usd": 998559.0799999998,
+          "market_value_usd": 689700.3204431892,
+          "pnl_usd": -308858.7595568106
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 945137.0,
+        "portfolio_tranche_book_sum_usd": 998559.0799999998,
+        "difference_usd": -53422.07999999984
+      },
+      "source_mentions": {
+        "pptx_mentions": 1,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "atlas-kitchen-pte-ltd-safe",
+      "name": "Atlas Kitchen",
+      "canonical_name": "Atlas Kitchen",
+      "underlying_asset": "Atlas Kitchen",
+      "aliases": [
+        "Atlas Kitchen",
+        "Atlas Kitchen Pte. Ltd - SAFE"
+      ],
+      "section": "companies",
+      "geography": "SG",
+      "description": "Operating system for restaurants to help them Investment structure: 1 tranches (safe).",
+      "previous_name": "",
+      "original_investment_usd": 600000.0,
+      "book_cost_usd": 600000.0,
+      "market_value_usd": 600000.0,
+      "pnl_usd": 0.0,
+      "diff_2025_vs_2023_usd": 0.0,
+      "trend": "stable",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 600000.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 600000.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 600000.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Atlas Kitchen Pte. Ltd - SAFE",
+          "instrument_type": "safe",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": "n/a",
+          "average_cost": 600000.0,
+          "book_cost_usd": 600000.0,
+          "market_value_usd": 600000.0,
+          "pnl_usd": 0.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 600000.0,
+        "portfolio_tranche_book_sum_usd": 600000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "calii-inc-series-seed-1-preferred-stock",
+      "name": "Calii",
+      "canonical_name": "Calii",
+      "underlying_asset": "Calii",
+      "aliases": [
+        "Calii",
+        "Calii Inc. - Series Seed-1 Preferred Stock",
+        "Calli"
+      ],
+      "section": "companies",
+      "geography": "COL",
+      "description": "Farmer to consumer platform Investment structure: 1 tranches (preferred).",
+      "previous_name": "",
+      "original_investment_usd": 499999.0,
+      "book_cost_usd": 499998.61,
+      "market_value_usd": 499998.60539999994,
+      "pnl_usd": -0.39460000005783513,
+      "diff_2025_vs_2023_usd": -0.39460000005783513,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "no change 2 years",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 499998.60539999994,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 499998.60539999994,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 499999.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "no change 2 years"
+      ],
+      "investments": [
+        {
+          "security_name": "Calii Inc. - Series Seed-1 Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series Seed-1",
+          "share_class": "",
+          "nominal_holding": 220254,
+          "average_cost": 2.270100020884978,
+          "book_cost_usd": 499998.61,
+          "market_value_usd": 499998.60539999994,
+          "pnl_usd": -0.004600000043865293
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 499999.0,
+        "portfolio_tranche_book_sum_usd": 499998.61,
+        "difference_usd": 0.39000000001396984
+      },
+      "source_mentions": {
+        "pptx_mentions": 5,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "houm-group-inc-converted-safe",
+      "name": "Houm",
+      "canonical_name": "Houm",
+      "underlying_asset": "Houm",
+      "aliases": [
+        "Houm"
+      ],
+      "section": "companies",
+      "geography": "",
+      "description": "Marketplace that helps landlords in Latam find tenants",
+      "previous_name": "",
+      "original_investment_usd": 100000.0,
+      "book_cost_usd": 100000.0,
+      "market_value_usd": 300151.72,
+      "pnl_usd": 200151.71999999997,
+      "diff_2025_vs_2023_usd": -0.2800000000279397,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "no change 2 years",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 300151.72,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 300151.72,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 300152.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "no change 2 years"
+      ],
+      "investments": [],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 100000.0,
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
+      },
+      "source_mentions": {
+        "pptx_mentions": 5,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "cure-group-gmbh",
+      "name": "Cure Group GmbH",
+      "canonical_name": "Cure Group GmbH",
+      "underlying_asset": "Cure Group GmbH",
+      "aliases": [
+        "Cure Group GmbH"
+      ],
+      "section": "loans",
+      "geography": "EU",
+      "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
+      "previous_name": "",
+      "original_investment_usd": 217556.0,
+      "book_cost_usd": 207749.0,
+      "market_value_usd": 294489.0,
+      "pnl_usd": 76933.0,
+      "diff_2025_vs_2023_usd": 67515.0,
+      "trend": "growth",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 294489.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 294489.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 226974.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Cure Group GmbH",
+          "instrument_type": "convertible",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": null,
+          "average_cost": null,
+          "book_cost_usd": 207749.0,
+          "market_value_usd": 294489.0,
+          "pnl_usd": 86740.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 217556.0,
+        "portfolio_tranche_book_sum_usd": 207749.0,
+        "difference_usd": 9807.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "byrd-technologies",
+      "name": "Byrd Technologies Inc",
+      "canonical_name": "Byrd Technologies Inc",
+      "underlying_asset": "Byrd Technologies Inc",
+      "aliases": [
+        "Byrd Technologies",
+        "Byrd Technologies Inc"
+      ],
+      "section": "loans",
+      "geography": "EU",
+      "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
+      "previous_name": "",
+      "original_investment_usd": 217556.0,
+      "book_cost_usd": 207749.0,
+      "market_value_usd": 207749.0,
+      "pnl_usd": -9807.0,
+      "diff_2025_vs_2023_usd": -11153.0,
+      "trend": "decline",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 207749.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 207749.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 218902.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Byrd Technologies",
+          "instrument_type": "convertible",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": null,
+          "average_cost": null,
+          "book_cost_usd": 207749.0,
+          "market_value_usd": 207749.0,
+          "pnl_usd": 0.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 217556.0,
+        "portfolio_tranche_book_sum_usd": 207749.0,
+        "difference_usd": 9807.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "byuk-inc",
+      "name": "Byuk",
+      "canonical_name": "Byuk",
+      "underlying_asset": "Byuk",
+      "aliases": [
+        "Buyk",
+        "Byuk",
+        "Byuk Inc."
+      ],
+      "section": "writeoffs",
+      "geography": "US",
+      "description": "leaders NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 10000000.0,
+      "book_cost_usd": 10000000.0,
+      "market_value_usd": 0.0,
+      "pnl_usd": -10000000.0,
+      "diff_2025_vs_2023_usd": 0.0,
+      "trend": "stable",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Byuk Inc.",
+          "instrument_type": "equity",
+          "series": "",
+          "share_class": "",
+          "nominal_holding": null,
+          "average_cost": null,
+          "book_cost_usd": 10000000.0,
+          "market_value_usd": 0.0,
+          "pnl_usd": -10000000.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 10000000.0,
+        "portfolio_tranche_book_sum_usd": 10000000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "mighty-buildings-inc-common-stock",
+      "name": "Mighty Buildings",
+      "canonical_name": "Mighty Buildings",
+      "underlying_asset": "Mighty Buildings",
+      "aliases": [
+        "Mighty Buildings"
+      ],
+      "section": "writeoffs",
+      "geography": "",
+      "description": "Construction copmany creating homes using 3D",
+      "previous_name": "",
+      "original_investment_usd": 2000000.0,
+      "book_cost_usd": 2000000.0,
+      "market_value_usd": 0.0,
+      "pnl_usd": -2000000.0,
+      "diff_2025_vs_2023_usd": -2000000.0,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 2000000.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 2000000.0,
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "productify-inc-series-a1-preferred-stock",
+      "name": "Productfy",
+      "canonical_name": "Productfy",
+      "underlying_asset": "Productfy",
+      "aliases": [
+        "Productfy",
+        "Productify, Inc. - Series A1 Preferred Stock"
+      ],
+      "section": "writeoffs",
+      "geography": "US",
+      "description": "Fintech infrastructure software layer Investment structure: 1 tranches (preferred).",
+      "previous_name": "",
+      "original_investment_usd": 9800000.0,
+      "book_cost_usd": 9800000.0,
+      "market_value_usd": 0.0,
+      "pnl_usd": -9800000.0,
+      "diff_2025_vs_2023_usd": -9800000.0,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 9800000.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [
+        {
+          "security_name": "Productify, Inc. - Series A1 Preferred Stock",
+          "instrument_type": "preferred",
+          "series": "Series A1",
+          "share_class": "",
+          "nominal_holding": 3578078,
+          "average_cost": 2.738900605297034,
+          "book_cost_usd": 9800000.0,
+          "market_value_usd": 0.0,
+          "pnl_usd": -9800000.0
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 9800000.0,
+        "portfolio_tranche_book_sum_usd": 9800000.0,
+        "difference_usd": 0.0
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "tt1-products-inc-dba-supersapiens-converted-from-tt1-note",
+      "name": "Supersapiens",
+      "canonical_name": "Supersapiens",
+      "underlying_asset": "Supersapiens",
+      "aliases": [
+        "Supersapiens",
+        "TTI Products, Inc, DBA Supersapiens"
+      ],
+      "section": "writeoffs",
+      "geography": "",
+      "description": "Health and fitness app",
+      "previous_name": "",
+      "original_investment_usd": 541753.0,
+      "book_cost_usd": 541753.0,
+      "market_value_usd": 0.0,
+      "pnl_usd": -541753.0,
+      "diff_2025_vs_2023_usd": -1750014.0,
+      "trend": "decline",
+      "major_slider": true,
+      "value_grower": false,
+      "clarification_status": "OK",
+      "resolved": false,
+      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 1750014.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [],
+      "investments": [],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 541753.0,
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
+      },
+      "source_mentions": {
+        "pptx_mentions": 4,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    },
+    {
+      "id": "helbiz-wheels-labs-inc-series-a-1-1-5-pref",
+      "name": "Wheels Labs Inc",
+      "canonical_name": "Wheels Labs Inc",
+      "underlying_asset": "Wheels Labs Inc",
+      "aliases": [
+        "Helbiz (Wheels Labs Inc Series A-1/1-5 Pref -)",
+        "Wheels Labs Inc",
+        "Wheels Labs Inc Series A-I Preferred Stock"
+      ],
+      "section": "writeoffs",
+      "geography": "US",
+      "description": "2nd wave micro-mobility company Investment structure: 1 tranches (equity).",
+      "previous_name": "",
+      "original_investment_usd": 820268.0,
+      "book_cost_usd": 820268.1799999999,
+      "market_value_usd": 0.0,
+      "pnl_usd": -820268.0,
+      "diff_2025_vs_2023_usd": 0.0,
+      "trend": "stable",
+      "major_slider": false,
+      "value_grower": false,
+      "clarification_status": "Clarification needed",
+      "resolved": false,
+      "decline_reason": "Not a decline.",
+      "reporting_styles_available": [
+        "full-year",
+        "quarter"
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-24",
+          "label": "2026 assessment reference",
+          "event_type": "analysis",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2025-12-31",
+          "label": "FY 2025 valuation",
+          "reporting_style": "full-year",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        },
+        {
+          "date": "2023-03-31",
+          "label": "1Q 2023 baseline",
+          "reporting_style": "quarter",
+          "value_usd": 0.0,
+          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
+        }
+      ],
+      "notes": [
+        "Moved in-kind from VK"
+      ],
+      "investments": [
+        {
+          "security_name": "Helbiz (Wheels Labs Inc Series A-1/1-5 Pref -)",
+          "instrument_type": "equity",
+          "series": "Series A-1",
+          "share_class": "",
+          "nominal_holding": 260093,
+          "average_cost": 3.153749543432541,
+          "book_cost_usd": 820268.1799999999,
+          "market_value_usd": 0.0,
+          "pnl_usd": -820268.1799999999
+        }
+      ],
+      "sheet2_reconciliation": {
+        "sheet2_invested_usd": 820268.0,
+        "portfolio_tranche_book_sum_usd": 820268.1799999999,
+        "difference_usd": -0.17999999993480742
+      },
+      "source_mentions": {
+        "pptx_mentions": 3,
+        "has_2026_analysis": true,
+        "information_gap": false
+      }
+    }
+  ]
+}

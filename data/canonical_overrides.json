@@ -1,0 +1,57 @@
+{
+  "assets": {
+    "atom-finance-inc-series-a-preferred-stock": {
+      "canonical_name": "Reflexivity (ex-Atom Finance)",
+      "underlying_asset": "Reflexivity",
+      "aliases": ["Atom Finance", "Toggle AI", "Reflexivity"],
+      "events": [
+        {
+          "date": "2024-05-01",
+          "label": "Acquired by Toggle AI",
+          "event_type": "acquisition",
+          "reporting_style": "full-year"
+        },
+        {
+          "date": "2024-10-01",
+          "label": "Entity renamed to Reflexivity",
+          "event_type": "rename",
+          "reporting_style": "full-year"
+        }
+      ]
+    },
+    "coda-project-inc": {
+      "canonical_name": "Superhuman Platform (via Coda)",
+      "underlying_asset": "Coda / Superhuman Platform",
+      "aliases": ["Birdly", "Plato", "Coda", "Grammarly", "Superhuman"],
+      "events": [
+        {
+          "date": "2025-01-01",
+          "label": "Coda acquired by Grammarly",
+          "event_type": "acquisition",
+          "reporting_style": "full-year"
+        },
+        {
+          "date": "2025-10-01",
+          "label": "Grammarly rebranded to Superhuman Platform",
+          "event_type": "rename",
+          "reporting_style": "full-year"
+        }
+      ]
+    },
+    "fuse-vc-partners-no-2-scsp": {
+      "canonical_name": "Market Kurly exposure (via Fuse VC Partners)",
+      "underlying_asset": "Market Kurly",
+      "aliases": ["Fuse VC Partners", "Market Kurley", "Market Kurly"]
+    },
+    "mighty-angel-vehicle-pte": {
+      "canonical_name": "Mighty Buildings exposure (via SPV)",
+      "underlying_asset": "Mighty Buildings",
+      "aliases": ["Mighty Angel Vehicle", "Mighty Buildings"]
+    },
+    "mv-opportunities-india-limited": {
+      "canonical_name": "Teachmint",
+      "underlying_asset": "Teachmint",
+      "aliases": ["MV Opportunities India Limited", "Teachmint"]
+    }
+  }
+}

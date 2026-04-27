@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MVOF Reporting Engine</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>MVOF Reporting Engine</h1>
+      <p>Traction view by quarter / half-year / full-year with rename + underlying asset tracking.</p>
+    </div>
+    <a class="logout" href="/logout">Log out</a>
+  </header>
+
+  <section class="filters">
+    <input id="search" type="search" placeholder="Search by name, canonical, alias, underlying asset" />
+    <select id="sectionFilter">
+      <option value="">All sections</option>
+      <option value="funds">Funds</option>
+      <option value="companies">Companies</option>
+      <option value="loans">Loans</option>
+      <option value="writeoffs">Write-offs</option>
+    </select>
+    <select id="trendFilter">
+      <option value="">All trends</option>
+      <option value="growth">Growth</option>
+      <option value="decline">Decline</option>
+      <option value="stable">Stable</option>
+    </select>
+    <select id="reportingFilter">
+      <option value="">All reporting styles</option>
+      <option value="quarter">Quarter</option>
+      <option value="half-year">Half-year</option>
+      <option value="full-year">Full-year</option>
+    </select>
+  </section>
+
+  <main class="layout">
+    <aside>
+      <div id="summary" class="summary"></div>
+      <div id="assetList" class="asset-list"></div>
+    </aside>
+
+    <section id="detail" class="detail empty">
+      <h2>Select an asset</h2>
+      <p>Click any holding to view canonical research identity, valuation traction, and timeline events.</p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
