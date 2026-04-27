@@ -257,7 +257,9 @@ class Handler(BaseHTTPRequestHandler):
             payload = parse_body(self)
             candidate = str(payload.get("password", ""))
             if not verify_password(candidate):
-                self._send_text("<h3>Incorrect password</h3><p><a href='/login'>Try again</a></p>", status=401)
+                self.send_response(HTTPStatus.FOUND)
+                self.send_header("Location", "/login?error=1")
+                self.end_headers()
                 return
             token = secrets.token_urlsafe(24)
             SESSIONS.add(token)

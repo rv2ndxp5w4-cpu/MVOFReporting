@@ -58,6 +58,8 @@
       font-weight:700;
     }
     button:hover { filter: brightness(0.98); }
+    .error-msg { margin-top:8px; font-size:0.85rem; color:#a02b93; display:none; }
+    .error-msg.show { display:block; }
     .hint { margin-top:10px; font-size:0.85rem; color:var(--muted); }
     code { color: var(--accent2); }
   </style>
@@ -67,8 +69,15 @@
     <h1>MVOF Reporting Dashboard</h1>
     <p>Password-protected view for portfolio traction, timeline, and clarification workflow.</p>
     <input type="password" name="password" placeholder="Password" required />
+    <div id="login-error" class="error-msg" role="alert">Incorrect password. Please try again.</div>
     <button type="submit">Enter</button>
-    <div class="hint">Use your assigned access password.</div>
   </form>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("error") === "1") {
+      const err = document.getElementById("login-error");
+      if (err) err.classList.add("show");
+    }
+  </script>
 </body>
 </html>
