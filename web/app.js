@@ -84,32 +84,27 @@ function renderSummary() {
     .filter((a) => a.section === section)
     .reduce((sum, a) => sum + (Number(a.market_value_usd) || 0), 0);
 
-  const section2023Value = (section) => state.filtered
-    .filter((a) => a.section === section)
+  const totalOriginalInvestment = state.filtered
+    .reduce((sum, a) => sum + (Number(a.original_investment_usd) || 0), 0);
+
+  const total2023 = state.filtered
     .reduce((sum, a) => sum + (Number(a.value_2023_usd) || 0), 0);
 
   const companiesCurrent = sectionCurrentValue("companies");
   const fundsCurrent = sectionCurrentValue("funds");
   const loansCurrent = sectionCurrentValue("loans");
-  const writeoffsCurrent = sectionCurrentValue("writeoffs");
 
-  const companies2023 = section2023Value("companies");
-  const funds2023 = section2023Value("funds");
-  const loans2023 = section2023Value("loans");
-  const writeoffs2023 = section2023Value("writeoffs");
-
-  const totalCurrent = companiesCurrent + fundsCurrent + loansCurrent + writeoffsCurrent;
-  const total2023 = companies2023 + funds2023 + loans2023 + writeoffs2023;
+  const totalCurrent = companiesCurrent + fundsCurrent + loansCurrent;
 
   els.summary.innerHTML = `
     <strong>${total}</strong> assets in view
+    <br />Original investment: <strong>${usd(totalOriginalInvestment)}</strong>
+    <br />1Q 2023 value - Total: <strong>${usd(total2023)}</strong>
     <br />Current value - Total (All): <strong>${usd(totalCurrent)}</strong>
-    <br />1Q 2023 value - Total (All): <strong>${usd(total2023)}</strong>
+    <br />Of them
     <br />Current value - Companies: <strong>${usd(companiesCurrent)}</strong>
     <br />Current value - Funds: <strong>${usd(fundsCurrent)}</strong>
     <br />Current value - Loans: <strong>${usd(loansCurrent)}</strong>
-    <br />Current value - Write-offs: <strong>${usd(writeoffsCurrent)}</strong>
-    <br />1Q 2023 value - Write-offs: <strong>${usd(writeoffs2023)}</strong>
     <br />Value growers: <strong>${growers}</strong>
     <br />Major sliders: <strong>${sliders}</strong>
     <br />Clarification needed: <strong>${clarifications}</strong>
