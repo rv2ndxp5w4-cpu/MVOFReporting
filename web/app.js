@@ -218,6 +218,9 @@ function renderDetail() {
       <div class="kpi"><div class="label">Diff 2025 vs 2023</div><div class="value">${usd(asset.diff_2025_vs_2023_usd)}</div></div>
     </div>
 
+    <div class="section-title">Latest Market Info: Externally Sourced Information</div>
+    <p>${asset.latest_market_info_external || "No external market note currently captured for this asset."}</p>
+
     <div class="section-title">Investment Terms / Tranches</div>
     ${renderInvestments(asset)}
 

@@ -91,6 +91,26 @@ STABLE_ID_BY_SHEET2_NORM = {
 }
 
 
+EXTERNAL_MARKET_INFO_BY_ID = {
+    "teachmint-technologies-private-limited": "Coverage gap in verified 2025Q1-2026Q1 public corpus (mapped from MV Opportunities India Limited); additional source-backed updates recommended.",
+    "speechify-inc-safe": "External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition.",
+    "snark-ai-inc-series-a-3-preferred": "External market signal: Activeloop remained product-led, expanding Deep Research and scientific-discovery tooling with ecosystem partnerships.",
+    "rain-technologies-inc": "External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel growth).",
+    "krisp-technologies-inc-series-a-preferred-stock": "External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging.",
+    "gyankaar-technologies-private-limited-dba-pagarbook-series-a3": "External market signal: down-valued financing round despite cashflow-positive messaging; larger A5 follow-on closed thereafter.",
+    "coda-project-inc": "External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; public corpus otherwise thin.",
+    "codesignal-inc": "External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academy initiatives.",
+    "creoate-limited-advance-subscription": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window.",
+    "atom-finance-inc-series-a-preferred-stock": "Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024).",
+    "fuse-venture-capital-partners-no-2-scsp": "External market signal (underlying Market Kurly): strategic distribution expansion with Naver and operational rollout progression.",
+    "atlas-kitchen-pte-ltd-safe": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window.",
+    "calii-inc-series-seed-1-preferred-stock": "Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended.",
+    "houm-group-inc-converted-safe": "External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026.",
+}
+
+
+
+
 @dataclass
 class Sheet2Record:
     row_no: int
@@ -508,6 +528,20 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
         original_investment = record.invested if record.invested is not None else tranche_book
         pnl = (market_value - original_investment) if (market_value is not None and original_investment is not None) else None
 
+        latest_market_info_external = EXTERNAL_MARKET_INFO_BY_ID.get(asset_id, "") if section == "companies" else ""
+        if latest_market_info_external:
+            timeline.append(
+                {
+                    "date": "2026-03-31",
+                    "label": "Latest market info: externally sourced information",
+                    "event_type": "external_market_info",
+                    "reporting_style": "full-year",
+                    "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+                    "summary": latest_market_info_external,
+                }
+            )
+            timeline.sort(key=lambda item: item["date"], reverse=True)
+
         asset = {
             "id": asset_id,
             "name": display_name,
@@ -519,6 +553,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             "description": (record.description + structure_note).strip(),
             "previous_name": "; ".join(sorted(lineage)) if lineage else "",
             "original_investment_usd": original_investment,
+            "value_2023_usd": record.value_2023,
             "book_cost_usd": tranche_book if tranche_book else original_investment,
             "market_value_usd": market_value,
             "pnl_usd": pnl,
@@ -538,6 +573,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
                 "portfolio_tranche_book_sum_usd": tranche_book,
                 "difference_usd": (record.invested - tranche_book) if (record.invested is not None and tranche_book) else None,
             },
+            "latest_market_info_external": latest_market_info_external,
             "source_mentions": {
                 "pptx_mentions": mention_count,
                 "has_2026_analysis": mention_count > 0,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T13:51:46.921405+00:00",
+  "generated_at": "2026-04-27T15:01:58.084716+00:00",
   "sources": {
     "xlsx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Master with Dec2025 valuations.xlsx",
     "pptx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF 2026 Update.pptx"
@@ -19,6 +19,7 @@
       "description": "Mid stage technology companies investor Investment structure: 1 tranches (fund).",
       "previous_name": "",
       "original_investment_usd": 1000000.0,
+      "value_2023_usd": 1990767.0,
       "book_cost_usd": 1000000.0,
       "market_value_usd": 2266262.1,
       "pnl_usd": 1266262.1,
@@ -78,6 +79,7 @@
         "portfolio_tranche_book_sum_usd": 1000000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -98,6 +100,7 @@
       "description": "Consumer focused VC fund Investment structure: 1 tranches (fund).",
       "previous_name": "",
       "original_investment_usd": 1000000.0,
+      "value_2023_usd": 1904315.0,
       "book_cost_usd": 1000000.0,
       "market_value_usd": 1557890.0,
       "pnl_usd": 557890.0,
@@ -157,6 +160,7 @@
         "portfolio_tranche_book_sum_usd": 1000000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -177,6 +181,7 @@
       "description": "Software focused early stage VC Investment structure: 1 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 435000.0,
+      "value_2023_usd": 490753.0,
       "book_cost_usd": 875000.0,
       "market_value_usd": 1272026.42,
       "pnl_usd": 837026.4199999999,
@@ -234,6 +239,7 @@
         "portfolio_tranche_book_sum_usd": 875000.0,
         "difference_usd": -440000.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -254,6 +260,7 @@
       "description": "Early stage India focused VC Investment structure: 1 tranches (fund).",
       "previous_name": "",
       "original_investment_usd": 488296.0,
+      "value_2023_usd": 575140.0,
       "book_cost_usd": 488295.74,
       "market_value_usd": 625129.0,
       "pnl_usd": 136833.0,
@@ -311,6 +318,7 @@
         "portfolio_tranche_book_sum_usd": 488295.74,
         "difference_usd": 0.2600000000093132
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -331,6 +339,7 @@
       "description": "Engineers focused VC Investment structure: 1 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 225000.0,
+      "value_2023_usd": 235601.0,
       "book_cost_usd": 294348.61,
       "market_value_usd": 503831.0,
       "pnl_usd": 278831.0,
@@ -388,6 +397,7 @@
         "portfolio_tranche_book_sum_usd": 294348.61,
         "difference_usd": -69348.60999999999
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -408,6 +418,7 @@
       "description": "Early stage Latam focused VC Investment structure: 1 tranches (fund).",
       "previous_name": "",
       "original_investment_usd": 225000.0,
+      "value_2023_usd": 256122.0,
       "book_cost_usd": 335000.0,
       "market_value_usd": 386483.0,
       "pnl_usd": 161483.0,
@@ -465,6 +476,7 @@
         "portfolio_tranche_book_sum_usd": 335000.0,
         "difference_usd": -110000.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -487,6 +499,7 @@
       "description": "SPV with Mighty Buildings for YC investments Investment structure: 2 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 160715.0,
+      "value_2023_usd": 160715.0,
       "book_cost_usd": 160715.0,
       "market_value_usd": 258522.52775451262,
       "pnl_usd": 97807.52775451262,
@@ -555,6 +568,7 @@
         "portfolio_tranche_book_sum_usd": 160715.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -579,6 +593,7 @@
       "description": "Teachmint Investment structure: 3 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 17310001.0,
+      "value_2023_usd": 9861798.0,
       "book_cost_usd": 15188119.32672,
       "market_value_usd": 6706208.5888,
       "pnl_usd": -10603792.4112,
@@ -601,6 +616,14 @@
           "reporting_style": "full-year",
           "value_usd": 6706208.5888,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "Coverage gap in verified 2025Q1-2026Q1 public corpus (mapped from MV Opportunities India Limited); additional source-backed updates recommended."
         },
         {
           "date": "2025-12-31",
@@ -658,6 +681,7 @@
         "portfolio_tranche_book_sum_usd": 15188119.32672,
         "difference_usd": 2121881.6732800007
       },
+      "latest_market_info_external": "Coverage gap in verified 2025Q1-2026Q1 public corpus (mapped from MV Opportunities India Limited); additional source-backed updates recommended.",
       "source_mentions": {
         "pptx_mentions": 5,
         "has_2026_analysis": true,
@@ -678,6 +702,7 @@
       "description": "Text to voice app Investment structure: 1 tranches (safe).",
       "previous_name": "",
       "original_investment_usd": 3750000.0,
+      "value_2023_usd": 4687422.0,
       "book_cost_usd": 3750000.0,
       "market_value_usd": 4687421.774,
       "pnl_usd": 937421.7740000002,
@@ -700,6 +725,14 @@
           "reporting_style": "full-year",
           "value_usd": 4687421.774,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition."
         },
         {
           "date": "2025-12-31",
@@ -737,6 +770,7 @@
         "portfolio_tranche_book_sum_usd": 3750000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition.",
       "source_mentions": {
         "pptx_mentions": 5,
         "has_2026_analysis": true,
@@ -757,6 +791,7 @@
       "description": "Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).",
       "previous_name": "",
       "original_investment_usd": 2000000.0,
+      "value_2023_usd": 2224886.0,
       "book_cost_usd": 2000000.0,
       "market_value_usd": 3377874.6898,
       "pnl_usd": 1377874.6897999998,
@@ -779,6 +814,14 @@
           "reporting_style": "full-year",
           "value_usd": 3377874.6898,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: Activeloop remained product-led, expanding Deep Research and scientific-discovery tooling with ecosystem partnerships."
         },
         {
           "date": "2025-12-31",
@@ -814,6 +857,7 @@
         "portfolio_tranche_book_sum_usd": 2000000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "External market signal: Activeloop remained product-led, expanding Deep Research and scientific-discovery tooling with ecosystem partnerships.",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -837,6 +881,7 @@
       "description": "Early wage access for employees Investment structure: 3 tranches (preferred).",
       "previous_name": "",
       "original_investment_usd": 1115376.0,
+      "value_2023_usd": 3600469.0,
       "book_cost_usd": 1115376.16,
       "market_value_usd": 3291129.2600000002,
       "pnl_usd": 2175753.2600000002,
@@ -859,6 +904,14 @@
           "reporting_style": "full-year",
           "value_usd": 3291129.2600000002,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel growth)."
         },
         {
           "date": "2025-12-31",
@@ -916,6 +969,7 @@
         "portfolio_tranche_book_sum_usd": 1115376.16,
         "difference_usd": -0.15999999991618097
       },
+      "latest_market_info_external": "External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel growth).",
       "source_mentions": {
         "pptx_mentions": 6,
         "has_2026_analysis": true,
@@ -938,6 +992,7 @@
       "description": "Mutes background noise for any app Investment structure: 3 tranches (common, preferred).",
       "previous_name": "",
       "original_investment_usd": 2127258.0,
+      "value_2023_usd": 3112503.0,
       "book_cost_usd": 2127258.2,
       "market_value_usd": 3112503.0,
       "pnl_usd": 985245.0,
@@ -960,6 +1015,14 @@
           "reporting_style": "full-year",
           "value_usd": 3112503.0,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging."
         },
         {
           "date": "2025-12-31",
@@ -1019,6 +1082,7 @@
         "portfolio_tranche_book_sum_usd": 2127258.2,
         "difference_usd": -0.20000000018626451
       },
+      "latest_market_info_external": "External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging.",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1038,6 +1102,7 @@
       "description": "Employee management platform - Investment via MV Opportunities SPV",
       "previous_name": "",
       "original_investment_usd": 1993525.0,
+      "value_2023_usd": 1965025.0,
       "book_cost_usd": 1993525.0,
       "market_value_usd": 2041800.6465999999,
       "pnl_usd": 48275.64659999986,
@@ -1062,6 +1127,14 @@
           "source": "MVOF 2026 Update.pptx"
         },
         {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: down-valued financing round despite cashflow-positive messaging; larger A5 follow-on closed thereafter."
+        },
+        {
           "date": "2025-12-31",
           "label": "FY 2025 valuation",
           "reporting_style": "full-year",
@@ -1083,6 +1156,7 @@
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
+      "latest_market_info_external": "External market signal: down-valued financing round despite cashflow-positive messaging; larger A5 follow-on closed thereafter.",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -1110,6 +1184,7 @@
       "description": "Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).",
       "previous_name": "Birdly; Coda Projects Inc.; Grammarly; Plato; Superhuman",
       "original_investment_usd": 9000000.0,
+      "value_2023_usd": 6750000.0,
       "book_cost_usd": 8695065.0,
       "market_value_usd": 1534842.72634718,
       "pnl_usd": -7465157.27365282,
@@ -1132,6 +1207,14 @@
           "reporting_style": "full-year",
           "value_usd": 1534842.72634718,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; public corpus otherwise thin."
         },
         {
           "date": "2025-12-31",
@@ -1216,6 +1299,7 @@
         "portfolio_tranche_book_sum_usd": 8695065.0,
         "difference_usd": 304935.0
       },
+      "latest_market_info_external": "External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; public corpus otherwise thin.",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1238,6 +1322,7 @@
       "description": "Assessments for technical hiring Investment structure: 2 tranches (common, equity).",
       "previous_name": "",
       "original_investment_usd": 1499992.0,
+      "value_2023_usd": 6259364.0,
       "book_cost_usd": 1499992.38,
       "market_value_usd": 1369253.67,
       "pnl_usd": -130738.33000000007,
@@ -1260,6 +1345,14 @@
           "reporting_style": "full-year",
           "value_usd": 1369253.67,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academy initiatives."
         },
         {
           "date": "2025-12-31",
@@ -1306,6 +1399,7 @@
         "portfolio_tranche_book_sum_usd": 1499992.38,
         "difference_usd": -0.3799999998882413
       },
+      "latest_market_info_external": "External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academy initiatives.",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1325,6 +1419,7 @@
       "description": "B2B wholesale marketplace for unique authentic products",
       "previous_name": "",
       "original_investment_usd": 753201.0,
+      "value_2023_usd": 1974961.0,
       "book_cost_usd": 753201.0,
       "market_value_usd": 1325796.9856008613,
       "pnl_usd": 572595.9856008613,
@@ -1349,6 +1444,14 @@
           "source": "MVOF 2026 Update.pptx"
         },
         {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window."
+        },
+        {
           "date": "2025-12-31",
           "label": "FY 2025 valuation",
           "reporting_style": "full-year",
@@ -1370,6 +1473,7 @@
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
+      "latest_market_info_external": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window.",
       "source_mentions": {
         "pptx_mentions": 5,
         "has_2026_analysis": true,
@@ -1393,6 +1497,7 @@
       "description": "transition their operations Modern investment research tool Investment structure: 1 tranches (preferred).",
       "previous_name": "Atom; Reflexivity; Toggle AI",
       "original_investment_usd": 425000.0,
+      "value_2023_usd": 1289805.0,
       "book_cost_usd": 425000.0,
       "market_value_usd": 1289805.3,
       "pnl_usd": 864805.3,
@@ -1415,6 +1520,14 @@
           "reporting_style": "full-year",
           "value_usd": 1289805.3,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024)."
         },
         {
           "date": "2025-12-31",
@@ -1488,6 +1601,7 @@
         "portfolio_tranche_book_sum_usd": 425000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024).",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1508,6 +1622,7 @@
       "description": "SPV for market Kurley Investment structure: 1 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 945137.0,
+      "value_2023_usd": 1217015.0,
       "book_cost_usd": 998559.0799999998,
       "market_value_usd": 689700.3204431892,
       "pnl_usd": -255436.67955681076,
@@ -1530,6 +1645,14 @@
           "reporting_style": "full-year",
           "value_usd": 689700.3204431892,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal (underlying Market Kurly): strategic distribution expansion with Naver and operational rollout progression."
         },
         {
           "date": "2025-12-31",
@@ -1565,6 +1688,7 @@
         "portfolio_tranche_book_sum_usd": 998559.0799999998,
         "difference_usd": -53422.07999999984
       },
+      "latest_market_info_external": "External market signal (underlying Market Kurly): strategic distribution expansion with Naver and operational rollout progression.",
       "source_mentions": {
         "pptx_mentions": 1,
         "has_2026_analysis": true,
@@ -1585,6 +1709,7 @@
       "description": "Operating system for restaurants to help them Investment structure: 1 tranches (safe).",
       "previous_name": "",
       "original_investment_usd": 600000.0,
+      "value_2023_usd": 600000.0,
       "book_cost_usd": 600000.0,
       "market_value_usd": 600000.0,
       "pnl_usd": 0.0,
@@ -1607,6 +1732,14 @@
           "reporting_style": "full-year",
           "value_usd": 600000.0,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window."
         },
         {
           "date": "2025-12-31",
@@ -1642,6 +1775,7 @@
         "portfolio_tranche_book_sum_usd": 600000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window.",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1663,6 +1797,7 @@
       "description": "Farmer to consumer platform Investment structure: 1 tranches (preferred).",
       "previous_name": "",
       "original_investment_usd": 499999.0,
+      "value_2023_usd": 499999.0,
       "book_cost_usd": 499998.61,
       "market_value_usd": 499998.60539999994,
       "pnl_usd": -0.39460000005783513,
@@ -1685,6 +1820,14 @@
           "reporting_style": "full-year",
           "value_usd": 499998.60539999994,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended."
         },
         {
           "date": "2025-12-31",
@@ -1722,6 +1865,7 @@
         "portfolio_tranche_book_sum_usd": 499998.61,
         "difference_usd": 0.39000000001396984
       },
+      "latest_market_info_external": "Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended.",
       "source_mentions": {
         "pptx_mentions": 5,
         "has_2026_analysis": true,
@@ -1741,6 +1885,7 @@
       "description": "Marketplace that helps landlords in Latam find tenants",
       "previous_name": "",
       "original_investment_usd": 100000.0,
+      "value_2023_usd": 300152.0,
       "book_cost_usd": 100000.0,
       "market_value_usd": 300151.72,
       "pnl_usd": 200151.71999999997,
@@ -1763,6 +1908,14 @@
           "reporting_style": "full-year",
           "value_usd": 300151.72,
           "source": "MVOF 2026 Update.pptx"
+        },
+        {
+          "date": "2026-03-31",
+          "label": "Latest market info: externally sourced information",
+          "event_type": "external_market_info",
+          "reporting_style": "full-year",
+          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
+          "summary": "External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026."
         },
         {
           "date": "2025-12-31",
@@ -1788,6 +1941,7 @@
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
+      "latest_market_info_external": "External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026.",
       "source_mentions": {
         "pptx_mentions": 5,
         "has_2026_analysis": true,
@@ -1807,6 +1961,7 @@
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
       "previous_name": "",
       "original_investment_usd": 217556.0,
+      "value_2023_usd": 226974.0,
       "book_cost_usd": 207749.0,
       "market_value_usd": 294489.0,
       "pnl_usd": 76933.0,
@@ -1864,6 +2019,7 @@
         "portfolio_tranche_book_sum_usd": 207749.0,
         "difference_usd": 9807.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1884,6 +2040,7 @@
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
       "previous_name": "",
       "original_investment_usd": 217556.0,
+      "value_2023_usd": 218902.0,
       "book_cost_usd": 207749.0,
       "market_value_usd": 207749.0,
       "pnl_usd": -9807.0,
@@ -1941,6 +2098,7 @@
         "portfolio_tranche_book_sum_usd": 207749.0,
         "difference_usd": 9807.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -1962,6 +2120,7 @@
       "description": "leaders NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 10000000.0,
+      "value_2023_usd": 0.0,
       "book_cost_usd": 10000000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -10000000.0,
@@ -2019,6 +2178,7 @@
         "portfolio_tranche_book_sum_usd": 10000000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -2038,6 +2198,7 @@
       "description": "Construction copmany creating homes using 3D",
       "previous_name": "",
       "original_investment_usd": 2000000.0,
+      "value_2023_usd": 2000000.0,
       "book_cost_usd": 2000000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -2000000.0,
@@ -2083,6 +2244,7 @@
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -2103,6 +2265,7 @@
       "description": "Fintech infrastructure software layer Investment structure: 1 tranches (preferred).",
       "previous_name": "",
       "original_investment_usd": 9800000.0,
+      "value_2023_usd": 9800000.0,
       "book_cost_usd": 9800000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -9800000.0,
@@ -2160,6 +2323,7 @@
         "portfolio_tranche_book_sum_usd": 9800000.0,
         "difference_usd": 0.0
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
@@ -2180,6 +2344,7 @@
       "description": "Health and fitness app",
       "previous_name": "",
       "original_investment_usd": 541753.0,
+      "value_2023_usd": 1750014.0,
       "book_cost_usd": 541753.0,
       "market_value_usd": 0.0,
       "pnl_usd": -541753.0,
@@ -2225,6 +2390,7 @@
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 4,
         "has_2026_analysis": true,
@@ -2246,6 +2412,7 @@
       "description": "2nd wave micro-mobility company Investment structure: 1 tranches (equity).",
       "previous_name": "",
       "original_investment_usd": 820268.0,
+      "value_2023_usd": 0.0,
       "book_cost_usd": 820268.1799999999,
       "market_value_usd": 0.0,
       "pnl_usd": -820268.0,
@@ -2305,6 +2472,7 @@
         "portfolio_tranche_book_sum_usd": 820268.1799999999,
         "difference_usd": -0.17999999993480742
       },
+      "latest_market_info_external": "",
       "source_mentions": {
         "pptx_mentions": 3,
         "has_2026_analysis": true,
