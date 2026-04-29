@@ -117,7 +117,11 @@ async function loadAssets() {
 function applyTrendFilter() {
   const trend = (els.trend.value || "").trim();
   if (!trend) {
-    state.filtered = [...state.assets];
+    state.filtered = state.assets.filter((a) => a.section !== "writeoffs");
+    return;
+  }
+  if (trend === "decline") {
+    state.filtered = state.assets.filter((a) => (a.trend || "stable") === "decline" && a.section !== "writeoffs");
     return;
   }
   state.filtered = state.assets.filter((a) => (a.trend || "stable") === trend);
@@ -125,9 +129,9 @@ function applyTrendFilter() {
 
 function updateTrendFilterLabels() {
   const growers = state.assets.filter((a) => a.value_grower).length;
-  const sliders = state.assets.filter((a) => a.major_slider).length;
+  const sliders = state.assets.filter((a) => a.major_slider && a.section !== "writeoffs").length;
   const clarifications = state.assets.filter((a) => a.clarification_status === "Clarification needed" && !a.resolved).length;
-  const total = state.assets.length;
+  const total = state.assets.filter((a) => a.section !== "writeoffs").length;
 
   const allOpt = els.trend.querySelector('option[value=""]');
   const growthOpt = els.trend.querySelector('option[value="growth"]');
