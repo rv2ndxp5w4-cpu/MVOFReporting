@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T15:01:58.084716+00:00",
+  "generated_at": "2026-04-29T07:44:03.119962+00:00",
   "sources": {
     "xlsx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Master with Dec2025 valuations.xlsx",
     "pptx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF 2026 Update.pptx"
@@ -16,7 +16,9 @@
       ],
       "section": "funds",
       "geography": "CAN",
-      "description": "Mid stage technology companies investor Investment structure: 1 tranches (fund).",
+      "description": "Mid stage technology companies VC fund Investment structure: 1 tranches (fund).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 1000000.0,
       "value_2023_usd": 1990767.0,
@@ -98,6 +100,8 @@
       "section": "funds",
       "geography": "US",
       "description": "Consumer focused VC fund Investment structure: 1 tranches (fund).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 1000000.0,
       "value_2023_usd": 1904315.0,
@@ -179,6 +183,8 @@
       "section": "funds",
       "geography": "US",
       "description": "Software focused early stage VC Investment structure: 1 tranches (equity).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 435000.0,
       "value_2023_usd": 490753.0,
@@ -258,6 +264,8 @@
       "section": "funds",
       "geography": "IN",
       "description": "Early stage India focused VC Investment structure: 1 tranches (fund).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 488296.0,
       "value_2023_usd": 575140.0,
@@ -337,6 +345,8 @@
       "section": "funds",
       "geography": "US",
       "description": "Engineers focused VC Investment structure: 1 tranches (equity).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 225000.0,
       "value_2023_usd": 235601.0,
@@ -416,6 +426,8 @@
       "section": "funds",
       "geography": "BR",
       "description": "Early stage Latam focused VC Investment structure: 1 tranches (fund).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 225000.0,
       "value_2023_usd": 256122.0,
@@ -496,7 +508,9 @@
       ],
       "section": "funds",
       "geography": "US",
-      "description": "SPV with Mighty Buildings for YC investments Investment structure: 2 tranches (equity).",
+      "description": "SPV for YC investments (Investment via Mighty Angel Vehicle) Investment structure: 2 tranches (equity).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 160715.0,
       "value_2023_usd": 160715.0,
@@ -509,7 +523,7 @@
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "Investment via Mighty Angel Vehicle",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -538,7 +552,9 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Investment via Mighty Angel Vehicle"
+      ],
       "investments": [
         {
           "security_name": "Mighty Angel Vehicle Pte. Ltd - Class A Pref.",
@@ -576,25 +592,22 @@
       }
     },
     {
-      "id": "teachmint-technologies-private-limited",
+      "id": "teachmint",
       "name": "Teachmint",
       "canonical_name": "Teachmint",
       "underlying_asset": "Teachmint",
       "aliases": [
-        "MV Opportunities India Limited",
-        "Teachmint",
-        "Teachmint Technologies Private Limited",
-        "Teachmint Technologies Private Limited (Pre-Series B)",
-        "Teachmint Technologies Private Limited (Series A)",
-        "Teachmint Technologies Private Limited (Series B)"
+        "Teachmint"
       ],
       "section": "companies",
-      "geography": "IN",
-      "description": "Teachmint Investment structure: 3 tranches (equity).",
+      "geography": "",
+      "description": "AI education hardware company, ex providing education software to Indian / macro-regional schools (Investment via MV Opportunities India Limited)",
+      "company_snapshot_sheet2": "Teachmint is the first AI-powered connected classroom technology, offering a Google EDLA-certified device for modern, interactive teaching experiences.",
+      "company_snapshot_300": "Teachmint: AI education hardware company, ex providing education software to Indian / macro-regional schools (Investment via MV Opportunities India Limited). Latest valuation trend is negative vs 1Q 2023 (-3,155,589 USD).",
       "previous_name": "",
       "original_investment_usd": 17310001.0,
       "value_2023_usd": 9861798.0,
-      "book_cost_usd": 15188119.32672,
+      "book_cost_usd": 17310001.0,
       "market_value_usd": 6706208.5888,
       "pnl_usd": -10603792.4112,
       "diff_2025_vs_2023_usd": -3155589.4112,
@@ -603,7 +616,7 @@
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "Investment via MV Opportunities India Limited",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -616,14 +629,6 @@
           "reporting_style": "full-year",
           "value_usd": 6706208.5888,
           "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2026-03-31",
-          "label": "Latest market info: externally sourced information",
-          "event_type": "external_market_info",
-          "reporting_style": "full-year",
-          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
-          "summary": "Coverage gap in verified 2025Q1-2026Q1 public corpus (mapped from MV Opportunities India Limited); additional source-backed updates recommended."
         },
         {
           "date": "2025-12-31",
@@ -640,50 +645,18 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [],
-      "investments": [
-        {
-          "security_name": "Teachmint Technologies Private Limited (Pre-Series B)",
-          "instrument_type": "equity",
-          "series": "Pre-Series B",
-          "share_class": "",
-          "nominal_holding": 12150,
-          "average_cost": 642.60363,
-          "book_cost_usd": 7807634.104499999,
-          "market_value_usd": 3637519.3908,
-          "pnl_usd": -4170114.7136999993
-        },
-        {
-          "security_name": "Teachmint Technologies Private Limited (Series B)",
-          "instrument_type": "equity",
-          "series": "Series B",
-          "share_class": "",
-          "nominal_holding": 3282,
-          "average_cost": 1686.82791,
-          "book_cost_usd": 5536169.20062,
-          "market_value_usd": 982579.311984,
-          "pnl_usd": -4553589.888636
-        },
-        {
-          "security_name": "Teachmint Technologies Private Limited (Series A)",
-          "instrument_type": "equity",
-          "series": "Series A",
-          "share_class": "",
-          "nominal_holding": 6968,
-          "average_cost": 264.6837,
-          "book_cost_usd": 1844316.0215999999,
-          "market_value_usd": 2086109.886016,
-          "pnl_usd": 241793.8644160002
-        }
+      "notes": [
+        "Investment via MV Opportunities India Limited"
       ],
+      "investments": [],
       "sheet2_reconciliation": {
         "sheet2_invested_usd": 17310001.0,
-        "portfolio_tranche_book_sum_usd": 15188119.32672,
-        "difference_usd": 2121881.6732800007
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
       },
-      "latest_market_info_external": "Coverage gap in verified 2025Q1-2026Q1 public corpus (mapped from MV Opportunities India Limited); additional source-backed updates recommended.",
+      "latest_market_info_external": "",
       "source_mentions": {
-        "pptx_mentions": 5,
+        "pptx_mentions": 3,
         "has_2026_analysis": true,
         "information_gap": false
       }
@@ -700,6 +673,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Text to voice app Investment structure: 1 tranches (safe).",
+      "company_snapshot_sheet2": "AI-powered voice productivity platform that converts text\u2014from PDFs, emails, and articles to physical books\u2014into high-quality audio. As of 2026, it has evolved into a \"voice-first\" interface that integrates AI assistants and summarizing tools to help users process information faster",
+      "company_snapshot_300": "Speechify: Text to voice app Investment structure: 1 tranches (safe).. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition.",
       "previous_name": "",
       "original_investment_usd": 3750000.0,
       "value_2023_usd": 4687422.0,
@@ -712,7 +687,7 @@
       "value_grower": false,
       "clarification_status": "Clarification needed",
       "resolved": false,
-      "decline_reason": "no change 2 years",
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -789,6 +764,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).",
+      "company_snapshot_sheet2": "Founded in 2018 as part of Y Combinator, the company originally aimed to solve high-cost deep learning training and infrastructure issues, sometimes referred to as \"Uber for GPUs\".\nActiveloop (Current Name): The legal entity continues to do business as Activeloop (formally Snark AI, Inc.). The name change highlights their shift toward managing complex, multimodal datasets for AI training and production",
+      "company_snapshot_300": "Snark (Activeloop): Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).. Latest valuation trend is positive vs 1Q 2023 (1,152,989 USD). External market view: External market signal: Activeloop remained product-led, expanding Deep Research and scientific-disc...",
       "previous_name": "",
       "original_investment_usd": 2000000.0,
       "value_2023_usd": 2224886.0,
@@ -879,6 +856,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Early wage access for employees Investment structure: 3 tranches (preferred).",
+      "company_snapshot_sheet2": "Earned Wage Access (EWA): Lets employees access their pay as they earn it, rather than waiting for payday, to avoid overdraft fees.\nAI Agent: In March 2026, it unveiled an AI Financial Health Agent that automates savings and debt management for over 3.5 million empowered employees.\nPartnerships: Used by major employers like McDonald's, Marriott, and T-Mobile to improve staff retention and productivity",
+      "company_snapshot_300": "Rain: Early wage access for employees Investment structure: 3 tranches (preferred).. Latest valuation trend is negative vs 1Q 2023 (-309,340 USD). External market view: External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel gr...",
       "previous_name": "",
       "original_investment_usd": 1115376.0,
       "value_2023_usd": 3600469.0,
@@ -990,6 +969,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Mutes background noise for any app Investment structure: 3 tranches (common, preferred).",
+      "company_snapshot_sheet2": "AI voice technology platform providing real-time noise cancellation, transcription, accent conversion, and voice translation to improve communication in meetings, call centers, and voice-enabled applications.",
+      "company_snapshot_300": "Krisp: Mutes background noise for any app Investment structure: 3 tranches (common, preferred).. Valuation is broadly stable versus 1Q 2023. External market view: External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging.",
       "previous_name": "",
       "original_investment_usd": 2127258.0,
       "value_2023_usd": 3112503.0,
@@ -1002,7 +983,7 @@
       "value_grower": false,
       "clarification_status": "Clarification needed",
       "resolved": false,
-      "decline_reason": "no change 2 years",
+      "decline_reason": "Not a decline.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1090,16 +1071,18 @@
       }
     },
     {
-      "id": "gyankaar-technologies-private-limited-dba-pagarbook-series-a3",
-      "name": "Gyankaar Technologies d/b/a Pagarbook",
-      "canonical_name": "Gyankaar Technologies d/b/a Pagarbook",
-      "underlying_asset": "Gyankaar Technologies d/b/a Pagarbook",
+      "id": "pagarbook",
+      "name": "Pagarbook",
+      "canonical_name": "Pagarbook",
+      "underlying_asset": "Pagarbook",
       "aliases": [
-        "Gyankaar Technologies d/b/a Pagarbook"
+        "Pagarbook"
       ],
       "section": "companies",
       "geography": "",
-      "description": "Employee management platform - Investment via MV Opportunities SPV",
+      "description": "Employee management platform (Investment via MV Opportunities SPV)",
+      "company_snapshot_sheet2": "Workforce management SaaS for SMEs (primarily India) enabling employee attendance tracking, payroll, salary payments, and basic financial record-keeping for informal and small businesses.",
+      "company_snapshot_300": "Pagarbook: Employee management platform (Investment via MV Opportunities SPV). Latest valuation trend is positive vs 1Q 2023 (76,776 USD).",
       "previous_name": "",
       "original_investment_usd": 1993525.0,
       "value_2023_usd": 1965025.0,
@@ -1112,7 +1095,7 @@
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "Investment via MV Opportunities SPV",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1125,14 +1108,6 @@
           "reporting_style": "full-year",
           "value_usd": 2041800.6465999999,
           "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2026-03-31",
-          "label": "Latest market info: externally sourced information",
-          "event_type": "external_market_info",
-          "reporting_style": "full-year",
-          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
-          "summary": "External market signal: down-valued financing round despite cashflow-positive messaging; larger A5 follow-on closed thereafter."
         },
         {
           "date": "2025-12-31",
@@ -1149,16 +1124,18 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [],
+      "notes": [
+        "Investment via MV Opportunities SPV"
+      ],
       "investments": [],
       "sheet2_reconciliation": {
         "sheet2_invested_usd": 1993525.0,
         "portfolio_tranche_book_sum_usd": 0,
         "difference_usd": null
       },
-      "latest_market_info_external": "External market signal: down-valued financing round despite cashflow-positive messaging; larger A5 follow-on closed thereafter.",
+      "latest_market_info_external": "",
       "source_mentions": {
-        "pptx_mentions": 3,
+        "pptx_mentions": 4,
         "has_2026_analysis": true,
         "information_gap": false
       }
@@ -1182,6 +1159,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).",
+      "company_snapshot_sheet2": "A company that develops and markets a mentorship platform designed for engineering and product teams. Plato was acquired by Coda in 2024, and earlier this year, Coda joined Grammarly. Most recently, Grammarly rebranded as Superhuman, setting the stage for the launch of a new AI-native productivity suite.",
+      "company_snapshot_300": "Coda (Birdly/Plato): Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).. Latest valuation trend is negative vs 1Q 2023 (-5,215,157 USD). External market view: External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; p...",
       "previous_name": "Birdly; Coda Projects Inc.; Grammarly; Plato; Superhuman",
       "original_investment_usd": 9000000.0,
       "value_2023_usd": 6750000.0,
@@ -1320,6 +1299,8 @@
       "section": "companies",
       "geography": "US",
       "description": "Assessments for technical hiring Investment structure: 2 tranches (common, equity).",
+      "company_snapshot_sheet2": "Technical assessment and hiring platform providing coding tests, developer evaluations, and skills benchmarking used by enterprises to recruit engineers.",
+      "company_snapshot_300": "CodeSignal: Assessments for technical hiring Investment structure: 2 tranches (common, equity).. Latest valuation trend is negative vs 1Q 2023 (-4,890,110 USD). External market view: External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academ...",
       "previous_name": "",
       "original_investment_usd": 1499992.0,
       "value_2023_usd": 6259364.0,
@@ -1417,6 +1398,8 @@
       "section": "companies",
       "geography": "",
       "description": "B2B wholesale marketplace for unique authentic products",
+      "company_snapshot_sheet2": "B2B wholesale marketplace connecting independent retailers with brands, streamlining sourcing, ordering, and inventory procurement for retail stores.",
+      "company_snapshot_300": "Creoate: B2B wholesale marketplace for unique authentic products. Latest valuation trend is negative vs 1Q 2023 (-649,164 USD). External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window.",
       "previous_name": "",
       "original_investment_usd": 753201.0,
       "value_2023_usd": 1974961.0,
@@ -1494,7 +1477,9 @@
       ],
       "section": "companies",
       "geography": "US",
-      "description": "transition their operations Modern investment research tool Investment structure: 1 tranches (preferred).",
+      "description": "Modern investment research tool Investment structure: 1 tranches (preferred).",
+      "company_snapshot_sheet2": "Investment research platform delivering financial data, analytics, and tools (e.g., stock screening, modeling, and insights) for retail and professional investors. in May 2024 Toggle AI, a provider solutions for investing by professional industry announced they are acquiring Atom Finance. The acquisition will enable Toggle AI to enhance its offering by incorporating Atom Finance's robust suite of features, expanding its data universe, and providing users with an even more comprehensive investing experience.",
+      "company_snapshot_300": "Atom Finance: Modern investment research tool Investment structure: 1 tranches (preferred).. Latest valuation trend is positive vs 1Q 2023 (0 USD). External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024).",
       "previous_name": "Atom; Reflexivity; Toggle AI",
       "original_investment_usd": 425000.0,
       "value_2023_usd": 1289805.0,
@@ -1507,7 +1492,7 @@
       "value_grower": false,
       "clarification_status": "Clarification needed",
       "resolved": false,
-      "decline_reason": "no change 2 years",
+      "decline_reason": "Not a decline.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1609,21 +1594,22 @@
       }
     },
     {
-      "id": "fuse-venture-capital-partners-no-2-scsp",
-      "name": "Fuse Venture Capital Partners",
-      "canonical_name": "Fuse Venture Capital Partners",
-      "underlying_asset": "Fuse Venture Capital Partners",
+      "id": "market-kurly",
+      "name": "Market Kurly",
+      "canonical_name": "Market Kurly",
+      "underlying_asset": "Market Kurly",
       "aliases": [
-        "Fuse Venture Capital Partners",
-        "Fuse Venture Capital Partners No.2 SCSp"
+        "Market Kurly"
       ],
       "section": "companies",
-      "geography": "LU",
-      "description": "SPV for market Kurley Investment structure: 1 tranches (equity).",
+      "geography": "",
+      "description": "SPV for market Kurley (Investment via Fuse Venture Capital Partners)",
+      "company_snapshot_sheet2": "South Korean e-commerce platform focused on premium groceries and fresh food delivery, known for early-morning (\u201cdawn delivery\u201d) logistics.",
+      "company_snapshot_300": "Market Kurly: SPV for market Kurley (Investment via Fuse Venture Capital Partners). Latest valuation trend is negative vs 1Q 2023 (-527,315 USD).",
       "previous_name": "",
       "original_investment_usd": 945137.0,
       "value_2023_usd": 1217015.0,
-      "book_cost_usd": 998559.0799999998,
+      "book_cost_usd": 945137.0,
       "market_value_usd": 689700.3204431892,
       "pnl_usd": -255436.67955681076,
       "diff_2025_vs_2023_usd": -527314.6795568108,
@@ -1632,7 +1618,7 @@
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "Investment via Fuse Venture Capital Partners",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1645,14 +1631,6 @@
           "reporting_style": "full-year",
           "value_usd": 689700.3204431892,
           "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2026-03-31",
-          "label": "Latest market info: externally sourced information",
-          "event_type": "external_market_info",
-          "reporting_style": "full-year",
-          "source": "/Users/danielgusev/Desktop/MVOF Report.md",
-          "summary": "External market signal (underlying Market Kurly): strategic distribution expansion with Naver and operational rollout progression."
         },
         {
           "date": "2025-12-31",
@@ -1669,28 +1647,18 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [],
-      "investments": [
-        {
-          "security_name": "Fuse Venture Capital Partners No.2 SCSp",
-          "instrument_type": "equity",
-          "series": "",
-          "share_class": "",
-          "nominal_holding": 15358,
-          "average_cost": 930000.0,
-          "book_cost_usd": 998559.0799999998,
-          "market_value_usd": 689700.3204431892,
-          "pnl_usd": -308858.7595568106
-        }
+      "notes": [
+        "Investment via Fuse Venture Capital Partners"
       ],
+      "investments": [],
       "sheet2_reconciliation": {
         "sheet2_invested_usd": 945137.0,
-        "portfolio_tranche_book_sum_usd": 998559.0799999998,
-        "difference_usd": -53422.07999999984
+        "portfolio_tranche_book_sum_usd": 0,
+        "difference_usd": null
       },
-      "latest_market_info_external": "External market signal (underlying Market Kurly): strategic distribution expansion with Naver and operational rollout progression.",
+      "latest_market_info_external": "",
       "source_mentions": {
-        "pptx_mentions": 1,
+        "pptx_mentions": 2,
         "has_2026_analysis": true,
         "information_gap": false
       }
@@ -1707,6 +1675,8 @@
       "section": "companies",
       "geography": "SG",
       "description": "Operating system for restaurants to help them Investment structure: 1 tranches (safe).",
+      "company_snapshot_sheet2": "Singapore - Atlas helps restaurants power online storefronts, POS, 3rd party logistics, sync with food platforms, connect with other tools, leverage AI and a lot more.",
+      "company_snapshot_300": "Atlas Kitchen: Operating system for restaurants to help them Investment structure: 1 tranches (safe).. Valuation is broadly stable versus 1Q 2023. External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window.",
       "previous_name": "",
       "original_investment_usd": 600000.0,
       "value_2023_usd": 600000.0,
@@ -1795,6 +1765,8 @@
       "section": "companies",
       "geography": "COL",
       "description": "Farmer to consumer platform Investment structure: 1 tranches (preferred).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "Calii: Farmer to consumer platform Investment structure: 1 tranches (preferred).. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended.",
       "previous_name": "",
       "original_investment_usd": 499999.0,
       "value_2023_usd": 499999.0,
@@ -1807,7 +1779,7 @@
       "value_grower": false,
       "clarification_status": "Clarification needed",
       "resolved": false,
-      "decline_reason": "no change 2 years",
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1883,6 +1855,8 @@
       "section": "companies",
       "geography": "",
       "description": "Marketplace that helps landlords in Latam find tenants",
+      "company_snapshot_sheet2": "Latin American proptech platform enabling digital real estate transactions including rentals, property management, and sales with end-to-end online workflows.",
+      "company_snapshot_300": "Houm: Marketplace that helps landlords in Latam find tenants. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026.",
       "previous_name": "",
       "original_investment_usd": 100000.0,
       "value_2023_usd": 300152.0,
@@ -1895,7 +1869,7 @@
       "value_grower": false,
       "clarification_status": "Clarification needed",
       "resolved": false,
-      "decline_reason": "no change 2 years",
+      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1959,6 +1933,8 @@
       "section": "loans",
       "geography": "EU",
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 217556.0,
       "value_2023_usd": 226974.0,
@@ -2038,6 +2014,8 @@
       "section": "loans",
       "geography": "EU",
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 217556.0,
       "value_2023_usd": 218902.0,
@@ -2117,7 +2095,9 @@
       ],
       "section": "writeoffs",
       "geography": "US",
-      "description": "leaders NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity).",
+      "description": "NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 10000000.0,
       "value_2023_usd": 0.0,
@@ -2195,7 +2175,9 @@
       ],
       "section": "writeoffs",
       "geography": "",
-      "description": "Construction copmany creating homes using 3D",
+      "description": "Construction copmany creating homes using 3D printing",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 2000000.0,
       "value_2023_usd": 2000000.0,
@@ -2263,6 +2245,8 @@
       "section": "writeoffs",
       "geography": "US",
       "description": "Fintech infrastructure software layer Investment structure: 1 tranches (preferred).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 9800000.0,
       "value_2023_usd": 9800000.0,
@@ -2331,17 +2315,18 @@
       }
     },
     {
-      "id": "tt1-products-inc-dba-supersapiens-converted-from-tt1-note",
+      "id": "supersapiens",
       "name": "Supersapiens",
       "canonical_name": "Supersapiens",
       "underlying_asset": "Supersapiens",
       "aliases": [
-        "Supersapiens",
-        "TTI Products, Inc, DBA Supersapiens"
+        "Supersapiens"
       ],
       "section": "writeoffs",
       "geography": "",
-      "description": "Health and fitness app",
+      "description": "Health and fitness app (FNA TTI Products, Inc)",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 541753.0,
       "value_2023_usd": 1750014.0,
@@ -2354,7 +2339,7 @@
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "decline_reason": "FNA TTI Products, Inc",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2383,7 +2368,9 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [],
+      "notes": [
+        "FNA TTI Products, Inc"
+      ],
       "investments": [],
       "sheet2_reconciliation": {
         "sheet2_invested_usd": 541753.0,
@@ -2410,6 +2397,8 @@
       "section": "writeoffs",
       "geography": "US",
       "description": "2nd wave micro-mobility company Investment structure: 1 tranches (equity).",
+      "company_snapshot_sheet2": "",
+      "company_snapshot_300": "",
       "previous_name": "",
       "original_investment_usd": 820268.0,
       "value_2023_usd": 0.0,

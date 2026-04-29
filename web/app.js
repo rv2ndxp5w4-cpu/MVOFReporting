@@ -2,17 +2,22 @@ let state = {
   assets: [],
   filtered: [],
   selectedId: null,
+  editMode: false,
+  timelineExpanded: {},
 };
 
 const els = {
   list: document.getElementById("assetList"),
   detail: document.getElementById("detail"),
   summary: document.getElementById("summary"),
+  manualPanel: document.getElementById("manualPanel"),
   search: document.getElementById("search"),
   section: document.getElementById("sectionFilter"),
   trend: document.getElementById("trendFilter"),
   reporting: document.getElementById("reportingFilter"),
 };
+
+const isLocalRuntime = ["127.0.0.1", "localhost"].includes(window.location.hostname);
 
 function usd(v) {
   if (v === null || v === undefined || Number.isNaN(Number(v))) return "n/a";
@@ -26,7 +31,6 @@ function latestTimelineEvent(asset) {
 
 function buildSummaryText(asset) {
   const latest = latestTimelineEvent(asset);
-
   const identity = `${asset.canonical_name || asset.name} is tracked as a ${asset.section || "portfolio"} exposure` +
     (asset.underlying_asset ? ` with underlying asset ${asset.underlying_asset}` : "") +
     (asset.geography ? ` in ${asset.geography}` : "") + ".";
@@ -38,10 +42,6 @@ function buildSummaryText(asset) {
     if (diff < 0) traction = `Latest measured traction is down by ${usd(diff)} vs 1Q 2023.`;
   }
 
-  const clarification = asset.clarification_status === "Clarification needed" && !asset.resolved
-    ? "Status is Clarification needed until new data or explanation is resolved."
-    : "Current clarification status is resolved or not required.";
-
   let sourceLine = "No recent imported narrative is available yet.";
   if (latest) {
     const sourceName = latest.source ? ` Source: ${latest.source}.` : "";
@@ -49,7 +49,45 @@ function buildSummaryText(asset) {
     sourceLine = `Latest context (${latest.date || "n/a"}): ${narrative}.${sourceName}`;
   }
 
-  return [identity, traction, clarification, sourceLine].join(" ");
+  return [identity, traction, sourceLine].join(" ");
+}
+
+function buildCompanySnapshot(asset) {
+  if (asset.section !== "companies") return "No company snapshot available for this asset type.";
+  if (asset.company_snapshot_override && asset.company_snapshot_override.trim()) return asset.company_snapshot_override.trim();
+  if (asset.company_snapshot_sheet2 && asset.company_snapshot_sheet2.trim()) return asset.company_snapshot_sheet2.trim();
+
+  const desc = (asset.description || "").trim();
+  const diff = Number(asset.diff_2025_vs_2023_usd);
+  let trendLine = "Valuation trend is stable versus 1Q 2023.";
+  if (!Number.isNaN(diff)) {
+    if (diff > 0) trendLine = `Valuation trend is positive versus 1Q 2023 (${usd(diff)}).`;
+    if (diff < 0) trendLine = `Valuation trend is negative versus 1Q 2023 (${usd(diff)}).`;
+  }
+
+  const timeline = [...(asset.timeline || [])].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+  const collected = [];
+  const seen = new Set();
+  for (const ev of timeline) {
+    const text = (ev.summary || ev.label || "").trim();
+    if (!text) continue;
+    const key = text.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    collected.push(text);
+    if (collected.length >= 3) break;
+  }
+
+  const market = (asset.latest_market_info_external || "").trim();
+  const parts = [
+    `${asset.canonical_name || asset.name}${asset.geography ? ` (${asset.geography})` : ""}.`,
+    desc ? `${desc}.` : "",
+    trendLine,
+    collected.length ? `Latest documented signals: ${collected.join(" ")}` : "",
+    market ? `External market info: ${market}` : "",
+  ].filter(Boolean);
+
+  return parts.join(" ").replace(/\s+/g, " ").trim();
 }
 
 async function loadAssets() {
@@ -72,6 +110,11 @@ async function loadAssets() {
   renderSummary();
   renderList();
   renderDetail();
+  renderManualPanel();
+}
+
+function selectedAsset() {
+  return state.filtered.find((a) => a.id === state.selectedId) || null;
 }
 
 function renderSummary() {
@@ -84,16 +127,12 @@ function renderSummary() {
     .filter((a) => a.section === section)
     .reduce((sum, a) => sum + (Number(a.market_value_usd) || 0), 0);
 
-  const totalOriginalInvestment = state.filtered
-    .reduce((sum, a) => sum + (Number(a.original_investment_usd) || 0), 0);
-
-  const total2023 = state.filtered
-    .reduce((sum, a) => sum + (Number(a.value_2023_usd) || 0), 0);
+  const totalOriginalInvestment = state.filtered.reduce((sum, a) => sum + (Number(a.original_investment_usd) || 0), 0);
+  const total2023 = state.filtered.reduce((sum, a) => sum + (Number(a.value_2023_usd) || 0), 0);
 
   const companiesCurrent = sectionCurrentValue("companies");
   const fundsCurrent = sectionCurrentValue("funds");
   const loansCurrent = sectionCurrentValue("loans");
-
   const totalCurrent = companiesCurrent + fundsCurrent + loansCurrent;
 
   els.summary.innerHTML = `
@@ -139,12 +178,18 @@ function renderList() {
       state.selectedId = node.getAttribute("data-id");
       renderList();
       renderDetail();
+      renderManualPanel();
     });
   });
 }
 
 function renderTimeline(asset) {
-  const timeline = (asset.timeline || [])
+  const all = [...(asset.timeline || [])];
+  const expanded = !!state.timelineExpanded[asset.id];
+  const cap = 6;
+  const shown = expanded ? all : all.slice(0, cap);
+
+  const rows = shown
     .map(
       (ev) => `
       <li>
@@ -155,12 +200,18 @@ function renderTimeline(asset) {
     `
     )
     .join("");
-  return `<ul class="timeline">${timeline || "<li>No timeline events yet.</li>"}</ul>`;
+
+  const button = all.length > cap
+    ? `<button type="button" class="timeline-toggle" data-timeline-toggle="${asset.id}">${expanded ? "Minimise" : "Expand"} timeline (${shown.length}/${all.length})</button>`
+    : "";
+
+  return `<ul class="timeline">${rows || "<li>No timeline events yet.</li>"}</ul>${button}`;
 }
 
 function renderInvestments(asset) {
   const rows = (asset.investments || [])
-    .map((inv) => `
+    .map(
+      (inv) => `
       <tr>
         <td>${inv.security_name || "n/a"}</td>
         <td>${inv.instrument_type || "n/a"}</td>
@@ -170,7 +221,8 @@ function renderInvestments(asset) {
         <td>${usd(inv.market_value_usd)}</td>
         <td>${usd(inv.pnl_usd)}</td>
       </tr>
-    `)
+    `
+    )
     .join("");
 
   if (!rows) return "<p>No tranche-level instrument details found in Portfolio Report.</p>";
@@ -196,14 +248,16 @@ function renderInvestments(asset) {
 }
 
 function renderDetail() {
-  const asset = state.filtered.find((a) => a.id === state.selectedId);
+  const asset = selectedAsset();
   if (!asset) {
     els.detail.className = "detail empty";
     els.detail.innerHTML = "<p>No asset selected.</p>";
     return;
   }
+
   els.detail.className = "detail";
   const buildSummary = buildSummaryText(asset);
+
   els.detail.innerHTML = `
     <h2>${asset.canonical_name || asset.name}</h2>
     <div class="build-summary"><p>${buildSummary}</p></div>
@@ -218,6 +272,9 @@ function renderDetail() {
       <div class="kpi"><div class="label">Diff 2025 vs 2023</div><div class="value">${usd(asset.diff_2025_vs_2023_usd)}</div></div>
     </div>
 
+    <div class="section-title">Company Snapshot</div>
+    <p>${buildCompanySnapshot(asset)}</p>
+
     <div class="section-title">Latest Market Info: Externally Sourced Information</div>
     <p>${asset.latest_market_info_external || "No external market note currently captured for this asset."}</p>
 
@@ -229,60 +286,89 @@ function renderDetail() {
 
     <div class="section-title">Timeline (most recent to oldest)</div>
     ${renderTimeline(asset)}
-
-    <div class="section-title">Manual Actions</div>
-    <div class="forms">
-      <form id="renameForm" class="panel">
-        <h4>Rename / Underlying map</h4>
-        <input name="canonical_name" placeholder="Canonical research name" value="${asset.canonical_name || ""}" />
-        <input name="underlying_asset" placeholder="Underlying asset" value="${asset.underlying_asset || ""}" />
-        <input name="alias" placeholder="Add alias (optional)" />
-        <label><input type="checkbox" name="resolved" ${asset.resolved ? "checked" : ""}/> Mark clarification resolved</label>
-        <button type="submit">Save mapping</button>
-      </form>
-
-      <form id="eventForm" class="panel">
-        <h4>Add timeline event</h4>
-        <input name="date" type="date" />
-        <input name="label" placeholder="Event label" required />
-        <select name="event_type">
-          <option value="note">Note</option>
-          <option value="rename">Rename</option>
-          <option value="acquisition">Acquisition</option>
-          <option value="valuation">Valuation</option>
-          <option value="analysis">Analysis</option>
-        </select>
-        <select name="reporting_style">
-          <option value="quarter">Quarter</option>
-          <option value="half-year">Half-year</option>
-          <option value="full-year" selected>Full-year</option>
-        </select>
-        <input name="source" placeholder="Source" value="Manual input" />
-        <input name="value_usd" type="number" step="0.01" placeholder="Value USD (optional)" />
-        <button type="submit">Add event</button>
-      </form>
-
-      <form id="importForm" class="panel">
-        <h4>Import external source by path</h4>
-        <input name="source_path" placeholder="/absolute/path/to/file.txt" required />
-        <input name="date" type="date" />
-        <input name="label" placeholder="Label (optional)" />
-        <select name="event_type">
-          <option value="import">Import</option>
-          <option value="analysis">Analysis</option>
-          <option value="note">Note</option>
-        </select>
-        <select name="reporting_style">
-          <option value="quarter">Quarter</option>
-          <option value="half-year">Half-year</option>
-          <option value="full-year" selected>Full-year</option>
-        </select>
-        <button type="submit">Import source</button>
-      </form>
-    </div>
   `;
 
-  bindDetailForms(asset.id);
+  bindDetailInteractions();
+}
+
+function renderManualPanel() {
+  if (!isLocalRuntime) {
+    if (els.manualPanel) els.manualPanel.innerHTML = "";
+    return;
+  }
+
+  const asset = selectedAsset();
+  if (!asset) {
+    els.manualPanel.innerHTML = "";
+    return;
+  }
+
+  const snapshotValue = asset.company_snapshot_override || "";
+  const readOnly = state.editMode ? "" : "disabled";
+
+  els.manualPanel.innerHTML = `
+    <div class="panel manual-master">
+      <h4>Manual Actions</h4>
+      <button type="button" id="toggleEditBtn">${state.editMode ? "Stop Editing" : "Edit"}</button>
+      <p class="manual-note">Selected: ${asset.canonical_name || asset.name}</p>
+    </div>
+
+    <form id="snapshotForm" class="panel">
+      <h4>Company Snapshot Override</h4>
+      <textarea name="company_snapshot_override" rows="5" placeholder="Enter manual company snapshot text" ${readOnly}>${snapshotValue}</textarea>
+      <button type="submit" ${readOnly}>Save Snapshot</button>
+    </form>
+
+    <form id="renameForm" class="panel">
+      <h4>Rename / Underlying</h4>
+      <input name="canonical_name" placeholder="Canonical research name" value="${asset.canonical_name || ""}" ${readOnly} />
+      <input name="underlying_asset" placeholder="Underlying asset" value="${asset.underlying_asset || ""}" ${readOnly} />
+      <input name="alias" placeholder="Add alias (optional)" ${readOnly} />
+      <label><input type="checkbox" name="resolved" ${asset.resolved ? "checked" : ""} ${readOnly}/> Mark clarification resolved</label>
+      <button type="submit" ${readOnly}>Save mapping</button>
+    </form>
+
+    <form id="eventForm" class="panel">
+      <h4>Add Timeline Event</h4>
+      <input name="date" type="date" ${readOnly} />
+      <input name="label" placeholder="Event label" required ${readOnly} />
+      <select name="event_type" ${readOnly}>
+        <option value="note">Note</option>
+        <option value="rename">Rename</option>
+        <option value="acquisition">Acquisition</option>
+        <option value="valuation">Valuation</option>
+        <option value="analysis">Analysis</option>
+      </select>
+      <select name="reporting_style" ${readOnly}>
+        <option value="quarter">Quarter</option>
+        <option value="half-year">Half-year</option>
+        <option value="full-year" selected>Full-year</option>
+      </select>
+      <input name="source" placeholder="Source" value="Manual input" ${readOnly} />
+      <input name="value_usd" type="number" step="0.01" placeholder="Value USD (optional)" ${readOnly} />
+      <button type="submit" ${readOnly}>Add event</button>
+    </form>
+
+    <form id="importForm" class="panel">
+      <h4>Import Source by Path</h4>
+      <input name="source_path" placeholder="/absolute/path/to/file.txt" required ${readOnly} />
+      <input name="date" type="date" ${readOnly} />
+      <input name="label" placeholder="Label (optional)" ${readOnly} />
+      <select name="event_type" ${readOnly}>
+        <option value="import">Import</option>
+        <option value="analysis">Analysis</option>
+        <option value="note">Note</option>
+      </select>
+      <select name="reporting_style" ${readOnly}>
+        <option value="quarter">Quarter</option>
+        <option value="half-year">Half-year</option>
+        <option value="full-year" selected>Full-year</option>
+      </select>
+      <button type="submit" ${readOnly}>Import source</button>
+    </form>
+  `;
+
+  bindManualForms(asset.id);
 }
 
 function formJson(form) {
@@ -291,17 +377,49 @@ function formJson(form) {
   for (const [k, v] of fd.entries()) {
     if (typeof v === "string") out[k] = v.trim();
   }
-  out.resolved = form.querySelector("input[name='resolved']")?.checked || false;
+  const resolved = form.querySelector("input[name='resolved']");
+  if (resolved) out.resolved = resolved.checked;
   return out;
 }
 
-function bindDetailForms(assetId) {
+function bindDetailInteractions() {
+  const toggle = els.detail.querySelector("[data-timeline-toggle]");
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      const id = toggle.getAttribute("data-timeline-toggle");
+      state.timelineExpanded[id] = !state.timelineExpanded[id];
+      renderDetail();
+    });
+  }
+}
+
+function bindManualForms(assetId) {
+  const toggleEditBtn = document.getElementById("toggleEditBtn");
+  const snapshotForm = document.getElementById("snapshotForm");
   const renameForm = document.getElementById("renameForm");
   const eventForm = document.getElementById("eventForm");
   const importForm = document.getElementById("importForm");
 
+  toggleEditBtn?.addEventListener("click", () => {
+    state.editMode = !state.editMode;
+    renderManualPanel();
+  });
+
+  snapshotForm?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!state.editMode) return;
+    const payload = formJson(snapshotForm);
+    await fetch(`/api/assets/${assetId}/update`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    await loadAssets();
+  });
+
   renameForm?.addEventListener("submit", async (e) => {
     e.preventDefault();
+    if (!state.editMode) return;
     const payload = formJson(renameForm);
     await fetch(`/api/assets/${assetId}/update`, {
       method: "POST",
@@ -313,6 +431,7 @@ function bindDetailForms(assetId) {
 
   eventForm?.addEventListener("submit", async (e) => {
     e.preventDefault();
+    if (!state.editMode) return;
     const payload = formJson(eventForm);
     await fetch(`/api/assets/${assetId}/event`, {
       method: "POST",
@@ -324,6 +443,7 @@ function bindDetailForms(assetId) {
 
   importForm?.addEventListener("submit", async (e) => {
     e.preventDefault();
+    if (!state.editMode) return;
     const payload = formJson(importForm);
     payload.asset_id = assetId;
     const res = await fetch(`/api/import-path`, {
@@ -346,6 +466,8 @@ function bindFilterEvents() {
     node.addEventListener("change", () => loadAssets());
   });
 }
+
+if (!isLocalRuntime && els.manualPanel) els.manualPanel.style.display = "none";
 
 bindFilterEvents();
 loadAssets();

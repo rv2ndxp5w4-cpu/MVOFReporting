@@ -103,6 +103,8 @@ def merge_assets() -> dict[str, Any]:
                 key=lambda ev: ev.get("date", ""),
                 reverse=True,
             )
+        if overrides.get("company_snapshot_override"):
+            asset["company_snapshot_override"] = overrides["company_snapshot_override"]
 
     return {
         "generated_at": base.get("generated_at"),
@@ -292,6 +294,8 @@ class Handler(BaseHTTPRequestHandler):
                 alias = str(payload["alias"]).strip()
                 if alias and alias not in asset_data["aliases"]:
                     asset_data["aliases"].append(alias)
+            if "company_snapshot_override" in payload:
+                asset_data["company_snapshot_override"] = str(payload.get("company_snapshot_override", "")).strip()
 
             save_json(MANUAL_FILE, manual)
             self._send_json({"ok": True})

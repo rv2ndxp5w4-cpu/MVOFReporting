@@ -155,7 +155,7 @@ input, select, button, textarea {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 8px;
   margin-bottom: 12px;
 }
@@ -248,4 +248,41 @@ input, select, button, textarea {
   .asset-list { max-height: 280px; }
   .kpi-grid { grid-template-columns: 1fr 1fr; }
   .forms { grid-template-columns: 1fr; }
+}
+
+
+.manual-panel {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.manual-master {
+  background: #eef6fb;
+}
+
+.manual-note {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.manual-panel textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 88px;
+}
+
+.timeline-toggle {
+  margin-top: 8px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.timeline-toggle:hover {
+  background: #f1f8fc;
 }

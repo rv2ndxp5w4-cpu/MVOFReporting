@@ -117,6 +117,8 @@ def merge_assets() -> dict[str, Any]:
                 key=lambda ev: ev.get("date", ""),
                 reverse=True,
             )
+        if overrides.get("company_snapshot_override"):
+            asset["company_snapshot_override"] = overrides["company_snapshot_override"]
 
     return {
         "generated_at": base.get("generated_at"),

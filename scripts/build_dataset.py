@@ -117,11 +117,13 @@ class Sheet2Record:
     type_name: str
     name: str
     description: str
+    company_snapshot: str
+    comments: str
     invested: float | None
     value_2023: float | None
     value_2025: float | None
     diff: float | None
-    comments: str
+    extra_comments: str
 
 
 @dataclass
@@ -229,11 +231,13 @@ def build_sheet2_records(wb: openpyxl.Workbook) -> list[Sheet2Record]:
                 type_name=str(row[1] or "").strip(),
                 name=str(row[2]).strip(),
                 description=str(row[3] or "").strip(),
-                invested=to_float(row[4]),
-                value_2023=to_float(row[5]),
-                value_2025=to_float(row[6]),
-                diff=to_float(row[7]),
-                comments=str(row[8]).strip() if row[8] else "",
+                company_snapshot=str(row[4] or "").strip(),
+                comments=str(row[5] or "").strip(),
+                invested=to_float(row[6]),
+                value_2023=to_float(row[7]),
+                value_2025=to_float(row[8]),
+                diff=to_float(row[9]),
+                extra_comments=str(row[10] or "").strip(),
             )
         )
     return records
@@ -354,6 +358,28 @@ def stable_asset_id(record: Sheet2Record, cleaned_name: str) -> str:
         return STABLE_ID_BY_SHEET2_NORM[norm]
     return slugify(cleaned_name)
 
+
+
+
+def clamp_300(text: str) -> str:
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= 300:
+        return text
+    return text[:297].rstrip() + "..."
+
+
+def build_company_snapshot_300(name: str, description: str, latest_market_info_external: str, trend: str, diff: float | None) -> str:
+    base = f"{name}: {description}."
+    trend_text = ""
+    if diff is not None:
+        if trend == "growth":
+            trend_text = f" Latest valuation trend is positive vs 1Q 2023 ({diff:,.0f} USD)."
+        elif trend == "decline":
+            trend_text = f" Latest valuation trend is negative vs 1Q 2023 ({diff:,.0f} USD)."
+        else:
+            trend_text = " Valuation is broadly stable versus 1Q 2023."
+    market = f" External market view: {latest_market_info_external}" if latest_market_info_external else ""
+    return clamp_300(base + trend_text + market)
 
 def decline_reason(asset: dict[str, Any], diff: float | None, comments: str) -> str:
     if comments:
@@ -542,6 +568,12 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             )
             timeline.sort(key=lambda item: item["date"], reverse=True)
 
+        spv_note = f" ({record.comments})" if record.comments else ""
+        desc_text = (record.description + spv_note + structure_note).strip()
+        trend_value = "growth" if (record.diff or 0) > 0 else "decline" if (record.diff or 0) < 0 else "stable"
+        company_snapshot_sheet2 = record.company_snapshot.strip() if section == "companies" else ""
+        company_snapshot_300 = build_company_snapshot_300(display_name, desc_text, latest_market_info_external, trend_value, record.diff) if section == "companies" else ""
+
         asset = {
             "id": asset_id,
             "name": display_name,
@@ -550,7 +582,9 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             "aliases": sorted({a.strip() for a in aliases if a and str(a).strip()}),
             "section": section,
             "geography": mapped_lines[0].geography if mapped_lines and mapped_lines[0].geography else "",
-            "description": (record.description + structure_note).strip(),
+            "description": desc_text,
+            "company_snapshot_sheet2": company_snapshot_sheet2,
+            "company_snapshot_300": company_snapshot_300,
             "previous_name": "; ".join(sorted(lineage)) if lineage else "",
             "original_investment_usd": original_investment,
             "value_2023_usd": record.value_2023,
@@ -558,7 +592,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             "market_value_usd": market_value,
             "pnl_usd": pnl,
             "diff_2025_vs_2023_usd": record.diff,
-            "trend": "growth" if (record.diff or 0) > 0 else "decline" if (record.diff or 0) < 0 else "stable",
+            "trend": trend_value,
             "major_slider": (record.diff or 0) <= -500000,
             "value_grower": (record.diff or 0) > 100000,
             "clarification_status": "Clarification needed" if record.diff is not None and abs(record.diff) <= 1.0 else "OK",
@@ -566,7 +600,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             "decline_reason": "",
             "reporting_styles_available": sorted({entry["reporting_style"] for entry in timeline}),
             "timeline": timeline,
-            "notes": [n for n in [record.comments] + [line.notes for line in mapped_lines if line.notes] if n],
+            "notes": [n for n in [record.comments, record.extra_comments] + [line.notes for line in mapped_lines if line.notes] if n],
             "investments": investments,
             "sheet2_reconciliation": {
                 "sheet2_invested_usd": record.invested,
