@@ -281,11 +281,13 @@ function renderDetail() {
   const buildSummary = buildSummaryText(asset);
 
   els.detail.innerHTML = `
-    <h2>${asset.canonical_name || asset.name}</h2>
+    <div class="detail-head">
+      <h2>${asset.canonical_name || asset.name}</h2>
+      <div class="detail-date">Investment date: ${asset.investment_date || "n/a"}</div>
+    </div>
     <div class="build-summary"><p>${buildSummary}</p></div>
     <div class="sub">Original line item: ${asset.name} | underlying tracked: ${asset.underlying_asset || "n/a"}</div>
     <div class="kpi-grid">
-      <div class="kpi"><div class="label">Investment date</div><div class="value">${asset.investment_date || "n/a"}</div></div>
       <div class="kpi"><div class="label">Original investment</div><div class="value">${usd(asset.original_investment_usd)}</div></div>
       <div class="kpi"><div class="label">Value 1Q 2023</div><div class="value">${usd(asset.value_2023_usd)}</div></div>
       <div class="kpi"><div class="label">Market value</div><div class="value">${usd(asset.market_value_usd)}</div></div>

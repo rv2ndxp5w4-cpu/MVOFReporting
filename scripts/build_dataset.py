@@ -245,9 +245,10 @@ def build_sheet2_records(wb: openpyxl.Workbook) -> list[Sheet2Record]:
     idx_invested = col("invested, usd", "invested usd", default=7)
     idx_value_2023 = col("value 1q 2023", "1q 2023 value", default=8)
     idx_value_2025 = col("value 2025", "current value", default=9)
+    idx_diff = col("diff 2025 / 2023", "diff", default=10)
 
-    # Strict ingestion scope requested: Sheet2 range A1:J29.
-    for row in ws.iter_rows(min_row=2, max_row=29, min_col=1, max_col=10, values_only=True):
+    # Strict ingestion scope requested: Sheet2 range A1:K29.
+    for row in ws.iter_rows(min_row=2, max_row=29, min_col=1, max_col=11, values_only=True):
         if idx_name is None or not row[idx_name]:
             continue
         inv_dt = row[idx_inv_date] if idx_inv_date is not None else None
@@ -277,7 +278,7 @@ def build_sheet2_records(wb: openpyxl.Workbook) -> list[Sheet2Record]:
                 invested=to_float(row[idx_invested]) if idx_invested is not None else None,
                 value_2023=to_float(row[idx_value_2023]) if idx_value_2023 is not None else None,
                 value_2025=to_float(row[idx_value_2025]) if idx_value_2025 is not None else None,
-                diff=None,
+                diff=to_float(row[idx_diff]) if idx_diff is not None else None,
                 extra_comments="",
             )
         )
@@ -382,13 +383,21 @@ def section_from_sheet2(record: Sheet2Record, mapped_lines: list[PortfolioLine])
     type_name = record.type_name.strip().lower()
     if type_name == "fund":
         return "funds"
-    if type_name == "company":
-        return "companies"
 
-    # Fallback only for unexpected type values.
+    # Preserve original attribution from Portfolio Report for loans/write-offs.
     sections = {line.section for line in mapped_lines}
+    if "writeoffs" in sections:
+        return "writeoffs"
+    if "loans" in sections and "companies" not in sections:
+        return "loans"
+    if "companies" in sections:
+        return "companies"
     if "funds" in sections:
         return "funds"
+
+    # Fallback when mapping is absent.
+    if record.value_2025 == 0 and (record.invested or 0) > 0:
+        return "writeoffs"
     return "companies"
 
 
