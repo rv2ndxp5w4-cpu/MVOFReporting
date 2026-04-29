@@ -4,6 +4,7 @@ let state = {
   selectedId: null,
   editMode: false,
   timelineExpanded: {},
+  timelinePage: {},
 };
 
 const els = {
@@ -151,6 +152,9 @@ function renderSummary() {
 }
 
 function itemTags(asset) {
+  if (asset.section === "writeoffs") {
+    return '<span class="tag decline">write-off</span>';
+  }
   const tags = [];
   tags.push(`<span class="tag ${asset.trend || ""}">${asset.trend || "stable"}</span>`);
   if (asset.major_slider) tags.push('<span class="tag decline">major slider</span>');
@@ -186,8 +190,30 @@ function renderList() {
 function renderTimeline(asset) {
   const all = [...(asset.timeline || [])];
   const expanded = !!state.timelineExpanded[asset.id];
-  const cap = 6;
-  const shown = expanded ? all : all.slice(0, cap);
+  const pageSize = 6;
+  const currentPage = state.timelinePage[asset.id] || 1;
+
+  let shown = all.slice(0, 4);
+  let pagination = "";
+
+  if (expanded) {
+    const totalPages = Math.max(1, Math.ceil(all.length / pageSize));
+    const page = Math.min(currentPage, totalPages);
+    state.timelinePage[asset.id] = page;
+    const start = (page - 1) * pageSize;
+    const end = start + pageSize;
+    shown = all.slice(start, end);
+
+    if (totalPages > 1) {
+      pagination = `
+        <div class="timeline-pagination">
+          <button type="button" class="timeline-page-btn" data-timeline-page="prev" data-asset-id="${asset.id}" ${page <= 1 ? "disabled" : ""}>Prev</button>
+          <span>Page ${page} / ${totalPages}</span>
+          <button type="button" class="timeline-page-btn" data-timeline-page="next" data-asset-id="${asset.id}" ${page >= totalPages ? "disabled" : ""}>Next</button>
+        </div>
+      `;
+    }
+  }
 
   const rows = shown
     .map(
@@ -201,11 +227,7 @@ function renderTimeline(asset) {
     )
     .join("");
 
-  const button = all.length > cap
-    ? `<button type="button" class="timeline-toggle" data-timeline-toggle="${asset.id}">${expanded ? "Minimise" : "Expand"} timeline (${shown.length}/${all.length})</button>`
-    : "";
-
-  return `<ul class="timeline">${rows || "<li>No timeline events yet.</li>"}</ul>${button}`;
+  return `<ul class="timeline">${rows || "<li>No timeline events yet.</li>"}</ul>${pagination}`;
 }
 
 function renderInvestments(asset) {
@@ -262,9 +284,8 @@ function renderDetail() {
     <h2>${asset.canonical_name || asset.name}</h2>
     <div class="build-summary"><p>${buildSummary}</p></div>
     <div class="sub">Original line item: ${asset.name} | underlying tracked: ${asset.underlying_asset || "n/a"}</div>
-    <div class="sub">Aliases: ${(asset.aliases || []).join(", ") || "n/a"}</div>
-
     <div class="kpi-grid">
+      <div class="kpi"><div class="label">Investment date</div><div class="value">${asset.investment_date || "n/a"}</div></div>
       <div class="kpi"><div class="label">Original investment</div><div class="value">${usd(asset.original_investment_usd)}</div></div>
       <div class="kpi"><div class="label">Value 1Q 2023</div><div class="value">${usd(asset.value_2023_usd)}</div></div>
       <div class="kpi"><div class="label">Market value</div><div class="value">${usd(asset.market_value_usd)}</div></div>
@@ -284,7 +305,7 @@ function renderDetail() {
     <div class="section-title">Decline Rationale</div>
     <p>${asset.decline_reason || "n/a"}</p>
 
-    <div class="section-title">Timeline (most recent to oldest)</div>
+    <div class="section-title section-inline">Data Available <button type="button" class="timeline-toggle" data-timeline-toggle="${asset.id}">${state.timelineExpanded[asset.id] ? "Collapse" : "Expand"}</button></div>
     ${renderTimeline(asset)}
   `;
 
@@ -387,10 +408,22 @@ function bindDetailInteractions() {
   if (toggle) {
     toggle.addEventListener("click", () => {
       const id = toggle.getAttribute("data-timeline-toggle");
-      state.timelineExpanded[id] = !state.timelineExpanded[id];
+      const next = !state.timelineExpanded[id];
+      state.timelineExpanded[id] = next;
+      state.timelinePage[id] = 1;
       renderDetail();
     });
   }
+
+  els.detail.querySelectorAll("[data-timeline-page]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const assetId = btn.getAttribute("data-asset-id");
+      const dir = btn.getAttribute("data-timeline-page");
+      const current = state.timelinePage[assetId] || 1;
+      state.timelinePage[assetId] = dir === "next" ? current + 1 : Math.max(1, current - 1);
+      renderDetail();
+    });
+  });
 }
 
 function bindManualForms(assetId) {

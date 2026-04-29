@@ -115,6 +115,7 @@ EXTERNAL_MARKET_INFO_BY_ID = {
 class Sheet2Record:
     row_no: int
     type_name: str
+    investment_date: str
     name: str
     description: str
     company_snapshot: str
@@ -223,21 +224,24 @@ def build_sheet2_records(wb: openpyxl.Workbook) -> list[Sheet2Record]:
     ws = wb["Sheet2"]
     records: list[Sheet2Record] = []
     for row in ws.iter_rows(min_row=2, values_only=True):
-        if not row[2]:
+        if not row[3]:
             continue
+        inv_dt = row[2]
+        inv_dt_text = inv_dt.date().isoformat() if hasattr(inv_dt, "date") else (str(inv_dt).strip() if inv_dt else "")
         records.append(
             Sheet2Record(
                 row_no=int(row[0]) if row[0] is not None else 0,
                 type_name=str(row[1] or "").strip(),
-                name=str(row[2]).strip(),
-                description=str(row[3] or "").strip(),
-                company_snapshot=str(row[4] or "").strip(),
-                comments=str(row[5] or "").strip(),
-                invested=to_float(row[6]),
-                value_2023=to_float(row[7]),
-                value_2025=to_float(row[8]),
-                diff=to_float(row[9]),
-                extra_comments=str(row[10] or "").strip(),
+                investment_date=inv_dt_text,
+                name=str(row[3]).strip(),
+                description=str(row[4] or "").strip(),
+                company_snapshot=str(row[5] or "").strip(),
+                comments=str(row[6] or "").strip(),
+                invested=to_float(row[7]),
+                value_2023=to_float(row[8]),
+                value_2025=to_float(row[9]),
+                diff=to_float(row[10]),
+                extra_comments=str(row[11] or "").strip(),
             )
         )
     return records
@@ -586,6 +590,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
             "company_snapshot_sheet2": company_snapshot_sheet2,
             "company_snapshot_300": company_snapshot_300,
             "previous_name": "; ".join(sorted(lineage)) if lineage else "",
+            "investment_date": record.investment_date,
             "original_investment_usd": original_investment,
             "value_2023_usd": record.value_2023,
             "book_cost_usd": tranche_book if tranche_book else original_investment,

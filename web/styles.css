@@ -286,3 +286,32 @@ input, select, button, textarea {
 .timeline-toggle:hover {
   background: #f1f8fc;
 }
+
+.section-inline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.timeline-pagination {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.timeline-page-btn {
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  padding: 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.timeline-page-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
