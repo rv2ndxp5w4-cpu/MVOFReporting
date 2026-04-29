@@ -95,7 +95,6 @@ async function loadAssets() {
   const params = new URLSearchParams();
   if (els.search.value.trim()) params.set("search", els.search.value.trim());
   if (els.section.value) params.set("section", els.section.value);
-  if (els.trend.value) params.set("trend", els.trend.value);
   if (els.reporting.value) params.set("reporting", els.reporting.value);
 
   const res = await fetch(`/api/assets?${params.toString()}`);
@@ -105,13 +104,39 @@ async function loadAssets() {
   }
   const payload = await res.json();
   state.assets = payload.assets || [];
-  state.filtered = state.assets;
+  applyTrendFilter();
   if (!state.selectedId && state.assets.length) state.selectedId = state.assets[0].id;
-  if (state.selectedId && !state.assets.find((a) => a.id === state.selectedId)) state.selectedId = state.assets[0]?.id || null;
+  if (state.selectedId && !state.filtered.find((a) => a.id === state.selectedId)) state.selectedId = state.filtered[0]?.id || null;
+  updateTrendFilterLabels();
   renderSummary();
   renderList();
   renderDetail();
   renderManualPanel();
+}
+
+function applyTrendFilter() {
+  const trend = (els.trend.value || "").trim();
+  if (!trend) {
+    state.filtered = [...state.assets];
+    return;
+  }
+  state.filtered = state.assets.filter((a) => (a.trend || "stable") === trend);
+}
+
+function updateTrendFilterLabels() {
+  const growers = state.assets.filter((a) => a.value_grower).length;
+  const sliders = state.assets.filter((a) => a.major_slider).length;
+  const clarifications = state.assets.filter((a) => a.clarification_status === "Clarification needed" && !a.resolved).length;
+  const total = state.assets.length;
+
+  const allOpt = els.trend.querySelector('option[value=""]');
+  const growthOpt = els.trend.querySelector('option[value="growth"]');
+  const declineOpt = els.trend.querySelector('option[value="decline"]');
+  const stableOpt = els.trend.querySelector('option[value="stable"]');
+  if (allOpt) allOpt.textContent = `All trends (${total})`;
+  if (growthOpt) growthOpt.textContent = `Growth (${growers})`;
+  if (declineOpt) declineOpt.textContent = `Decline (${sliders})`;
+  if (stableOpt) stableOpt.textContent = `Stable (${clarifications})`;
 }
 
 function selectedAsset() {
@@ -120,10 +145,6 @@ function selectedAsset() {
 
 function renderSummary() {
   const total = state.filtered.length;
-  const growers = state.filtered.filter((a) => a.value_grower).length;
-  const sliders = state.filtered.filter((a) => a.major_slider).length;
-  const clarifications = state.filtered.filter((a) => a.clarification_status === "Clarification needed" && !a.resolved).length;
-
   const sectionCurrentValue = (section) => state.filtered
     .filter((a) => a.section === section)
     .reduce((sum, a) => sum + (Number(a.market_value_usd) || 0), 0);
@@ -145,9 +166,6 @@ function renderSummary() {
     <br />Current value - Companies: <strong>${usd(companiesCurrent)}</strong>
     <br />Current value - Funds: <strong>${usd(fundsCurrent)}</strong>
     <br />Current value - Loans: <strong>${usd(loansCurrent)}</strong>
-    <br />Value growers: <strong>${growers}</strong>
-    <br />Major sliders: <strong>${sliders}</strong>
-    <br />Clarification needed: <strong>${clarifications}</strong>
   `;
 }
 
@@ -497,8 +515,28 @@ function bindManualForms(assetId) {
 
 function bindFilterEvents() {
   [els.search, els.section, els.trend, els.reporting].forEach((node) => {
-    node.addEventListener("input", () => loadAssets());
-    node.addEventListener("change", () => loadAssets());
+    node.addEventListener("input", () => {
+      if (node === els.trend) {
+        applyTrendFilter();
+        renderSummary();
+        renderList();
+        renderDetail();
+        renderManualPanel();
+      } else {
+        loadAssets();
+      }
+    });
+    node.addEventListener("change", () => {
+      if (node === els.trend) {
+        applyTrendFilter();
+        renderSummary();
+        renderList();
+        renderDetail();
+        renderManualPanel();
+      } else {
+        loadAssets();
+      }
+    });
   });
 }
 
