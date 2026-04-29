@@ -223,25 +223,62 @@ def load_overrides(path: Path) -> dict[str, Any]:
 def build_sheet2_records(wb: openpyxl.Workbook) -> list[Sheet2Record]:
     ws = wb["Sheet2"]
     records: list[Sheet2Record] = []
-    for row in ws.iter_rows(min_row=2, values_only=True):
-        if not row[3]:
+    header_cells = [ws.cell(1, c).value for c in range(1, 11)]
+    header_map: dict[str, int] = {}
+    for idx, value in enumerate(header_cells):
+        key = str(value or "").strip().lower()
+        if key:
+            header_map[key] = idx
+
+    def col(*names: str, default: int | None = None) -> int | None:
+        for name in names:
+            if name in header_map:
+                return header_map[name]
+        return default
+
+    idx_type = col("type", default=1)
+    idx_inv_date = col("investment date", "investment_date", default=2)
+    idx_name = col("name", default=3)
+    idx_description = col("description", default=4)
+    idx_snapshot = col("description / company snapshot", "company snapshot", default=5)
+    idx_comments = col("comments", default=6)
+    idx_invested = col("invested, usd", "invested usd", default=7)
+    idx_value_2023 = col("value 1q 2023", "1q 2023 value", default=8)
+    idx_value_2025 = col("value 2025", "current value", default=9)
+
+    # Strict ingestion scope requested: Sheet2 range A1:J29.
+    for row in ws.iter_rows(min_row=2, max_row=29, min_col=1, max_col=10, values_only=True):
+        if idx_name is None or not row[idx_name]:
             continue
-        inv_dt = row[2]
-        inv_dt_text = inv_dt.date().isoformat() if hasattr(inv_dt, "date") else (str(inv_dt).strip() if inv_dt else "")
+        inv_dt = row[idx_inv_date] if idx_inv_date is not None else None
+        if hasattr(inv_dt, "strftime"):
+            inv_dt_text = inv_dt.strftime("%b %Y")
+        else:
+            inv_dt_raw = str(inv_dt).strip() if inv_dt else ""
+            m = re.match(r"^(\d{4})[-/](\d{1,2})(?:[-/]\d{1,2})?$", inv_dt_raw)
+            if m:
+                year = int(m.group(1))
+                month = int(m.group(2))
+                if 1 <= month <= 12:
+                    inv_dt_text = dt.date(year, month, 1).strftime("%b %Y")
+                else:
+                    inv_dt_text = inv_dt_raw
+            else:
+                inv_dt_text = inv_dt_raw
         records.append(
             Sheet2Record(
                 row_no=int(row[0]) if row[0] is not None else 0,
-                type_name=str(row[1] or "").strip(),
+                type_name=str(row[idx_type] or "").strip() if idx_type is not None else "",
                 investment_date=inv_dt_text,
-                name=str(row[3]).strip(),
-                description=str(row[4] or "").strip(),
-                company_snapshot=str(row[5] or "").strip(),
-                comments=str(row[6] or "").strip(),
-                invested=to_float(row[7]),
-                value_2023=to_float(row[8]),
-                value_2025=to_float(row[9]),
-                diff=to_float(row[10]),
-                extra_comments=str(row[11] or "").strip(),
+                name=str(row[idx_name]).strip(),
+                description=str(row[idx_description] or "").strip() if idx_description is not None else "",
+                company_snapshot=str(row[idx_snapshot] or "").strip() if idx_snapshot is not None else "",
+                comments=str(row[idx_comments] or "").strip() if idx_comments is not None else "",
+                invested=to_float(row[idx_invested]) if idx_invested is not None else None,
+                value_2023=to_float(row[idx_value_2023]) if idx_value_2023 is not None else None,
+                value_2025=to_float(row[idx_value_2025]) if idx_value_2025 is not None else None,
+                diff=None,
+                extra_comments="",
             )
         )
     return records
@@ -342,17 +379,16 @@ def decide_style(comments: str) -> str:
 
 
 def section_from_sheet2(record: Sheet2Record, mapped_lines: list[PortfolioLine]) -> str:
-    if record.type_name.lower() == "fund":
+    type_name = record.type_name.strip().lower()
+    if type_name == "fund":
         return "funds"
+    if type_name == "company":
+        return "companies"
 
-    if record.value_2025 == 0 and (record.invested or 0) > 0:
-        return "writeoffs"
-
+    # Fallback only for unexpected type values.
     sections = {line.section for line in mapped_lines}
-    if "writeoffs" in sections:
-        return "writeoffs"
-    if "loans" in sections and "companies" not in sections:
-        return "loans"
+    if "funds" in sections:
+        return "funds"
     return "companies"
 
 

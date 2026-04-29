@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T09:47:48.302241+00:00",
+  "generated_at": "2026-04-29T09:57:55.176645+00:00",
   "sources": {
     "xlsx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF Master with Dec2025 valuations.xlsx",
     "pptx": "/Users/danielgusev/Library/CloudStorage/Dropbox/MVOF Fund audit/MVOF 2026 Update.pptx"
@@ -26,13 +26,13 @@
       "book_cost_usd": 1000000.0,
       "market_value_usd": 2266262.1,
       "pnl_usd": 1266262.1,
-      "diff_2025_vs_2023_usd": 275495.1000000001,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
-      "value_grower": true,
+      "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -110,13 +110,13 @@
       "book_cost_usd": 1000000.0,
       "market_value_usd": 1557890.0,
       "pnl_usd": 557890.0,
-      "diff_2025_vs_2023_usd": -346425.0,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -194,13 +194,13 @@
       "book_cost_usd": 875000.0,
       "market_value_usd": 1272026.42,
       "pnl_usd": 837026.4199999999,
-      "diff_2025_vs_2023_usd": 781273.4199999999,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
-      "value_grower": true,
+      "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -276,13 +276,13 @@
       "book_cost_usd": 488295.74,
       "market_value_usd": 625129.0,
       "pnl_usd": 136833.0,
-      "diff_2025_vs_2023_usd": 49989.0,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -358,13 +358,13 @@
       "book_cost_usd": 294348.61,
       "market_value_usd": 503831.0,
       "pnl_usd": 278831.0,
-      "diff_2025_vs_2023_usd": 268230.0,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
-      "value_grower": true,
+      "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -440,13 +440,13 @@
       "book_cost_usd": 335000.0,
       "market_value_usd": 386483.0,
       "pnl_usd": 161483.0,
-      "diff_2025_vs_2023_usd": 130361.0,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
-      "value_grower": true,
+      "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -524,8 +524,8 @@
       "book_cost_usd": 160715.0,
       "market_value_usd": 258522.52775451262,
       "pnl_usd": 97807.52775451262,
-      "diff_2025_vs_2023_usd": 97807.52775451262,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
@@ -610,17 +610,17 @@
       "geography": "",
       "description": "AI education hardware company, ex providing education software to Indian / macro-regional schools (Investment via MV Opportunities India Limited)",
       "company_snapshot_sheet2": "Teachmint is the first AI-powered connected classroom technology, offering a Google EDLA-certified device for modern, interactive teaching experiences.",
-      "company_snapshot_300": "Teachmint: AI education hardware company, ex providing education software to Indian / macro-regional schools (Investment via MV Opportunities India Limited). Latest valuation trend is negative vs 1Q 2023 (-3,155,589 USD).",
+      "company_snapshot_300": "Teachmint: AI education hardware company, ex providing education software to Indian / macro-regional schools (Investment via MV Opportunities India Limited).",
       "previous_name": "",
-      "investment_date": "2021-05-01",
+      "investment_date": "May 2021",
       "original_investment_usd": 17310001.0,
       "value_2023_usd": 9861798.0,
       "book_cost_usd": 17310001.0,
       "market_value_usd": 6706208.5888,
       "pnl_usd": -10603792.4112,
-      "diff_2025_vs_2023_usd": -3155589.4112,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
@@ -682,21 +682,21 @@
       "geography": "US",
       "description": "Text to voice app Investment structure: 1 tranches (safe).",
       "company_snapshot_sheet2": "AI-powered voice productivity platform that converts text\u2014from PDFs, emails, and articles to physical books\u2014into high-quality audio. As of 2026, it has evolved into a \"voice-first\" interface that integrates AI assistants and summarizing tools to help users process information faster",
-      "company_snapshot_300": "Speechify: Text to voice app Investment structure: 1 tranches (safe).. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition.",
+      "company_snapshot_300": "Speechify: Text to voice app Investment structure: 1 tranches (safe).. External market view: External market signal: strong product expansion in 2026 (podcast publishing, multimodal learning, desktop rollout) following 2025 design recognition.",
       "previous_name": "",
-      "investment_date": "2021-11-01",
+      "investment_date": "Nov 2021",
       "original_investment_usd": 3750000.0,
       "value_2023_usd": 4687422.0,
       "book_cost_usd": 3750000.0,
       "market_value_usd": 4687421.774,
       "pnl_usd": 937421.7740000002,
-      "diff_2025_vs_2023_usd": -0.22599999979138374,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -733,9 +733,7 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [
-        "no change 2 years"
-      ],
+      "notes": [],
       "investments": [
         {
           "security_name": "Speechify Inc. - SAFE",
@@ -774,21 +772,21 @@
       "geography": "US",
       "description": "Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).",
       "company_snapshot_sheet2": "Founded in 2018 as part of Y Combinator, the company originally aimed to solve high-cost deep learning training and infrastructure issues, sometimes referred to as \"Uber for GPUs\".\nActiveloop (Current Name): The legal entity continues to do business as Activeloop (formally Snark AI, Inc.). The name change highlights their shift toward managing complex, multimodal datasets for AI training and production",
-      "company_snapshot_300": "Snark (Activeloop): Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).. Latest valuation trend is positive vs 1Q 2023 (1,152,989 USD). External market view: External market signal: Activeloop remained product-led, expanding Deep Research and scientific-disc...",
+      "company_snapshot_300": "Snark (Activeloop): Framework for building data pipelines for ML Investment structure: 1 tranches (preferred).. External market view: External market signal: Activeloop remained product-led, expanding Deep Research and scientific-discovery tooling with ecosystem partnerships.",
       "previous_name": "",
-      "investment_date": "2021-03-01",
+      "investment_date": "Mar 2021",
       "original_investment_usd": 2000000.0,
       "value_2023_usd": 2224886.0,
       "book_cost_usd": 2000000.0,
       "market_value_usd": 3377874.6898,
       "pnl_usd": 1377874.6897999998,
-      "diff_2025_vs_2023_usd": 1152988.6897999998,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
-      "value_grower": true,
+      "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -867,21 +865,21 @@
       "geography": "US",
       "description": "Early wage access for employees Investment structure: 3 tranches (preferred).",
       "company_snapshot_sheet2": "Earned Wage Access (EWA): Lets employees access their pay as they earn it, rather than waiting for payday, to avoid overdraft fees.\nAI Agent: In March 2026, it unveiled an AI Financial Health Agent that automates savings and debt management for over 3.5 million empowered employees.\nPartnerships: Used by major employers like McDonald's, Marriott, and T-Mobile to improve staff retention and productivity",
-      "company_snapshot_300": "Rain: Early wage access for employees Investment structure: 3 tranches (preferred).. Latest valuation trend is negative vs 1Q 2023 (-309,340 USD). External market view: External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel gr...",
+      "company_snapshot_300": "Rain: Early wage access for employees Investment structure: 3 tranches (preferred).. External market view: External market signal: Series B financing followed by payroll/HCM integration expansion (Workday, Paylocity, partner-channel growth).",
       "previous_name": "",
-      "investment_date": "2020-12-01",
+      "investment_date": "Dec 2020",
       "original_investment_usd": 1115376.0,
       "value_2023_usd": 3600469.0,
       "book_cost_usd": 1115376.16,
       "market_value_usd": 3291129.2600000002,
       "pnl_usd": 2175753.2600000002,
-      "diff_2025_vs_2023_usd": -309339.73999999976,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -981,21 +979,21 @@
       "geography": "US",
       "description": "Mutes background noise for any app Investment structure: 3 tranches (common, preferred).",
       "company_snapshot_sheet2": "AI voice technology platform providing real-time noise cancellation, transcription, accent conversion, and voice translation to improve communication in meetings, call centers, and voice-enabled applications.",
-      "company_snapshot_300": "Krisp: Mutes background noise for any app Investment structure: 3 tranches (common, preferred).. Valuation is broadly stable versus 1Q 2023. External market view: External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging.",
+      "company_snapshot_300": "Krisp: Mutes background noise for any app Investment structure: 3 tranches (common, preferred).. External market view: External market signal: sustained enterprise push in contact-centre voice AI, including interpreter/accent tools and platform packaging.",
       "previous_name": "",
-      "investment_date": "2020-11-01",
+      "investment_date": "Nov 2020",
       "original_investment_usd": 2127258.0,
       "value_2023_usd": 3112503.0,
       "book_cost_usd": 2127258.2,
       "market_value_usd": 3112503.0,
       "pnl_usd": 985245.0,
-      "diff_2025_vs_2023_usd": 0.0,
+      "diff_2025_vs_2023_usd": null,
       "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1032,9 +1030,7 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [
-        "no change 2 years"
-      ],
+      "notes": [],
       "investments": [
         {
           "security_name": "Krisp Technologies Inc Common Stock",
@@ -1094,16 +1090,16 @@
       "geography": "",
       "description": "Employee management platform (Investment via MV Opportunities SPV)",
       "company_snapshot_sheet2": "Workforce management SaaS for SMEs (primarily India) enabling employee attendance tracking, payroll, salary payments, and basic financial record-keeping for informal and small businesses.",
-      "company_snapshot_300": "Pagarbook: Employee management platform (Investment via MV Opportunities SPV). Latest valuation trend is positive vs 1Q 2023 (76,776 USD).",
+      "company_snapshot_300": "Pagarbook: Employee management platform (Investment via MV Opportunities SPV).",
       "previous_name": "",
-      "investment_date": "2021-05-01",
+      "investment_date": "May 2021",
       "original_investment_usd": 1993525.0,
       "value_2023_usd": 1965025.0,
       "book_cost_usd": 1993525.0,
       "market_value_usd": 2041800.6465999999,
       "pnl_usd": 48275.64659999986,
-      "diff_2025_vs_2023_usd": 76775.64659999986,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
@@ -1173,21 +1169,21 @@
       "geography": "US",
       "description": "Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).",
       "company_snapshot_sheet2": "A company that develops and markets a mentorship platform designed for engineering and product teams. Plato was acquired by Coda in 2024, and earlier this year, Coda joined Grammarly. Most recently, Grammarly rebranded as Superhuman, setting the stage for the launch of a new AI-native productivity suite.",
-      "company_snapshot_300": "Coda (Birdly/Plato): Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).. Latest valuation trend is negative vs 1Q 2023 (-5,215,157 USD). External market view: External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; p...",
+      "company_snapshot_300": "Coda (Birdly/Plato): Mentoring & coaching platform for engineering Investment structure: 1 tranches (equity).. External market view: External market signal: Birdly/Plato surfaced primarily through a Feb 2026 seed financing mention; public corpus otherwise thin.",
       "previous_name": "Birdly; Coda Projects Inc.; Grammarly; Plato; Superhuman",
-      "investment_date": "2021-11-01",
+      "investment_date": "Nov 2021",
       "original_investment_usd": 9000000.0,
       "value_2023_usd": 6750000.0,
       "book_cost_usd": 8695065.0,
       "market_value_usd": 1534842.72634718,
       "pnl_usd": -7465157.27365282,
-      "diff_2025_vs_2023_usd": -5215157.27365282,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Material valuation contraction versus 1Q 2023; needs source-backed root-cause writeup.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1314,21 +1310,21 @@
       "geography": "US",
       "description": "Assessments for technical hiring Investment structure: 2 tranches (common, equity).",
       "company_snapshot_sheet2": "Technical assessment and hiring platform providing coding tests, developer evaluations, and skills benchmarking used by enterprises to recruit engineers.",
-      "company_snapshot_300": "CodeSignal: Assessments for technical hiring Investment structure: 2 tranches (common, equity).. Latest valuation trend is negative vs 1Q 2023 (-4,890,110 USD). External market view: External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academ...",
+      "company_snapshot_300": "CodeSignal: Assessments for technical hiring Investment structure: 2 tranches (common, equity).. External market view: External market signal: high-cadence AI hiring/learning release cycle, including multilingual interview and academy initiatives.",
       "previous_name": "",
-      "investment_date": "2020-10-01",
+      "investment_date": "Oct 2020",
       "original_investment_usd": 1499992.0,
       "value_2023_usd": 6259364.0,
       "book_cost_usd": 1499992.38,
       "market_value_usd": 1369253.67,
       "pnl_usd": -130738.33000000007,
-      "diff_2025_vs_2023_usd": -4890110.33,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1414,21 +1410,21 @@
       "geography": "",
       "description": "B2B wholesale marketplace for unique authentic products",
       "company_snapshot_sheet2": "B2B wholesale marketplace connecting independent retailers with brands, streamlining sourcing, ordering, and inventory procurement for retail stores.",
-      "company_snapshot_300": "Creoate: B2B wholesale marketplace for unique authentic products. Latest valuation trend is negative vs 1Q 2023 (-649,164 USD). External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window.",
+      "company_snapshot_300": "Creoate: B2B wholesale marketplace for unique authentic products. External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated items in the report window.",
       "previous_name": "",
-      "investment_date": "2021-09-01",
+      "investment_date": "Sep 2021",
       "original_investment_usd": 753201.0,
       "value_2023_usd": 1974961.0,
       "book_cost_usd": 753201.0,
       "market_value_usd": 1325796.9856008613,
       "pnl_usd": 572595.9856008613,
-      "diff_2025_vs_2023_usd": -649164.0143991387,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1495,21 +1491,21 @@
       "geography": "US",
       "description": "Modern investment research tool Investment structure: 1 tranches (preferred).",
       "company_snapshot_sheet2": "Investment research platform delivering financial data, analytics, and tools (e.g., stock screening, modeling, and insights) for retail and professional investors. in May 2024 Toggle AI, a provider solutions for investing by professional industry announced they are acquiring Atom Finance. The acquisition will enable Toggle AI to enhance its offering by incorporating Atom Finance's robust suite of features, expanding its data universe, and providing users with an even more comprehensive investing experience.",
-      "company_snapshot_300": "Atom Finance: Modern investment research tool Investment structure: 1 tranches (preferred).. Latest valuation trend is positive vs 1Q 2023 (0 USD). External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024).",
+      "company_snapshot_300": "Atom Finance: Modern investment research tool Investment structure: 1 tranches (preferred).. External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; known acquisition context is mainly pre-window (2024).",
       "previous_name": "Atom; Reflexivity; Toggle AI",
-      "investment_date": "2020-11-01",
+      "investment_date": "Nov 2020",
       "original_investment_usd": 425000.0,
       "value_2023_usd": 1289805.0,
       "book_cost_usd": 425000.0,
       "market_value_usd": 1289805.3,
       "pnl_usd": 864805.3,
-      "diff_2025_vs_2023_usd": 0.30000000004656613,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1582,7 +1578,6 @@
         }
       ],
       "notes": [
-        "no change 2 years",
         "Moved in-kind from VK"
       ],
       "investments": [
@@ -1622,17 +1617,17 @@
       "geography": "",
       "description": "SPV for market Kurley (Investment via Fuse Venture Capital Partners)",
       "company_snapshot_sheet2": "South Korean e-commerce platform focused on premium groceries and fresh food delivery, known for early-morning (\u201cdawn delivery\u201d) logistics.",
-      "company_snapshot_300": "Market Kurly: SPV for market Kurley (Investment via Fuse Venture Capital Partners). Latest valuation trend is negative vs 1Q 2023 (-527,315 USD).",
+      "company_snapshot_300": "Market Kurly: SPV for market Kurley (Investment via Fuse Venture Capital Partners).",
       "previous_name": "",
-      "investment_date": "2021-06-01",
+      "investment_date": "Jun 2021",
       "original_investment_usd": 945137.0,
       "value_2023_usd": 1217015.0,
       "book_cost_usd": 945137.0,
       "market_value_usd": 689700.3204431892,
       "pnl_usd": -255436.67955681076,
-      "diff_2025_vs_2023_usd": -527314.6795568108,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
@@ -1694,21 +1689,21 @@
       "geography": "SG",
       "description": "Operating system for restaurants to help them Investment structure: 1 tranches (safe).",
       "company_snapshot_sheet2": "Singapore - Atlas helps restaurants power online storefronts, POS, 3rd party logistics, sync with food platforms, connect with other tools, leverage AI and a lot more.",
-      "company_snapshot_300": "Atlas Kitchen: Operating system for restaurants to help them Investment structure: 1 tranches (safe).. Valuation is broadly stable versus 1Q 2023. External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window.",
+      "company_snapshot_300": "Atlas Kitchen: Operating system for restaurants to help them Investment structure: 1 tranches (safe).. External market view: Coverage gap in verified 2025Q1-2026Q1 public corpus; no confirmed dated external items in the report window.",
       "previous_name": "",
-      "investment_date": "2021-09-01",
+      "investment_date": "Sep 2021",
       "original_investment_usd": 600000.0,
       "value_2023_usd": 600000.0,
       "book_cost_usd": 600000.0,
       "market_value_usd": 600000.0,
       "pnl_usd": 0.0,
-      "diff_2025_vs_2023_usd": 0.0,
+      "diff_2025_vs_2023_usd": null,
       "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1785,21 +1780,21 @@
       "geography": "COL",
       "description": "Farmer to consumer platform Investment structure: 1 tranches (preferred).",
       "company_snapshot_sheet2": "",
-      "company_snapshot_300": "Calii: Farmer to consumer platform Investment structure: 1 tranches (preferred).. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended.",
+      "company_snapshot_300": "Calii: Farmer to consumer platform Investment structure: 1 tranches (preferred).. External market view: Coverage gap / identity ambiguity in verified corpus (mapped from Calli/Calii); additional confirmation sources recommended.",
       "previous_name": "",
-      "investment_date": "2020-08-01",
+      "investment_date": "Aug 2020",
       "original_investment_usd": 499999.0,
       "value_2023_usd": 499999.0,
       "book_cost_usd": 499998.61,
       "market_value_usd": 499998.60539999994,
       "pnl_usd": -0.39460000005783513,
-      "diff_2025_vs_2023_usd": -0.39460000005783513,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1836,9 +1831,7 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [
-        "no change 2 years"
-      ],
+      "notes": [],
       "investments": [
         {
           "security_name": "Calii Inc. - Series Seed-1 Preferred Stock",
@@ -1876,21 +1869,21 @@
       "geography": "",
       "description": "Marketplace that helps landlords in Latam find tenants",
       "company_snapshot_sheet2": "Latin American proptech platform enabling digital real estate transactions including rentals, property management, and sales with end-to-end online workflows.",
-      "company_snapshot_300": "Houm: Marketplace that helps landlords in Latam find tenants. Latest valuation trend is negative vs 1Q 2023 (-0 USD). External market view: External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026.",
+      "company_snapshot_300": "Houm: Marketplace that helps landlords in Latam find tenants. External market view: External market signal: narrative shifted from profitability target to reported breakeven and multifamily expansion in early 2026.",
       "previous_name": "",
-      "investment_date": "2021-04-01",
+      "investment_date": "Apr 2021",
       "original_investment_usd": 100000.0,
       "value_2023_usd": 300152.0,
       "book_cost_usd": 100000.0,
       "market_value_usd": 300151.72,
       "pnl_usd": 200151.71999999997,
-      "diff_2025_vs_2023_usd": -0.2800000000279397,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -1927,9 +1920,7 @@
           "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
         }
       ],
-      "notes": [
-        "no change 2 years"
-      ],
+      "notes": [],
       "investments": [],
       "sheet2_reconciliation": {
         "sheet2_invested_usd": 100000.0,
@@ -1951,25 +1942,25 @@
       "aliases": [
         "Cure Group GmbH"
       ],
-      "section": "loans",
+      "section": "companies",
       "geography": "EU",
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
       "company_snapshot_sheet2": "Software platform operating in Germany, Spain, UK and France to allow pharma reliably sell wares via 3rd party delivery",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Cure Group GmbH: Investment Convertible Loan Investment structure: 1 tranches (convertible)..",
       "previous_name": "",
-      "investment_date": "2022-01-01",
+      "investment_date": "Jan 2022",
       "original_investment_usd": 217556.0,
       "value_2023_usd": 226974.0,
       "book_cost_usd": 207749.0,
       "market_value_usd": 294489.0,
       "pnl_usd": 76933.0,
-      "diff_2025_vs_2023_usd": 67515.0,
-      "trend": "growth",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2033,25 +2024,25 @@
         "Byrd Technologies",
         "Byrd Technologies Inc"
       ],
-      "section": "loans",
+      "section": "companies",
       "geography": "EU",
       "description": "Investment Convertible Loan Investment structure: 1 tranches (convertible).",
       "company_snapshot_sheet2": "E-commerce fulfillment and logistics platform offering warehousing, order fulfillment, and shipping infrastructure for online retailers (Europe/US focus).",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Byrd Technologies Inc: Investment Convertible Loan Investment structure: 1 tranches (convertible)..",
       "previous_name": "",
-      "investment_date": "2020-07-01",
+      "investment_date": "Jul 2020",
       "original_investment_usd": 217556.0,
       "value_2023_usd": 218902.0,
       "book_cost_usd": 207749.0,
       "market_value_usd": 207749.0,
       "pnl_usd": -9807.0,
-      "diff_2025_vs_2023_usd": -11153.0,
-      "trend": "decline",
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
       "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Valuation is below 1Q 2023 baseline; clarification needed on drivers.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2116,25 +2107,25 @@
         "Byuk",
         "Byuk Inc."
       ],
-      "section": "writeoffs",
+      "section": "companies",
       "geography": "US",
       "description": "NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity).",
       "company_snapshot_sheet2": "Ultra-fast grocery delivery startup (15-minute delivery model) operating dark stores in urban areas, focused on convenience e-commerce.",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Byuk: NY-based 15 min grocery delivery service Investment structure: 1 tranches (equity)..",
       "previous_name": "",
-      "investment_date": "2021-04-01",
+      "investment_date": "Apr 2021",
       "original_investment_usd": 10000000.0,
       "value_2023_usd": 0.0,
       "book_cost_usd": 10000000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -10000000.0,
-      "diff_2025_vs_2023_usd": 0.0,
+      "diff_2025_vs_2023_usd": null,
       "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2197,25 +2188,25 @@
       "aliases": [
         "Mighty Buildings"
       ],
-      "section": "writeoffs",
+      "section": "companies",
       "geography": "",
       "description": "Construction copmany creating homes using 3D printing",
       "company_snapshot_sheet2": "Construction technology company using 3D printing and advanced materials to manufacture prefabricated homes, targeting cost and speed efficiencies.",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Mighty Buildings: Construction copmany creating homes using 3D printing.",
       "previous_name": "",
-      "investment_date": "2021-11-01",
+      "investment_date": "Nov 2021",
       "original_investment_usd": 2000000.0,
       "value_2023_usd": 2000000.0,
       "book_cost_usd": 2000000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -2000000.0,
-      "diff_2025_vs_2023_usd": -2000000.0,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2267,25 +2258,25 @@
         "Productfy",
         "Productify, Inc. - Series A1 Preferred Stock"
       ],
-      "section": "writeoffs",
+      "section": "companies",
       "geography": "US",
       "description": "Fintech infrastructure software layer Investment structure: 1 tranches (preferred).",
       "company_snapshot_sheet2": "Banking-as-a-Service (BaaS) platform enabling companies to launch financial products (cards, accounts, payments) via APIs and infrastructure.",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Productfy: Fintech infrastructure software layer Investment structure: 1 tranches (preferred)..",
       "previous_name": "",
-      "investment_date": "2021-04-01",
+      "investment_date": "Apr 2021",
       "original_investment_usd": 9800000.0,
       "value_2023_usd": 9800000.0,
       "book_cost_usd": 9800000.0,
       "market_value_usd": 0.0,
       "pnl_usd": -9800000.0,
-      "diff_2025_vs_2023_usd": -9800000.0,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Marked to zero value in Dec 2025 valuation.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2348,21 +2339,21 @@
       "aliases": [
         "Supersapiens"
       ],
-      "section": "writeoffs",
+      "section": "companies",
       "geography": "",
       "description": "Health and fitness app (FNA TTI Products, Inc)",
       "company_snapshot_sheet2": "Sports technology company providing continuous glucose monitoring (CGM) data and analytics for athletes to optimize performance and nutrition.",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Supersapiens: Health and fitness app (FNA TTI Products, Inc).",
       "previous_name": "",
-      "investment_date": "2021-03-01",
+      "investment_date": "Mar 2021",
       "original_investment_usd": 541753.0,
       "value_2023_usd": 1750014.0,
       "book_cost_usd": 541753.0,
       "market_value_usd": 0.0,
       "pnl_usd": -541753.0,
-      "diff_2025_vs_2023_usd": -1750014.0,
-      "trend": "decline",
-      "major_slider": true,
+      "diff_2025_vs_2023_usd": null,
+      "trend": "stable",
+      "major_slider": false,
       "value_grower": false,
       "clarification_status": "OK",
       "resolved": false,
@@ -2421,25 +2412,25 @@
         "Wheels Labs Inc",
         "Wheels Labs Inc Series A-I Preferred Stock"
       ],
-      "section": "writeoffs",
+      "section": "companies",
       "geography": "US",
       "description": "2nd wave micro-mobility company Investment structure: 1 tranches (equity).",
       "company_snapshot_sheet2": "Micromobility company developing electric shared vehicles (notably seated e-scooters/e-bikes) for urban transportation.",
-      "company_snapshot_300": "",
+      "company_snapshot_300": "Wheels Labs Inc: 2nd wave micro-mobility company Investment structure: 1 tranches (equity)..",
       "previous_name": "",
-      "investment_date": "2020-11-01",
+      "investment_date": "Nov 2020",
       "original_investment_usd": 820268.0,
       "value_2023_usd": 0.0,
       "book_cost_usd": 820268.1799999999,
       "market_value_usd": 0.0,
       "pnl_usd": -820268.0,
-      "diff_2025_vs_2023_usd": 0.0,
+      "diff_2025_vs_2023_usd": null,
       "trend": "stable",
       "major_slider": false,
       "value_grower": false,
-      "clarification_status": "Clarification needed",
+      "clarification_status": "OK",
       "resolved": false,
-      "decline_reason": "Not a decline.",
+      "decline_reason": "No differential data found in current sources.",
       "reporting_styles_available": [
         "full-year",
         "quarter"
@@ -2494,1440 +2485,6 @@
         "pptx_mentions": 3,
         "has_2026_analysis": true,
         "information_gap": false
-      }
-    },
-    {
-      "id": "2021-05-01-00-00-00",
-      "name": "2021-05-01 00:00:00",
-      "canonical_name": "2021-05-01 00:00:00",
-      "underlying_asset": "2021-05-01 00:00:00",
-      "aliases": [
-        "2021-05-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Name",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-05-01 00:00:00: Name.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 0,
-      "value_2023_usd": null,
-      "book_cost_usd": 0,
-      "market_value_usd": 0,
-      "pnl_usd": 0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": null,
-          "source": "MVOF 2026 Update.pptx"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": null,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-04-01-00-00-00",
-      "name": "2021-04-01 00:00:00",
-      "canonical_name": "2021-04-01 00:00:00",
-      "underlying_asset": "2021-04-01 00:00:00",
-      "aliases": [
-        "2021-04-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Teachmint",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-04-01 00:00:00: Teachmint.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 17310001.0,
-      "value_2023_usd": 9861798.0,
-      "book_cost_usd": 17310001.0,
-      "market_value_usd": 6706208.5888,
-      "pnl_usd": -10603792.4112,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 6706208.5888,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 6706208.5888,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 9861798.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 17310001.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-11-01-00-00-00",
-      "name": "2021-11-01 00:00:00",
-      "canonical_name": "2021-11-01 00:00:00",
-      "underlying_asset": "2021-11-01 00:00:00",
-      "aliases": [
-        "2021-11-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Speechify",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-11-01 00:00:00: Speechify.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 3750000.0,
-      "value_2023_usd": 4687422.0,
-      "book_cost_usd": 3750000.0,
-      "market_value_usd": 4687421.774,
-      "pnl_usd": 937421.7740000002,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 4687421.774,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 4687421.774,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 4687422.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 3750000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-10-01-00-00-00",
-      "name": "2020-10-01 00:00:00",
-      "canonical_name": "2020-10-01 00:00:00",
-      "underlying_asset": "2020-10-01 00:00:00",
-      "aliases": [
-        "2020-10-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Snark (Activeloop)",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-10-01 00:00:00: Snark (Activeloop).",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 2000000.0,
-      "value_2023_usd": 2224886.0,
-      "book_cost_usd": 2000000.0,
-      "market_value_usd": 3377874.6898,
-      "pnl_usd": 1377874.6897999998,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 3377874.6898,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 3377874.6898,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 2224886.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 2000000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-11-01-00-00-00",
-      "name": "2020-11-01 00:00:00",
-      "canonical_name": "2020-11-01 00:00:00",
-      "underlying_asset": "2020-11-01 00:00:00",
-      "aliases": [
-        "2020-11-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Rain",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-11-01 00:00:00: Rain.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 1115376.0,
-      "value_2023_usd": 3600469.0,
-      "book_cost_usd": 1115376.0,
-      "market_value_usd": 3291129.2600000002,
-      "pnl_usd": 2175753.2600000002,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 3291129.2600000002,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 3291129.2600000002,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 3600469.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 1115376.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-12-01-00-00-00",
-      "name": "2020-12-01 00:00:00",
-      "canonical_name": "2020-12-01 00:00:00",
-      "underlying_asset": "2020-12-01 00:00:00",
-      "aliases": [
-        "2020-12-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Krisp",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-12-01 00:00:00: Krisp.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 2127258.0,
-      "value_2023_usd": 3112503.0,
-      "book_cost_usd": 2127258.0,
-      "market_value_usd": 3112503.0,
-      "pnl_usd": 985245.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 3112503.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 3112503.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 3112503.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 2127258.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-11-01-00-00-00",
-      "name": "2020-11-01 00:00:00",
-      "canonical_name": "2020-11-01 00:00:00",
-      "underlying_asset": "2020-11-01 00:00:00",
-      "aliases": [
-        "2020-11-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Gyankaar Technologies d/b/a Pagarbook",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-11-01 00:00:00: Gyankaar Technologies d/b/a Pagarbook.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 1993525.0,
-      "value_2023_usd": 1965025.0,
-      "book_cost_usd": 1993525.0,
-      "market_value_usd": 2041800.6465999999,
-      "pnl_usd": 48275.64659999986,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 2041800.6465999999,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 2041800.6465999999,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 1965025.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 1993525.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-03-01-00-00-00",
-      "name": "2021-03-01 00:00:00",
-      "canonical_name": "2021-03-01 00:00:00",
-      "underlying_asset": "2021-03-01 00:00:00",
-      "aliases": [
-        "2021-03-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Birdly (Plato)",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-03-01 00:00:00: Birdly (Plato).",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 9000000.0,
-      "value_2023_usd": 6750000.0,
-      "book_cost_usd": 9000000.0,
-      "market_value_usd": 1534842.72634718,
-      "pnl_usd": -7465157.27365282,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 1534842.72634718,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 1534842.72634718,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 6750000.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 9000000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-11-01-00-00-00",
-      "name": "2021-11-01 00:00:00",
-      "canonical_name": "2021-11-01 00:00:00",
-      "underlying_asset": "2021-11-01 00:00:00",
-      "aliases": [
-        "2021-11-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "CodeSignal",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-11-01 00:00:00: CodeSignal.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 1499992.0,
-      "value_2023_usd": 6259364.0,
-      "book_cost_usd": 1499992.0,
-      "market_value_usd": 1369253.67,
-      "pnl_usd": -130738.33000000007,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 1369253.67,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 1369253.67,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 6259364.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 1499992.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-09-01-00-00-00",
-      "name": "2021-09-01 00:00:00",
-      "canonical_name": "2021-09-01 00:00:00",
-      "underlying_asset": "2021-09-01 00:00:00",
-      "aliases": [
-        "2021-09-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Creoate",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-09-01 00:00:00: Creoate.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 753201.0,
-      "value_2023_usd": 1974961.0,
-      "book_cost_usd": 753201.0,
-      "market_value_usd": 1325796.9856008613,
-      "pnl_usd": 572595.9856008613,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 1325796.9856008613,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 1325796.9856008613,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 1974961.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 753201.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-05-01-00-00-00",
-      "name": "2021-05-01 00:00:00",
-      "canonical_name": "2021-05-01 00:00:00",
-      "underlying_asset": "2021-05-01 00:00:00",
-      "aliases": [
-        "2021-05-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Atom Finance",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-05-01 00:00:00: Atom Finance.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 425000.0,
-      "value_2023_usd": 1289805.0,
-      "book_cost_usd": 425000.0,
-      "market_value_usd": 1289805.3,
-      "pnl_usd": 864805.3,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 1289805.3,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 1289805.3,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 1289805.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 425000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-03-01-00-00-00",
-      "name": "2021-03-01 00:00:00",
-      "canonical_name": "2021-03-01 00:00:00",
-      "underlying_asset": "2021-03-01 00:00:00",
-      "aliases": [
-        "2021-03-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Kurly (South Korea)",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-03-01 00:00:00: Kurly (South Korea).",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 945137.0,
-      "value_2023_usd": 1217015.0,
-      "book_cost_usd": 945137.0,
-      "market_value_usd": 689700.3204431892,
-      "pnl_usd": -255436.67955681076,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 689700.3204431892,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 689700.3204431892,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 1217015.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 945137.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-11-01-00-00-00",
-      "name": "2020-11-01 00:00:00",
-      "canonical_name": "2020-11-01 00:00:00",
-      "underlying_asset": "2020-11-01 00:00:00",
-      "aliases": [
-        "2020-11-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Atlas Kitchen",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-11-01 00:00:00: Atlas Kitchen.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 600000.0,
-      "value_2023_usd": 600000.0,
-      "book_cost_usd": 600000.0,
-      "market_value_usd": 600000.0,
-      "pnl_usd": 0.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 600000.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 600000.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 600000.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 600000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-06-01-00-00-00",
-      "name": "2021-06-01 00:00:00",
-      "canonical_name": "2021-06-01 00:00:00",
-      "underlying_asset": "2021-06-01 00:00:00",
-      "aliases": [
-        "2021-06-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Calli",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-06-01 00:00:00: Calli.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 499999.0,
-      "value_2023_usd": 499999.0,
-      "book_cost_usd": 499999.0,
-      "market_value_usd": 499998.60539999994,
-      "pnl_usd": -0.39460000005783513,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 499998.60539999994,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 499998.60539999994,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 499999.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 499999.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-09-01-00-00-00",
-      "name": "2021-09-01 00:00:00",
-      "canonical_name": "2021-09-01 00:00:00",
-      "underlying_asset": "2021-09-01 00:00:00",
-      "aliases": [
-        "2021-09-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Houm",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-09-01 00:00:00: Houm.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 100000.0,
-      "value_2023_usd": 300152.0,
-      "book_cost_usd": 100000.0,
-      "market_value_usd": 300151.72,
-      "pnl_usd": 200151.71999999997,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 300151.72,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 300151.72,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 300152.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 100000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-08-01-00-00-00",
-      "name": "2020-08-01 00:00:00",
-      "canonical_name": "2020-08-01 00:00:00",
-      "underlying_asset": "2020-08-01 00:00:00",
-      "aliases": [
-        "2020-08-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Cure Group GmbH",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2020-08-01 00:00:00: Cure Group GmbH.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 217556.0,
-      "value_2023_usd": 226974.0,
-      "book_cost_usd": 217556.0,
-      "market_value_usd": 294489.0,
-      "pnl_usd": 76933.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 294489.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 294489.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 226974.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 217556.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-04-01-00-00-00",
-      "name": "2021-04-01 00:00:00",
-      "canonical_name": "2021-04-01 00:00:00",
-      "underlying_asset": "2021-04-01 00:00:00",
-      "aliases": [
-        "2021-04-01 00:00:00"
-      ],
-      "section": "companies",
-      "geography": "",
-      "description": "Byrd Technologies Inc",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "2021-04-01 00:00:00: Byrd Technologies Inc.",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 217556.0,
-      "value_2023_usd": 218902.0,
-      "book_cost_usd": 217556.0,
-      "market_value_usd": 207749.0,
-      "pnl_usd": -9807.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 207749.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 207749.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 218902.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 217556.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2022-01-01-00-00-00",
-      "name": "2022-01-01 00:00:00",
-      "canonical_name": "2022-01-01 00:00:00",
-      "underlying_asset": "2022-01-01 00:00:00",
-      "aliases": [
-        "2022-01-01 00:00:00"
-      ],
-      "section": "writeoffs",
-      "geography": "",
-      "description": "Buyk",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 10000000.0,
-      "value_2023_usd": 0.0,
-      "book_cost_usd": 10000000.0,
-      "market_value_usd": 0.0,
-      "pnl_usd": -10000000.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 0.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 10000000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-07-01-00-00-00",
-      "name": "2020-07-01 00:00:00",
-      "canonical_name": "2020-07-01 00:00:00",
-      "underlying_asset": "2020-07-01 00:00:00",
-      "aliases": [
-        "2020-07-01 00:00:00"
-      ],
-      "section": "writeoffs",
-      "geography": "",
-      "description": "Mighty Buildings",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 2000000.0,
-      "value_2023_usd": 2000000.0,
-      "book_cost_usd": 2000000.0,
-      "market_value_usd": 0.0,
-      "pnl_usd": -2000000.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 2000000.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 2000000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2021-04-01-00-00-00",
-      "name": "2021-04-01 00:00:00",
-      "canonical_name": "2021-04-01 00:00:00",
-      "underlying_asset": "2021-04-01 00:00:00",
-      "aliases": [
-        "2021-04-01 00:00:00"
-      ],
-      "section": "writeoffs",
-      "geography": "",
-      "description": "Productfy",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 9800000.0,
-      "value_2023_usd": 9800000.0,
-      "book_cost_usd": 9800000.0,
-      "market_value_usd": 0.0,
-      "pnl_usd": -9800000.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 9800000.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 9800000.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
-      }
-    },
-    {
-      "id": "2020-11-01-00-00-00",
-      "name": "2020-11-01 00:00:00",
-      "canonical_name": "2020-11-01 00:00:00",
-      "underlying_asset": "2020-11-01 00:00:00",
-      "aliases": [
-        "2020-11-01 00:00:00"
-      ],
-      "section": "writeoffs",
-      "geography": "",
-      "description": "TTI Products, Inc, DBA Supersapiens",
-      "company_snapshot_sheet2": "",
-      "company_snapshot_300": "",
-      "previous_name": "",
-      "investment_date": "",
-      "original_investment_usd": 541753.0,
-      "value_2023_usd": 1750014.0,
-      "book_cost_usd": 541753.0,
-      "market_value_usd": 0.0,
-      "pnl_usd": -541753.0,
-      "diff_2025_vs_2023_usd": null,
-      "trend": "stable",
-      "major_slider": false,
-      "value_grower": false,
-      "clarification_status": "OK",
-      "resolved": false,
-      "decline_reason": "No differential data found in current sources.",
-      "reporting_styles_available": [
-        "full-year",
-        "quarter"
-      ],
-      "timeline": [
-        {
-          "date": "2026-04-24",
-          "label": "2026 assessment reference",
-          "event_type": "analysis",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF 2026 Update.pptx"
-        },
-        {
-          "date": "2025-12-31",
-          "label": "FY 2025 valuation",
-          "reporting_style": "full-year",
-          "value_usd": 0.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        },
-        {
-          "date": "2023-03-31",
-          "label": "1Q 2023 baseline",
-          "reporting_style": "quarter",
-          "value_usd": 1750014.0,
-          "source": "MVOF Master with Dec2025 valuations.xlsx / Sheet2"
-        }
-      ],
-      "notes": [],
-      "investments": [],
-      "sheet2_reconciliation": {
-        "sheet2_invested_usd": 541753.0,
-        "portfolio_tranche_book_sum_usd": 0,
-        "difference_usd": null
-      },
-      "latest_market_info_external": "",
-      "source_mentions": {
-        "pptx_mentions": 0,
-        "has_2026_analysis": false,
-        "information_gap": true
       }
     }
   ]
