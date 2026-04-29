@@ -53,9 +53,9 @@ function buildSummaryText(asset) {
 }
 
 function buildCompanySnapshot(asset) {
-  if (asset.section !== "companies") return "No company snapshot available for this asset type.";
   if (asset.company_snapshot_override && asset.company_snapshot_override.trim()) return asset.company_snapshot_override.trim();
   if (asset.company_snapshot_sheet2 && asset.company_snapshot_sheet2.trim()) return asset.company_snapshot_sheet2.trim();
+  if (asset.section !== "companies") return "No snapshot available for this asset type.";
 
   const desc = (asset.description || "").trim();
   const diff = Number(asset.diff_2025_vs_2023_usd);

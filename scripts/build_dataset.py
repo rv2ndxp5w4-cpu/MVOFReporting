@@ -571,7 +571,7 @@ def build_dataset(xlsx_path: Path, pptx_path: Path, output_path: Path, overrides
         spv_note = f" ({record.comments})" if record.comments else ""
         desc_text = (record.description + spv_note + structure_note).strip()
         trend_value = "growth" if (record.diff or 0) > 0 else "decline" if (record.diff or 0) < 0 else "stable"
-        company_snapshot_sheet2 = record.company_snapshot.strip() if section == "companies" else ""
+        company_snapshot_sheet2 = record.company_snapshot.strip()
         company_snapshot_300 = build_company_snapshot_300(display_name, desc_text, latest_market_info_external, trend_value, record.diff) if section == "companies" else ""
 
         asset = {
