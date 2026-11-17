@@ -31,5 +31,6 @@
       "destination": "/api/index"
     }
   ],
-  "buildCommand": "python3 scripts/validate_publication.py"
+  "buildCommand": "python3 scripts/validate_publication.py",
+  "outputDirectory": "public"
 }
