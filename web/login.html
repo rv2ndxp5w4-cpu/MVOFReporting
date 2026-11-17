@@ -73,6 +73,7 @@
     <button type="submit">Enter</button>
   </form>
   <script>
+    try { sessionStorage.removeItem("mvof-scenario-discounts"); sessionStorage.removeItem("mvof-scenario-adjustments"); } catch (_) {}
     const params = new URLSearchParams(window.location.search);
     if (params.get("error") === "1") {
       const err = document.getElementById("login-error");

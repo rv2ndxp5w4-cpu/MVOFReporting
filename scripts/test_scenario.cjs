@@ -1,0 +1,17 @@
+const vm=require('node:vm'), fs=require('node:fs'), assert=require('node:assert/strict');
+let stored='{}';const events={};const context=vm.createContext({sessionStorage:{getItem:()=>stored,setItem:(_,v)=>stored=v,removeItem:()=>stored='{}'},localStorage:{setItem(){}},document:{querySelector:()=>({addEventListener:(n,f)=>events.logout=f})},window:{addEventListener:(n,f)=>events[n]=f,location:{replace(){},reload(){}}},console});
+vm.runInContext(fs.readFileSync(require('node:path').join(__dirname,'../web/app.js'),'utf8').split('const SCENARIO_KEY')[1].split('bindFilterEvents();')[0].replace(/^/, 'const SCENARIO_KEY'),context);
+const run=s=>vm.runInContext(s,context);
+run('globalThis.a={id:"test",market_value_usd:1000};');
+assert.equal(run('scenarioValue(a)'),1000);
+run('adjustments.test=-25');assert.equal(run('scenarioValue(a)'),750);
+run('adjustments.test=-100');assert.equal(run('scenarioValue(a)'),0);
+run('adjustments.test=-101');assert.equal(run('scenarioValue(a)'),1000);
+run('adjustments.test=Infinity');assert.equal(run('scenarioValue(a)'),1000);
+run('adjustments.test=25');assert.equal(run('scenarioValue(a)'),1250);
+run('adjustments.test=250');assert.equal(run('scenarioValue(a)'),3500);
+assert.equal(run('a.market_value_usd'),1000);
+assert.equal(run('scenarioValue({id:"zero",market_value_usd:0})'),0);
+run('adjustments.test=35');events.logout();assert.equal(run('adjustmentFor(a)'),0);assert.equal(stored,'{}');
+run('adjustments.test=35');events.storage({key:'mvof-scenario-logout'});assert.equal(run('adjustmentFor(a)'),0);
+console.log('Scenario checks passed: percentage math, full discount, invalid input, zero NAV, assigned NAV preservation, logout and cross-tab reset.');

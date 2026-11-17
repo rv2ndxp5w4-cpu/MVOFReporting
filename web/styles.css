@@ -14,6 +14,8 @@
   --danger: #a02b93;
 }
 
+.chart-hover-label { margin: 18px 0 8px; min-height: 56px; padding: 14px 18px; border-left: 4px solid var(--accent-2); border-radius: 8px; background: var(--ink); color: white; font-size: 1.2rem; font-weight: 700; overflow-wrap: anywhere; }
+
 * { box-sizing: border-box; }
 
 body {
@@ -378,3 +380,25 @@ summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
 .import-preview .investments-wrap { max-height: 320px; overflow: auto; }
 .empty-state { padding: 15px; }
 @media (max-width: 600px) { .queue-controls { padding: 0 12px 12px; } }
+
+.nav-composition { margin: 16px 24px; padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: linear-gradient(120deg, #fff, #f1f7fa); }
+.composition-head { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.composition-head h2, .asset-scenario h3 { margin: 0 0 8px; }
+.composition-head p { margin: 0 0 16px; }
+.composition-totals { display: flex; flex-wrap: wrap; gap: 20px 40px; }
+.composition-totals strong { display: block; font-size: 1.5rem; }
+.composition-bar { display: flex; width: 100%; height: 38px; overflow: hidden; border-radius: 6px; background: #e3e9ed; }
+.composition-bar button, .composition-bar span { display: block; min-width: 0; flex: 0 0 auto; padding: 0; margin: 0; border: 0; border-radius: 0; height: 100%; }
+.composition-bar button { cursor: pointer; box-shadow: inset -1px 0 rgba(255,255,255,.5); }
+.composition-bar button:hover, .composition-bar button:focus-visible { filter: brightness(1.25); outline: 3px solid var(--ink); outline-offset: -3px; }
+.scenario-bar { background: repeating-linear-gradient(135deg,#d5dfe5 0 4px,#f4f7f9 4px 9px); }
+.bar-label { margin: 14px 0 6px; font-size: .85rem; }
+.composition-legend { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 8px; margin-top: 12px; }
+.composition-legend button { display: grid; grid-template-columns: 12px 1fr; text-align: left; align-items: center; gap: 5px 10px; background: white; color: var(--ink); padding: 10px; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; }
+.composition-legend button span:last-child { grid-column: 2; font-size: .82rem; }
+.composition-legend i { width: 12px; height: 12px; border-radius: 3px; }
+.asset-scenario { padding: 18px; margin: 20px 0; border: 1px solid var(--line); border-left: 4px solid var(--accent-2); border-radius: 10px; background: #f7fafc; }
+.asset-scenario form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 14px; }
+.asset-scenario input { width: 100px; padding: 8px; }
+.asset-scenario button, .composition-head button { padding: 8px 12px; cursor: pointer; }
+@media(max-width: 640px) { .nav-composition { margin: 12px; padding: 16px; } .composition-head { flex-direction: column; } .composition-legend { grid-template-columns: 1fr; } .composition-totals { gap: 14px; } }

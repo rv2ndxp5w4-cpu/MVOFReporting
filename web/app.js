@@ -200,6 +200,7 @@ function renderSummary() {
       Loans: <strong>${usd(loansCurrent)}</strong></p>
     </details>
     ${renderImportPreview()}`;
+  renderComposition();
 }
 
 function itemTags(asset) {
@@ -437,6 +438,7 @@ function renderDetail() {
 
     </div>
 
+    ${renderAssetScenario(asset)}
     <div class="next-action"><strong>Evidence requested</strong><p>${escapeHtml(asset.review_workflow?.evidence_requested || asset.nav_review?.required_evidence || "Not specified")}</p></div>
     <div class="section-title">Company Snapshot</div>
     <p>${buildCompanySnapshot(asset)}</p>
@@ -460,6 +462,7 @@ function renderDetail() {
 
   bindDetailInteractions();
   bindReviewForm(asset);
+  bindAssetScenario(asset);
 }
 
 function renderManualPanel() {
@@ -505,6 +508,90 @@ function bindFilterEvents() {
 }
 
 if (!isLocalRuntime && els.manualPanel) els.manualPanel.style.display = "none";
+
+const SCENARIO_KEY = "mvof-scenario-adjustments";
+let adjustments = {};
+try { adjustments = JSON.parse(sessionStorage.getItem(SCENARIO_KEY) || "{}"); } catch (_) {}
+if (!adjustments || typeof adjustments !== "object" || Array.isArray(adjustments)) adjustments = {};
+const chartColors = ["#156082", "#e97132", "#196b24", "#0f9ed5", "#a02b93", "#4ea72e", "#243b53", "#b16b36"];
+function adjustmentFor(a) {
+  const value = Number(adjustments[a.id]);
+  return Number.isFinite(value) && value >= -100 && Number.isFinite(Number(a.market_value_usd || 0) * (1 + value / 100)) ? value : 0;
+}
+function scenarioValue(a) { return Number(a.market_value_usd || 0) * (1 + adjustmentFor(a) / 100); }
+function clearScenario() {
+  adjustments = {};
+  try { sessionStorage.removeItem(SCENARIO_KEY); } catch (_) {}
+}
+function chartColor(a) {
+  let hash = 0;
+  for (const c of a.id) hash = (hash * 31 + c.charCodeAt(0)) >>> 0;
+  return chartColors[hash % chartColors.length];
+}
+function renderComposition() {
+  const node = document.getElementById("navComposition");
+  if (!node) return;
+  const assets = [...state.filtered].sort((a,b) => b.market_value_usd - a.market_value_usd);
+  const total = assets.reduce((s,a) => s + Number(a.market_value_usd || 0), 0);
+  const scenario = assets.reduce((s,a) => s + scenarioValue(a), 0);
+  const scale = Math.max(total, scenario, 1);
+  const bar = (adjusted) => assets.filter(a => (adjusted ? scenarioValue(a) : a.market_value_usd) > 0).map(a => {
+    const value = adjusted ? scenarioValue(a) : Number(a.market_value_usd);
+    const label = `${a.canonical_name || a.name}: ${usd(value)}`;
+    return `<button type="button" data-chart-asset="${escapeHtml(a.id)}" style="width:${value / scale * 100}%;background:${chartColor(a)}" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}"></button>`;
+  }).join("");
+  node.innerHTML = `<div class="composition-head"><div><h2>NAV composition</h2><p>${assets.length} assets in current view. Click a segment or asset below.</p></div><button type="button" id="resetScenario">Reset all adjustments</button></div>
+    <div class="composition-totals"><span>Assigned NAV <strong>${usd(total)}</strong></span><span>Hypothetical NAV <strong>${usd(scenario)}</strong></span><span>Scenario impact <strong>${signedUsd(scenario - total)}</strong></span></div>
+    <div id="chartHoverLabel" class="chart-hover-label">Point to a chart segment to see the asset name and value</div>
+    <p class="bar-label">Assigned NAV</p><div class="composition-bar">${bar(false)}</div>
+    <p class="bar-label">Scenario NAV · same scale as assigned NAV</p><div class="composition-bar scenario-bar">${bar(true)}</div>
+    <p class="sub">Session-only sensitivity analysis, not a valuation recommendation. Assigned NAV, trends and historical figures are unchanged. Adjustments in hidden holdings remain active when filters are cleared.</p>
+    <details><summary>Asset values and portfolio weights (${assets.length})</summary><div class="composition-legend">${assets.map(a => `<button type="button" data-chart-asset="${escapeHtml(a.id)}"><i style="background:${chartColor(a)}"></i><span>${escapeHtml(a.canonical_name || a.name)}</span><span>${usd(a.market_value_usd)} · ${total ? (a.market_value_usd / total * 100).toFixed(1) : "0.0"}%${adjustmentFor(a) ? ` → ${usd(scenarioValue(a))}` : ""}</span></button>`).join("")}</div></details>`;
+  node.querySelectorAll(".composition-bar [data-chart-asset]").forEach(button => {
+    const show = () => { document.getElementById("chartHoverLabel").textContent = button.getAttribute("aria-label"); };
+    const hide = () => { document.getElementById("chartHoverLabel").textContent = "Point to a chart segment to see the asset name and value"; };
+    button.addEventListener("mouseenter", show); button.addEventListener("focus", show);
+    button.addEventListener("mouseleave", hide); button.addEventListener("blur", hide);
+  });
+  node.querySelectorAll("[data-chart-asset]").forEach(button => button.addEventListener("click", () => {
+    state.selectedId = button.dataset.chartAsset;
+    renderList(); renderDetail();
+    els.detail.scrollIntoView({behavior:"smooth", block:"start"});
+    const heading = els.detail.querySelector("h2");
+    heading.tabIndex = -1; heading.focus({preventScroll:true});
+  }));
+  document.getElementById("resetScenario").onclick = () => { clearScenario(); renderSummary(); renderDetail(); };
+}
+function signedUsd(value) { return (value > 0 ? "+" : "") + usd(value); }
+function renderAssetScenario(a) {
+  const adjustment = adjustmentFor(a);
+  const assigned = Number(a.market_value_usd || 0), scenario = scenarioValue(a);
+  const scale = Math.max(assigned, scenario, 1);
+  return `<section class="asset-scenario" aria-label="Hypothetical NAV adjustment"><h3>Asset NAV sensitivity</h3>
+    <p>Assigned: <strong>${usd(assigned)}</strong> · Scenario: <strong>${usd(scenario)}</strong> · Impact: <strong>${signedUsd(scenario - assigned)}</strong></p>
+    <p class="bar-label">Assigned NAV</p><div class="composition-bar" role="img" aria-label="Assigned NAV ${usd(assigned)}"><span style="width:${assigned / scale * 100}%;background:${chartColor(a)}"></span></div>
+    <p class="bar-label">Scenario NAV · same scale</p><div class="composition-bar scenario-bar" role="img" aria-label="Scenario NAV ${usd(scenario)}"><span style="width:${scenario / scale * 100}%;background:${chartColor(a)}"></span></div>
+    <form id="adjustmentForm"><label for="adjustmentPercent">Adjustment (+/− %)</label><input id="adjustmentPercent" name="adjustment" type="number" min="-100" step="0.01" required value="${adjustment}" ${assigned > 0 ? "" : "disabled"} /><button type="submit" ${assigned > 0 ? "" : "disabled"}>Apply adjustment</button><button type="button" id="resetAssetAdjustment">Reset asset</button></form>
+    <p class="sub">Negative = discount; positive = premium; 0% retains assigned NAV. Minimum −100% (full write-down). Percentage adjustments cannot increase a zero NAV. Session only; cleared on logout. No changes are saved to the report.</p></section>`;
+}
+function bindAssetScenario(a) {
+  const save = value => {
+    if (!Number.isFinite(value) || value < -100 || !Number.isFinite(Number(a.market_value_usd || 0) * (1 + value / 100))) return;
+    adjustments[a.id] = value;
+    try { sessionStorage.setItem(SCENARIO_KEY, JSON.stringify(adjustments)); } catch (_) {}
+    renderSummary(); renderDetail();
+  };
+  document.getElementById("adjustmentForm").onsubmit = event => { event.preventDefault(); save(Number(new FormData(event.currentTarget).get("adjustment"))); };
+  document.getElementById("resetAssetAdjustment").onclick = () => save(0);
+}
+document.querySelector(".logout").addEventListener("click", () => {
+  clearScenario();
+  try { localStorage.setItem("mvof-scenario-logout", String(Date.now())); } catch (_) {}
+});
+window.addEventListener("storage", event => {
+  if (event.key === "mvof-scenario-logout") { clearScenario(); window.location.replace("/login"); }
+});
+window.addEventListener("pageshow", event => { if (event.persisted) window.location.reload(); });
 
 bindFilterEvents();
 loadAssets();
