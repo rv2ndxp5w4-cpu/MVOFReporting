@@ -14,6 +14,10 @@ from typing import Any
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent
+import sys
+sys.path.insert(0, str(ROOT))
+from review_support import decorate, save_review
+
 DATA_DIR = ROOT / "data"
 WEB_DIR = ROOT / "web"
 BASE_FILE = DATA_DIR / "base_assets.json"
@@ -106,7 +110,9 @@ def merge_assets() -> dict[str, Any]:
         if overrides.get("company_snapshot_override"):
             asset["company_snapshot_override"] = overrides["company_snapshot_override"]
 
+    decorate(base, DATA_DIR)
     return {
+        "import_preview": base.get("import_preview"),
         "generated_at": base.get("generated_at"),
         "sources": base.get("sources", {}),
         "assets": base.get("assets", []),
@@ -273,6 +279,15 @@ class Handler(BaseHTTPRequestHandler):
 
         if not self._is_authenticated():
             self._send_json({"error": "Unauthorized"}, status=401)
+            return
+
+        if path.startswith("/api/assets/") and path.endswith("/review"):
+            try:
+                save_review(DATA_DIR, path.split("/")[3], parse_body(self), load_json(BASE_FILE))
+            except (ValueError, TypeError) as exc:
+                self._send_json({"error": str(exc)}, status=400)
+                return
+            self._send_json({"ok": True})
             return
 
         if path.startswith("/api/assets/") and path.endswith("/update"):

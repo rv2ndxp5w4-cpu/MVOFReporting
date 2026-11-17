@@ -1,0 +1,256 @@
+{
+  "assets": {
+    "3-0-fund-lp": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "shrug-fund-ii-l-p": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "1984-ventures-ii-l-p": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "iseed-fund-ii-a-series-of-utsav-somani-investments-lp": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "backend-capital-ii-lp": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "onevc-fund-ii-lp": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "mighty-angel-vehicle-pte-ltd": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "teachmint": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "speechify-inc-safe": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "snark-ai-inc-series-a-3-preferred": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "rain-technologies-inc": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "krisp-technologies-inc-series-a-preferred-stock": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "pagarbook": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "coda-project-inc": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "codesignal-inc": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "creoate-limited-advance-subscription": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "atom-finance-inc-series-a-preferred-stock": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "market-kurly": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "atlas-kitchen-pte-ltd-safe": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "calii-inc-series-seed-1-preferred-stock": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "houm-group-inc-converted-safe": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "cure-group-gmbh": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "byrd-technologies": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "byuk-inc": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "mighty-buildings-inc-common-stock": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "productify-inc-series-a1-preferred-stock": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "supersapiens": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    },
+    "helbiz-wheels-labs-inc-series-a-1-1-5-pref": {
+      "from_date": "2025-12-31",
+      "to_date": "2026-06-30",
+      "contributions_usd": null,
+      "distributions_usd": null,
+      "fx_usd": null,
+      "fees_usd": null,
+      "source": ""
+    }
+  }
+}

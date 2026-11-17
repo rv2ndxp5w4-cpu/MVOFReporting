@@ -6,11 +6,30 @@
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/api/index" },
-    { "source": "/login", "destination": "/api/index" },
-    { "source": "/logout", "destination": "/api/index" },
-    { "source": "/app.js", "destination": "/api/index" },
-    { "source": "/styles.css", "destination": "/api/index" },
-    { "source": "/api/:path*", "destination": "/api/index" }
-  ]
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/login",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/logout",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/app.js",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index"
+    }
+  ],
+  "buildCommand": "python3 scripts/validate_publication.py"
 }

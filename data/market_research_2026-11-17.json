@@ -1,0 +1,374 @@
+{
+  "teachmint": {
+    "status": "Operating growth; valuation unverified",
+    "traction": "FY26 filings are reported to show INR 227.43 crore total revenue and INR 38.89 crore net loss. Total revenue includes non-operating income and is not comparable to operating revenue alone.",
+    "assessment": "Growing sales and lower losses support business progress, but do not establish the holding's USD 6.71m value. Obtain audited consolidated accounts, hardware margins, runway and updated share-class valuation.",
+    "required_evidence": "Audited FY26 accounts; revenue split; cap table; valuation memo.",
+    "sources": [
+      {
+        "url": "https://www.thecompanycheck.com/company/teachmint-technologies-private-limited/U62099KA2020PTC135305",
+        "title": "Company Check: FY26 filing summary",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "speechify-inc-safe": {
+    "status": "Product traction; valuation unverified",
+    "traction": "Speechify reported more than 50 million users across 200 countries in May 2026. This is reach, not paying users or audited revenue.",
+    "assessment": "Adoption supports product demand, but the unchanged SAFE value needs conversion terms, revenue, retention and a recent financing price.",
+    "required_evidence": "SAFE conversion status; paid subscribers; ARR; burn and runway.",
+    "sources": [
+      {
+        "url": "https://speechify.com/news/speechify-ceo-cliff-weitzman-stripe-all-hands-patrick-john-collison/",
+        "title": "Speechify company announcement",
+        "event_date": "2026-05-14",
+        "accessed_at": "2026-11-17",
+        "timing": "Historical evidence"
+      }
+    ]
+  },
+  "snark-ai-inc-series-a-3-preferred": {
+    "status": "Product activity; valuation unverified",
+    "traction": "Activeloop currently markets Deeplake, Hivemind and Refinery for continual learning. The site describes production use but does not disclose financial performance.",
+    "assessment": "Product development alone does not substantiate the USD 3.38m carrying value. No current financial or share-price evidence was verified in this review.",
+    "required_evidence": "ARR; paying deployments; retention; cash; current preferred-share pricing.",
+    "sources": [
+      {
+        "url": "https://www.activeloop.ai/",
+        "title": "Activeloop product site",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "rain-technologies-inc": {
+    "status": "Financing and distribution; valuation unverified",
+    "traction": "Rain Technologies' newsroom records a USD 75m Series B and newer financial-health products and employer partnerships. The USD 250m Series C reported for another Rain was excluded.",
+    "assessment": "Financing is relevant evidence but must be reconciled to the Seed 2 and A-2 holdings and the Penna SPV. The three reported lines include two equal Seed 2 share counts; confirm these are separate exposures.",
+    "required_evidence": "Series B price and preference waterfall; Penna ownership and duplicate-exposure check; credit losses and runway.",
+    "sources": [
+      {
+        "url": "https://www.rainapp.com/press",
+        "title": "Rain Technologies newsroom",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "krisp-technologies-inc-series-a-preferred-stock": {
+    "status": "Commercial traction; valuation unverified",
+    "traction": "Krisp's current contact-centre page reports 2,500+ centres and 87 Fortune 500 customers and describes voice translation and accent conversion.",
+    "assessment": "Customer claims support commercial adoption, not a fresh price for MVOF's common and preferred shares. The June value is unchanged from December.",
+    "required_evidence": "ARR; margins; retention; audited results; class-specific valuation.",
+    "sources": [
+      {
+        "url": "https://krisp.ai/contact-center/",
+        "title": "Krisp company product and customer page",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "pagarbook": {
+    "status": "Down-round review required",
+    "traction": "Entrackr reported a steep valuation reduction in PagarBook's 2025 fundraising alongside cashflow-positive claims. This review found no later verified financing that resolves that signal.",
+    "assessment": "The June USD 2.04m mark is unchanged despite adverse financing evidence. Review the actual A3 anti-dilution and preference terms before accepting the carrying value; headline enterprise valuation is not the value of this security.",
+    "required_evidence": "Executed A5 financing documents; A3 conversion adjustments; fully diluted cap table; revenue and cashflow.",
+    "sources": [
+      {
+        "url": "https://entrackr.com/exclusive/exclusive-pagarbook-turns-cashflow-positive-amid-steep-valuation-drop-8985244",
+        "title": "Entrackr: PagarBook financing and cashflow",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "coda-project-inc": {
+    "status": "Ownership and cost basis review required",
+    "traction": "Coda became Superhuman Docs on 8 July 2026. The workbook records Birdly LLC through Plato/Coda/Grammarly/Superhuman.",
+    "assessment": "Product continuity does not confirm what Birdly LLC now owns. Workbook summary book cost exceeds the detailed security line by USD 5.55m, although both show the same market value.",
+    "required_evidence": "Acquisition exchange documents; current legal owner and cap table; cost-basis reconciliation; liquidity restrictions.",
+    "sources": [
+      {
+        "url": "https://help.superhuman.com/hc/en-us/articles/46210093285773-What-s-changing-Coda-becomes-Superhuman-Docs",
+        "title": "Superhuman: Coda becomes Superhuman Docs",
+        "event_date": "2026-07-08",
+        "accessed_at": "2026-11-17",
+        "timing": "Subsequent event"
+      }
+    ]
+  },
+  "codesignal-inc": {
+    "status": "Distribution traction; valuation unverified",
+    "traction": "CodeSignal announced a Harvard Business Impact partnership in September 2026 to distribute practice-based AI and essential-skills learning to universities.",
+    "assessment": "New distribution supports the product thesis but does not quantify revenue or justify common and Series B-1 prices. Obtain operating results and class-specific valuation evidence.",
+    "required_evidence": "ARR and net retention; paid university contracts; runway; common/preferred valuation.",
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/codesignal-and-harvard-business-impact-bring-hands-on-ai-and-essential-skills-development-to-universities-worldwide-302873306.html",
+        "title": "CodeSignal announcement via PR Newswire",
+        "event_date": "2026-09-09",
+        "accessed_at": "2026-11-17",
+        "timing": "Subsequent event"
+      }
+    ]
+  },
+  "creoate-limited-advance-subscription": {
+    "status": "Urgent impairment review",
+    "traction": "Companies House records Creoate Limited (10442018) entering administration on 10 September 2026, after the workbook valuation date.",
+    "assessment": "This subsequent event challenges the USD 1.30m June carrying value. Retain the reported historical mark but require administrator evidence of security-level recovery before accepting a current NAV. A continuing brand does not prove old equity survives.",
+    "required_evidence": "Administrator proposals; creditor ranking; subscription conversion; sale proceeds; expected recovery.",
+    "sources": [
+      {
+        "url": "https://find-and-update.company-information.service.gov.uk/company/10442018/insolvency",
+        "title": "Companies House: Creoate insolvency",
+        "event_date": "2026-09-10",
+        "accessed_at": "2026-11-17",
+        "timing": "Subsequent event"
+      }
+    ]
+  },
+  "atom-finance-inc-series-a-preferred-stock": {
+    "status": "Acquisition reconciliation required",
+    "traction": "Public company mapping places Atom Finance under Toggle AI / Reflexivity. The located fundraising interview concerns the successor's 2024 Series B, not a new 2026 round.",
+    "assessment": "No current price or recovery evidence for the original Atom security was verified. Do not apply successor-company funding directly to the old preferred stock.",
+    "required_evidence": "Acquisition consideration; exchanged security; current ownership; successor investor statement.",
+    "sources": [
+      {
+        "url": "https://www.linkedin.com/posts/reflexivityai_reflexivity-ceo-jan-szilagyi-joined-maria-activity-7257803083420717056-apBk",
+        "title": "Reflexivity company post about Series B",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "market-kurly": {
+    "status": "Operating improvement; SPV markdown review",
+    "traction": "Kurly's 10 November Q3 release reports KRW 777.9bn revenue, up 34.4% YoY, and KRW 10bn operating profit. Nine-month operating profit is KRW 61.6bn; figures are preliminary.",
+    "assessment": "Improved underlying operations do not reverse the Fuse SPV markdown automatically. MVOF's reported value fell from USD 689,700 to USD 199,193; reconcile share price, FX, dilution, fees and any distributions.",
+    "required_evidence": "Fuse administrator statement; Kurly security and share count; FX and price bridge; distributions.",
+    "sources": [
+      {
+        "url": "https://img-newsroom.kurlycorp.com/wp-content/uploads/2026/11/Kurly_Earnings_3Q26-1.pdf",
+        "title": "Kurly Q3 2026 investor results",
+        "event_date": "2026-11-10",
+        "accessed_at": "2026-11-17",
+        "timing": "Subsequent event"
+      }
+    ]
+  },
+  "atlas-kitchen-pte-ltd-safe": {
+    "status": "Information gap",
+    "traction": "The Singapore company record identifies Atlas Kitchen Pte. Ltd., UEN 202041399N. No reliable recent operating results or priced round were verified.",
+    "assessment": "An active registration is not proof of performance or recoverability. The unchanged USD 600k SAFE value requires direct company reporting.",
+    "required_evidence": "Confirm entity and product; SAFE conversion; cash and runway; revenue and latest financing.",
+    "sources": [
+      {
+        "url": "https://www.companies.sg/business/202041399N/ATLAS-KITCHEN-PTE-LTD",
+        "title": "Singapore company directory",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "calii-inc-series-seed-1-preferred-stock": {
+    "status": "Information gap",
+    "traction": "A customer case study identifies Calii as a Mexico-based food-supply-chain platform. No reliable dated 2026 financing or financial update was verified.",
+    "assessment": "The existing workbook geography is COL, while the matched product operates in Mexico. Confirm the legal investment identity before relying on external metrics. The unchanged USD 500k value lacks current support.",
+    "required_evidence": "Legal entity and geography; investor update; cash runway; gross margins; share-price evidence.",
+    "sources": [
+      {
+        "url": "https://assets.ctfassets.net/e6d9jibdbc6c/43LXp8398QqbqaLs7z3JUh/8cb55145e88e6755a599753553c4ca34/CaseStudy_summary_Calii.pdf",
+        "title": "Calii customer case study",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "houm-group-inc-converted-safe": {
+    "status": "Reported profitability; valuation unverified",
+    "traction": "February 2026 reporting says Houm reached profitability in 2025 and planned entry into multifamily in 2026.",
+    "assessment": "This is a positive reported operating signal; verify the profitability definition and audited cashflows before relying on the unchanged USD 300k converted-SAFE value.",
+    "required_evidence": "Audited results; EBITDA versus cash profitability; multifamily execution; converted share terms.",
+    "sources": [
+      {
+        "url": "https://chocale.cl/2026/02/houm-alcanzo-la-rentabilidad-y-anuncia-su-entrada-al-mercado-multifamily/",
+        "title": "Chocale: Houm profitability",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "cure-group-gmbh": {
+    "status": "Loan recoverability unverified",
+    "traction": "CURE's legal page identifies CURE Group GmbH in Berlin. No current financial results or repayment evidence were verified.",
+    "assessment": "The USD 294k convertible-loan mark needs principal, accrued interest, maturity, seniority and repayment evidence. A live website does not substantiate recoverability.",
+    "required_evidence": "Loan agreement; principal and interest bridge; maturity; covenant status; cash and repayment plan.",
+    "sources": [
+      {
+        "url": "https://www.getcure.app/legal/impressum-en",
+        "title": "CURE legal imprint",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "byrd-technologies": {
+    "status": "New financing; loan review required",
+    "traction": "June 2026 reporting describes fresh financing for the Austrian logistics company byrd. Public reporting does not establish MVOF's loan conversion or recovery terms.",
+    "assessment": "Confirm this is the exact borrower and determine whether the financing converted or subordinated the loan. The unchanged USD 207,749 mark needs direct lender evidence.",
+    "required_evidence": "Borrower legal identity; executed financing; conversion or repayment notice; seniority and cash.",
+    "sources": [
+      {
+        "url": "https://brutkasten.com/artikel/byrd-wiener-logistik-scaleup-holt-sich-frisches-kapital",
+        "title": "Brutkasten: byrd financing",
+        "event_date": "2026-06-22",
+        "accessed_at": "2026-11-17",
+        "timing": "Historical evidence"
+      }
+    ]
+  },
+  "byuk-inc": {
+    "status": "Written off; recovery unverified",
+    "traction": "Buyk's bankruptcy case remains the relevant historical context; no verified equity recovery was identified in this review.",
+    "assessment": "Retain the workbook's zero mark. Creditor distributions are not evidence of recovery for MVOF's equity; keep this holding outside operating-trend buckets.",
+    "required_evidence": "Trustee report only if a recovery is claimed.",
+    "sources": [
+      {
+        "url": "https://www.inforuptcy.com/browse-filings/new-york-southern-bankruptcy-court/1%3A22-bk-10328/bankruptcy-case-buyk-corp",
+        "title": "Buyk bankruptcy docket summary",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "mighty-buildings-inc-common-stock": {
+    "status": "Written off; successor rights unverified",
+    "traction": "Mighty Buildings' current site states that the brand and technologies are now held by LUMUS.",
+    "assessment": "A sale of technology or continuation of the brand does not show that original common shareholders received consideration. Retain zero pending evidence.",
+    "required_evidence": "Assignment and sale documents; shareholder recovery statement.",
+    "sources": [
+      {
+        "url": "https://www.mightybuildings.com/about-us",
+        "title": "Mighty Buildings / LUMUS company page",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Publication date unverified; observed 17 Nov 2026"
+      }
+    ]
+  },
+  "supersapiens": {
+    "status": "Written off; recovery unverified",
+    "traction": "2024 reporting documents suspended memberships and operations amid restructuring. No verified 2026 recovery for the original security was identified.",
+    "assessment": "A live brand site or relaunch plan does not validate the old investment. Retain the zero mark unless legal recovery documents show otherwise.",
+    "required_evidence": "Restructuring and investor recovery documents.",
+    "sources": [
+      {
+        "url": "https://www.sportsbusinessjournal.com/Articles/2024/03/27/supersapiens/?issueId=CWNGMUC7ER34QCNXANVJ7C34PM",
+        "title": "Sports Business Journal: Supersapiens restructuring",
+        "event_date": "2024-03-27",
+        "accessed_at": "2026-11-17",
+        "timing": "Historical evidence"
+      }
+    ]
+  },
+  "productify-inc-series-a1-preferred-stock": {
+    "status": "Written off; information gap",
+    "traction": "Targeted public searches did not establish a reliable current recovery or financial update for this exact security.",
+    "assessment": "Retain the reported zero mark. Do not infer recovery from activity of a similarly named company or successor.",
+    "required_evidence": "Liquidator or issuer statement; legal ownership and recovery entitlement.",
+    "sources": []
+  },
+  "helbiz-wheels-labs-inc-series-a-1-1-5-pref": {
+    "status": "Written off; information gap",
+    "traction": "Targeted public searches did not establish a reliable current recovery or financial update for this exact security.",
+    "assessment": "Retain the reported zero mark. Do not infer recovery from activity of a similarly named company or successor.",
+    "required_evidence": "Liquidator or issuer statement; legal ownership and recovery entitlement.",
+    "sources": []
+  },
+  "3-0-fund-lp": {
+    "status": "Administrator evidence required",
+    "traction": "The workbook raises this holding by USD 1,753,561.90, from USD 2,266,262.10 to USD 4,019,824, with USD 1m reported book cost. This is the largest positive contribution to portfolio value movement. No independent current LP statement was verified.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": []
+  },
+  "shrug-fund-ii-l-p": {
+    "status": "Administrator evidence required",
+    "traction": "The workbook reduces this holding by USD 12,807 to USD 1,545,083. No independently verified current Fund II performance or distribution statement was located.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": []
+  },
+  "1984-ventures-ii-l-p": {
+    "status": "Administrator evidence required",
+    "traction": "Reported value rises USD 24,062.25 to USD 1,296,088.67. Public 2026 deal activity is manager-level evidence and does not establish MVOF Fund II ownership or attributable NAV.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": [
+      {
+        "url": "https://www.axios.com/newsletters/axios-pro-rata-c9b5580d-fe42-4bf9-b1e5-1b769c7cf924",
+        "title": "Axios: 1984 manager investment activity (not Fund II NAV)",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Context only; observation date, not valuation evidence"
+      }
+    ]
+  },
+  "iseed-fund-ii-a-series-of-utsav-somani-investments-lp": {
+    "status": "Administrator evidence required",
+    "traction": "The June value remains USD 625,129. No current independent statement for this specific iSeed Fund II series was verified; the unchanged mark requires an administrator explanation.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": []
+  },
+  "backend-capital-ii-lp": {
+    "status": "Administrator evidence required",
+    "traction": "The June value remains USD 503,831. Other public Backend vehicles or another LP's holdings cannot establish the NAV of Backend Capital II attributable to MVOF.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": []
+  },
+  "onevc-fund-ii-lp": {
+    "status": "Administrator evidence required",
+    "traction": "The workbook raises Fund II value by USD 228,800 to USD 615,283. Public reporting on ONEVC Fund III is a different vintage and cannot validate this Fund II mark.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": [
+      {
+        "url": "https://www.pehub.com/institution-profiles/onevc.html",
+        "title": "PE Hub: ONEVC fund vintages",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Context only; observation date, not valuation evidence"
+      }
+    ]
+  },
+  "mighty-angel-vehicle-pte-ltd": {
+    "status": "Administrator evidence required",
+    "traction": "The workbook retains USD 258,522.53 across Class A and Class B. The Singapore registry identifies the vehicle, but does not establish its underlying investments or their current value.",
+    "assessment": "Reported value retained. Compare LP capital accounts, contributions, distributions, fees and underlying marks before treating value movement as investment performance. Original subscribed cost differs from the portfolio book-cost field for some funds; reconcile both to capital-account statements.",
+    "required_evidence": "Dated administrator NAV statement; capital account; calls and distributions; valuation policy and holdings bridge.",
+    "sources": [
+      {
+        "url": "https://recordowl.com/company/mighty-angel-vehicle-pte-ltd",
+        "title": "Singapore vehicle profile",
+        "event_date": null,
+        "accessed_at": "2026-11-17",
+        "timing": "Context only; observation date, not valuation evidence"
+      }
+    ]
+  }
+}

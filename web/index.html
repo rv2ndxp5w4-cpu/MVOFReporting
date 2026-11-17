@@ -10,27 +10,35 @@
   <header class="topbar">
     <div>
       <h1>MVOF Reporting Engine</h1>
-      <p>Traction view by quarter / half-year / full-year with rename + underlying asset tracking.</p>
+      <p>Reported valuations, company traction and evidence for NAV review.</p>
     </div>
     <a class="logout" href="/logout">Log out</a>
   </header>
 
   <section class="filters">
-    <input id="search" type="search" placeholder="Search by name, canonical, alias, underlying asset" />
-    <select id="sectionFilter">
+    <input aria-label="Search investments" id="search" type="search" placeholder="Search by name, canonical, alias, underlying asset" />
+    <select aria-label="Asset section" id="sectionFilter">
       <option value="">All sections</option>
       <option value="funds">Funds</option>
       <option value="companies">Companies</option>
       <option value="loans">Loans</option>
       <option value="writeoffs">Write-offs</option>
     </select>
-    <select id="trendFilter">
+    <select id="attentionFilter" aria-label="NAV review status">
+      <option value="">All review statuses</option>
+      <option value="attention">Attention needed</option>
+      <option value="urgent">Urgent impairment review</option>
+      <option value="review">Valuation / ownership review</option>
+      <option value="evidence">Supporting evidence needed</option>
+      <option value="written-off">Written off</option>
+    </select>
+    <select id="trendFilter" aria-label="Reported value movement since previous valuation">
       <option value="">All trends</option>
       <option value="growth">Growth</option>
       <option value="decline">Decline</option>
       <option value="stable">Stable</option>
     </select>
-    <select id="reportingFilter">
+    <select aria-label="Reporting period" id="reportingFilter">
       <option value="">All reporting styles</option>
       <option value="quarter">Quarter</option>
       <option value="half-year">Half-year</option>
@@ -38,9 +46,15 @@
     </select>
   </section>
 
+  <section class="queue-controls" aria-label="Review queue controls">
+    <label><input type="checkbox" id="queueMode" /> Review queue (active holdings)</label>
+    <label>Task status <select id="reviewState"><option value="">All task statuses</option><option value="open">Open</option><option value="evidence-requested">Evidence requested</option><option value="in-review">In review</option><option value="resolved">Resolved</option></select></label>
+    <span>Urgent risks first. Assigned NAV is retained.</span>
+  </section>
   <main class="layout">
     <aside>
       <div id="summary" class="summary"></div>
+      <label class="mobile-picker">Choose investment <select id="assetPicker"></select></label>
       <div id="assetList" class="asset-list"></div>
       <div id="manualPanel" class="manual-panel"></div>
     </aside>
